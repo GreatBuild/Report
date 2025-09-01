@@ -11,15 +11,15 @@ Se presenta una tabla que especifica qué miembro del equipo se corresponde con 
   </tr>
   <tr>
     <td>Diestra Zambrano, Adriana Maria</td>
-    <td>adriii</td>
+    <td>adriiiiii123</td>
   </tr>
   <tr>
     <td>Fernandez Remon, Roy Linsh</td>
-    <td>Roy Fernández Remón</td>
+    <td>RTPX26</td>
   </tr>
   <tr>
     <td>León Vivas, Fabrizio Amir</td>
-    <td>Fabrizio Amir Leon Vivas</td>
+    <td>CodyLionVivo</td>
   </tr>
 </table>
 
