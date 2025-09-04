@@ -189,4 +189,6 @@ Hemos formulado como equipo las siguientes hipótesis orientadas a probar las di
 
 El Lean UX Canvas del proyecto muestra un enfoque claro hacia la mejora de la planificación de proyectos en ingeniería civil, orientado principalmente a consultoras pequeñas y contratistas independientes. Se identificaron problemáticas como la coordinación de cronogramas, la recopilación de datos técnicos y el uso limitado de herramientas digitales. Las soluciones propuestas incluyen funcionalidades como dashboards, gestión de calendarios, archivos compartidos y comunicación interna. Los usuarios clave —como especialistas de área, contratistas y entidades contratantes— validan estas necesidades. El objetivo es aumentar en un 50% los proyectos entregados a tiempo en 5 años y alcanzar al 3% del mercado en Lima Metropolitana en 3 años.
 
+<img src="../../../img/chapter1/leanuxcanvas.png" alt="Logo">
+
 
