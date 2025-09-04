@@ -314,30 +314,30 @@ El análisis competitivo es fundamental para desarrollar una estrategia sólida 
 
 #### 1. Destacar la Especialización en Ingeniería Civil y la Excelencia Técnica
 * Contexto:
-    * Fortalezas de competidores: Se posicionan como estándar en la industria, poseen amplia red de colaboradores e integraciones, y ofrecen herramientas integrales para gestionar operaciones y finanzas.
-    * Nuestras fortalezas: Enfoque específico en ingeniería civil, funcionamiento basado en la nube y gestión integral de expedientes técnicos.
+    * Fortalezas de los competidores: Se han consolidado como referentes en la industria, cuentan con una amplia red de colaboradores e integraciones, y ofrecen soluciones integrales que abarcan la gestión operativa y financiera.
+    * Nuestras fortalezas: Enfoque especializado en ingeniería civil, operación basada en la nube y capacidad para gestionar expedientes técnicos de manera integral.
 * Tactica:
-    * Utilizar estudios de caso y campañas de marketing que demuestren la eficacia de nuestra solución y resalten nuestra experiencia en el área.
+    * Desarrollar estudios de caso y campañas de marketing que evidencien la efectividad de nuestra solución, resaltando la experiencia y conocimiento en el sector.
 
 #### 2. Ofrecer Precios Competitivos y Optimizar la Usabilidad
 * Contexto:
-    * Debilidades de competidores: Ofrecen precios elevados para empresas pequeñas o medianas y presentan un enfoque limitado en la gestión de proyectos.
-    * Nuestras debilidades: Requieren mayor inversión en marketing y captación de clientes, y dependen en gran medida de la conectividad a Internet.
+    * Debilidades de los competidores: Sus precios resultan poco accesibles para pequeñas y medianas empresas, y su alcance en gestión de proyectos suele ser limitado.
+    * Nuestras debilidades: Se requiere mayor inversión en estrategias de marketing y captación de clientes, además de una fuerte dependencia de la conectividad a Internet.
 * Tactica:
-    * Realizar pruebas de usabilidad para garantizar que nuestra interfaz sea intuitiva y accesible, proporcionando una experiencia de usuario óptima.
+    * Implementar pruebas de usabilidad para asegurar que la interfaz sea intuitiva y sencilla, garantizando una experiencia de usuario eficiente y accesible.
 
 #### 3. Aprovechar el Crecimiento del Mercado y la Transformación Digital
 * Contexto:
-    * Oportunidades del mercado: Aumento de la demanda de soluciones colaborativas y expansión en mercados internacionales.
-    * Nuestras oportunidades: Crecimiento del sector de la construcción y aceleración de la digitalización.
+    * Oportunidades en el mercado: Creciente demanda de soluciones colaborativas y expansión hacia mercados internacionales.
+    * Nuestras oportunidades: Expansión del sector construcción y avance sostenido de la transformación digital.
 * Tactica:
-    * Lanzar campañas digitales dirigidas a aquellas empresas que aún no han modernizado sus procesos, con el objetivo de captar nuevos clientes y ampliar nuestra presencia en el mercado.
+    * Diseñar campañas digitales orientadas a empresas que aún no han modernizado sus procesos, con el propósito de captar nuevos clientes y ampliar nuestra presencia en el mercado.
 
 #### 4. Posicionar una Plataforma Flexible, Segura y Centrada en el Cliente
 * Contexto:
-    * Amenazas de competidores: Problemas de adopción en mercados pequeños, rápidos cambios tecnológicos y competencia creciente.
-    * Nuestras amenazas: Resistencia al cambio por parte de empresas tradicionales y preocupaciones en materia de seguridad y privacidad.
+    * Amenazas de los competidores: Baja adopción en mercados pequeños, velocidad de los cambios tecnológicos y una competencia cada vez más intensa.
+    * Nuestras amenazas: Resistencia al cambio por parte de organizaciones tradicionales y preocupaciones en torno a la seguridad y privacidad de los datos.
 * Tácticas:
-    * Adaptar la herramienta a las necesidades específicas de cada usuario, reduciendo la curva de aprendizaje y ofreciendo soporte continuo para facilitar la adopción y generar confianza.
-    * Ofrecer garantías y certificaciones de seguridad que respalden nuestro compromiso con la protección de la información.
-    * Permitir a los clientes dar retroalimentación u observaciones sobre el avance del proyecto.
+    * Adaptar la plataforma a las necesidades de cada usuario, reduciendo la curva de aprendizaje y ofreciendo acompañamiento constante para fomentar confianza y facilitar la adopción.
+    * Brindar garantías y certificaciones de seguridad que respalden nuestro compromiso con la protección de la información.
+    * Habilitar mecanismos para que los clientes puedan dar retroalimentación sobre el avance de los proyectos, fortaleciendo la relación y mejorando el servicio de manera continua.
