@@ -12,6 +12,26 @@ Las preguntas numeradas con un solo dígito corresponden a las preguntas princip
 
 **Preguntas para Especialista de área**
 
+**Empathy and Persona**
+
+1. Primero, díganos un poco sobre usted y a qué se dedica.
+  1.1. En base a su respuesta, se pregunta los campos que no se hayan podido llenar directamente según el formato presente en Plantilla de datos generales.
+2. Cuéntenos, ¿Cómo es trabajar en la elaboración de un expediente técnico de obra / proyecto?
+3. ¿Qué herramientas utiliza para apoyarse en el desarrollo de estas labores?
+4. De estas actividades, ¿Qué parte identifica usted como la más laboriosa o frustrante?
+5. ¿Qué cree que necesite para revertir esta situación?
+6. Y de ellas, ¿Cuál cree usted que es la más importante, y por qué razón?
+
+**Domain Model**
+
+7. ¿Cómo obtiene la información o datos necesarios para elaborar su parte del expediente técnico?
+8. ¿Qué procesos sigue para transformar esa información en entregables o documentos técnicos?
+9. ¿Cómo presenta o entrega finalmente su trabajo? ¿En qué formato y a través de qué canal?
+10. ¿Qué estándares, normativas o lineamientos debe cumplir en su especialidad?
+11. ¿Cómo asegura que su trabajo cumpla con los cronogramas establecidos?
+12. ¿Qué tan fácil o difícil es coordinar con su equipo directo? ¿Qué herramientas utilizan para ello?
+13. ¿Cómo se comunica con otras áreas técnicas (como estructuras, arquitectura, etc.) durante el desarrollo del expediente?
+
 **Preguntas para Entidad contratante**
 
 **Empathy and Persona**
@@ -29,6 +49,8 @@ Las preguntas numeradas con un solo dígito corresponden a las preguntas princip
 6. ¿Ha escuchado de algún proyecto similar a este?
     6.1. ¿Qué piensa de ello?¿En qué cree que aportaría?
     6.2. ¿Qué características añadiría para mejorar la experiencia?
+
+<div style="page-break-before: always;"></div>
 
 **Tabla de datos generales**
 
