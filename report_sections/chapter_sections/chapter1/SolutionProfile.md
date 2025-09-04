@@ -6,6 +6,12 @@ El nombre del producto es ClearCost.
 
 ### 1.2.2. Antecedentes y problemática
 
+**Aproximación preliminar a los antecedentes**
+
+En el ámbito de la ingeniería civil, la gestión integral de proyectos de construcción continúa siendo un desafío crítico, especialmente para consultoras y contratistas independientes. La falta de herramientas especializadas que integren el control financiero con la coordinación de equipos y actividades provoca retrasos en la ejecución, dificultades en el manejo de información y una toma de decisiones poco eficiente frente a la complejidad de atender múltiples proyectos en paralelo.
+
+Gran parte de las empresas pequeñas y medianas aún depende de sistemas genéricos de almacenamiento en la nube o de métodos desorganizados que no están concebidos para la gestión de proyectos de construcción. Esta dependencia limita la capacidad de planificar con precisión, asignar responsabilidades de manera efectiva y dar seguimiento a la trazabilidad de los cambios en cronogramas y presupuestos. Como resultado, se ve comprometida la eficiencia operativa, la transparencia en el uso de los recursos y la comunicación entre las distintas áreas involucradas en cada obra.
+
 **Deficiencias en expedientes técnicos y planificación**
 
 Diversos estudios y expertos señalan que en Perú existe un problema generalizado con la formulación y gestión de los expedientes técnicos de obras públicas. Eloy Durán, director general de la Oficina de Programación Multianual de Inversiones del Ministerio de Economía y Finanzas (MEF), advirtió recientemente que “muchos expedientes técnicos presentan deficiencias en su formulación”, e incluso alertó que solo 1 de cada 6 proyectos de inversión pública cuenta con un expediente técnico adecuado.
@@ -34,10 +40,6 @@ El principal objetivo de ClearCost es proporcionar a las constructoras y a sus c
 -Fortalecer la confianza entre constructoras y clientes mediante un acceso transparente y verificable a la información financiera.
 -Promover la eficiencia administrativa al centralizar en una única plataforma el registro de gastos, presupuestos y liquidaciones, reduciendo la dependencia de herramientas dispersas y minimizando errores.
 
-
-
-
-
 **Alcance y Restricciones:**
 
 La solución debe ser fácil de utilizar incluso para usuarios con poca experiencia digital, ofreciendo una interfaz intuitiva que minimice barreras de adopción. Asimismo, debe estar diseñada para adaptarse tanto a grandes constructoras como a consultoras y contratistas independientes
@@ -48,31 +50,31 @@ La seguridad y privacidad de los datos representan un aspecto crítico; por ello
 
 ***What?***
 
-La situación se traduce en presupuestos poco claros, retrasos administrativos, gastos no previstos y desconfianza entre las partes.
+La situación se traduce en presupuestos poco claros, retrasos administrativos, dificultades en la coordinación de equipos, gestión desorganizada de tareas y reuniones poco efectivas. Todo esto genera gastos no previstos y desconfianza entre las partes involucradas en el proyecto.
 
 ***Why?***
 
-La raíz de la dificultad radica en la falta de sistemas especializados en el control financiero de proyectos de construcción, lo que obliga a depender de herramientas genéricas e ineficientes.
+La raíz de la dificultad radica en la ausencia de sistemas especializados que integren tanto el control financiero como la gestión operativa de los proyectos de construcción. Esto obliga a las empresas a depender de herramientas genéricas o procesos manuales que resultan ineficientes para un entorno complejo y multidisciplinario.
 
 ***Who?***
 
-Los principales afectados son las constructoras, que carecen de mecanismos efectivos para validar presupuestos y controlar liquidaciones, y los clientes, que no pueden verificar con claridad cómo se distribuye su inversión.
+Los principales afectados son las constructoras, que carecen de mecanismos efectivos para validar presupuestos, coordinar tareas y dar seguimiento a cronogramas, y los clientes, que no cuentan con visibilidad suficiente sobre cómo avanza la inversión ni cómo se gestionan los recursos humanos y financieros de su proyecto.
 
 ***When?***
 
-El problema ocurre de manera constante a lo largo de todas las etapas del proyecto, desde la elaboración del expediente técnico hasta la ejecución y liquidación final.
+El problema ocurre de manera constante a lo largo de todas las etapas del proyecto, desde la planificación inicial y la elaboración del expediente técnico, hasta la ejecución, supervisión de actividades y liquidación final.
 
 ***Where?***
 
-Esta realidad se observa principalmente en proyectos de construcción en Latinoamérica, donde la digitalización financiera aún presenta rezagos, aunque la necesidad es aplicable a cualquier mercado con similares condiciones.
+Esta problemática es evidente en el contexto peruano, particularmente en pequeñas y medianas empresas de construcción y consultoría que operan en Lima Metropolitana y regiones. Sin embargo, la necesidad de soluciones integrales es aplicable a cualquier mercado donde la digitalización de procesos financieros y de gestión aún sea limitada.
 
 ***How?***
 
-Actualmente se gestionan los presupuestos mediante hojas de cálculo dispersas y procesos manuales que no garantizan precisión ni trazabilidad, aumentando el riesgo de errores y sobrecostos.
+Actualmente se gestionan los presupuestos con hojas de cálculo dispersas, mientras que las tareas, reuniones y comunicaciones de los equipos se coordinan mediante herramientas aisladas o incluso de manera informal. Esta fragmentación no garantiza precisión ni trazabilidad, aumentando el riesgo de errores, duplicidad de esfuerzos, sobrecostos y retrasos.
 
 ***How much?***
 
-La falta de transparencia y trazabilidad financiera en los proyectos de construcción representa un impacto significativo en términos de sobrecostos, retrasos y pérdida de confianza.
+La falta de integración entre la gestión financiera y la coordinación operativa de los proyectos genera un impacto considerable: sobrecostos que superan los montos previstos, retrasos de meses en la entrega de obras y pérdida de confianza entre clientes y constructoras. Además, la ineficiencia en la organización de equipos y tareas reduce significativamente la productividad y eleva los costos indirectos de administración.
 
 <div style="page-break-before: always;"></div>
 
@@ -80,18 +82,56 @@ La falta de transparencia y trazabilidad financiera en los proyectos de construc
 
 #### 1.2.3.1. Lean UX Problem Statement.
 
-El sistema de gestión financiera en proyectos de construcción busca garantizar que los presupuestos se formulen de manera clara, que los gastos se controlen adecuadamente y que los clientes y constructoras tengan acceso confiable a la información sobre el uso de los recursos invertidos.
+Actualmente, la organización de documentos, la comunicación entre especialidades y la trazabilidad financiera de los expedientes técnicos carecen de eficiencia y claridad. Esto genera retrasos, reprocesos y falta de confianza tanto en la gestión interna de las consultoras como en la relación con los clientes que financian los proyectos.
 
-Actualmente, los presupuestos y gastos asociados a los expedientes técnicos carecen de trazabilidad y claridad en su presentación, lo que genera falta de confianza y limita la capacidad de las partes interesadas para hacer un seguimiento oportuno del destino de la inversión.
+El sistema de gestión de proyectos en obras civiles busca garantizar la correcta elaboración de expedientes técnicos, una adecuada coordinación entre equipos y áreas de trabajo, y al mismo tiempo asegurar que los presupuestos y gastos se presenten de manera clara y confiable para todas las partes interesadas.
 
-Se requiere una forma de presentar y supervisar la información financiera de los proyectos de construcción que sea accesible, precisa y transparente, de modo que tanto constructoras como clientes puedan comprender y evaluar con mayor facilidad cómo se distribuyen los recursos.
+Se necesita una forma integral de gestionar los proyectos de construcción que permita organizar expedientes técnicos, coordinar equipos y supervisar con transparencia los recursos financieros, de modo que constructoras y clientes cuenten con información precisa, accesible y en tiempo real para la toma de decisiones.
 
 #### 1.2.3.2. Lean UX Assumptions.
 
 **Business Outcomes**
-* Reducir en un 20% los incrementos de plazo en obras de Lima Metropolitana durante los próximos 3 años, mediante una gestión financiera más clara y controlada.
-* Alcanzar una participación del 2% de las empresas consultoras en Lima Metropolitana como usuarias de la plataforma en los próximos 3 años, consolidando una base inicial de clientes validadores.
-* Lograr una trazabilidad verificable de al menos el 90% del gasto presupuestal por obra registrada en la plataforma en los próximos 4 años, fortaleciendo la confianza y la transparencia en la gestión de recursos.
+* Alcanzar el 3% de las empresas consultoras de obras en Lima Metropolitana en un plazo de 3 años.
+* Reducir en un 50% el tiempo necesario para replanificar ante errores de planificación.
+
+**Users**
+
+**1. Víctor Umeres - Contratista, Dueño de empresa constructora**
+* Tomar decisiones estratégicas sobre múltiples proyectos.
+* Conocer, evaluar y considerar múltiples datos.
+* Mantener un flujo de trabajo organizado.
+* Gestionar los cambios en planificación.
+
+**2. Ana Ramos - Especialista de área**
+* Realizar trabajos de investigación obteniendo datos precisos.
+* Organizar datos de manera legible, bajo estándares claros.
+
+**User Outcomes**
+
+**1. Víctor Umeres - Contratista, Dueño de empresa constructora**
+* Agilizar la toma de decisiones empresariales.
+* Sentir control y dominio del sistema.
+* Responder eficazmente al cambio.
+
+**2. Ana Ramos - Especialista de área**
+* Garantizar una entrega a tiempo de su sección correspondiente de la memoria descriptiva.
+* Obtener datos precisos y de calidad.
+* Mejorar la comunicación y coordinación con distintas áreas.
+
+**Solutions**
+
+* Dashboard de proyectos
+* Comunicados 
+* Recordatorios
+* Subir y descargar archivos
+* Documentación de funcionalidades
+* Gestión de calendarios
+* Gestión de proyectos
+* Mensajes
+* Ficheros para documentos compartidos
+* Replanteo de documentos post-entrega
+* Creación de ajustes contractuales
+* Creación de plantillas métricas
 
 **Business Assumptions**
 * Creo que mis clientes necesitan una plataforma que les brinde claridad y trazabilidad financiera en sus proyectos de construcción.
@@ -133,16 +173,20 @@ Se requiere una forma de presentar y supervisar la información financiera de lo
 
 Hemos formulado como equipo las siguientes hipótesis orientadas a probar las distintas funcionalidades que hemos obtenido como parte del Lean UX Process:
 
-* Creemos que las constructoras medianas y consultoras independientes necesitan una forma más clara de supervisar sus presupuestos de obra. Sabremos que hemos tenido éxito cuando veamos una reducción del 20% en el tiempo promedio de validación de presupuestos en proyectos gestionados con la plataforma durante el primer año.
+* Creemos que podremos incrementar en un 50% la cantidad de proyectos planificados a tiempo en 5 años si los usuarios cuentan con dashboards de proyectos, gestión centralizada de tareas y herramientas de calendario que agilicen la coordinación y la toma de decisiones.
 * Creemos que los clientes de proyectos valoran la transparencia financiera para confiar en la constructora que ejecuta su inversión. Sabremos que tuvimos éxito cuando veamos un incremento del 15% en el índice de satisfacción del cliente medido en encuestas posteriores al uso de la plataforma.
-* Creemos que una plataforma digital intuitiva puede superar la resistencia de usuarios con poca experiencia tecnológica. Sabremos que lo logramos cuando veamos que al menos el 70% de usuarios nuevos completan el registro de un proyecto sin asistencia externa en sus primeros 30 días.
+* Creemos que podremos reducir en un 50% el tiempo dedicado a replanificar ante errores de planificación si los usuarios disponen de funcionalidades que permitan registrar y aprobar ajustes contractuales de forma oportuna.
 * Creemos que la trazabilidad verificable de los gastos reducirá los sobrecostos derivados de falta de control. Sabremos que alcanzamos resultados positivos cuando veamos una disminución del 10% en incidencias de sobrecostos en proyectos piloto gestionados con ClearCost.
-* Creemos que la integración con sistemas financieros ya existentes en las constructoras aumentará la aceptación del producto. Sabremos que confirmamos la hipótesis cuando veamos que al menos el 50% de clientes activos utilizan la función de integración en los primeros 12 meses.
+* Creemos que podremos aumentar en un 30% la productividad de los equipos si los usuarios cuentan con un sistema integrado de almacenamiento y gestión documental que evite duplicidad de archivos y pérdidas de información.
 * Creemos que el valor principal percibido será el ahorro de tiempo en la elaboración y revisión de presupuestos. Sabremos que hemos validado la propuesta cuando veamos una reducción promedio del 25% en el tiempo de elaboración de presupuestos en comparación con los procesos previos al uso de ClearCost.
+* Creemos que lograremos alcanzar al 3% de las empresas consultoras de obra en Lima Metropolitana en 3 años si los usuarios perciben un control financiero claro gracias a reportes accesibles y trazabilidad del 90% del presupuesto de cada obra.
 * Creemos que la disponibilidad 24/7 será considerada indispensable para el seguimiento en campo y oficina. Sabremos que obtuvimos éxito cuando veamos que al menos el 90% de los accesos provienen de múltiples dispositivos (móvil y escritorio) y que se registran accesos fuera del horario de oficina.
+* Creemos que podremos incrementar en un 40% la confianza de los clientes hacia las constructoras si se les brinda visibilidad directa de los gastos por rubro (materiales, mano de obra, maquinaria) mediante un portal de transparencia.
 
 <div style="page-break-before: always;"></div>
 
 #### 1.2.3.4. Lean UX Canvas.
+
+El Lean UX Canvas del proyecto muestra un enfoque claro hacia la mejora de la planificación de proyectos en ingeniería civil, orientado principalmente a consultoras pequeñas y contratistas independientes. Se identificaron problemáticas como la coordinación de cronogramas, la recopilación de datos técnicos y el uso limitado de herramientas digitales. Las soluciones propuestas incluyen funcionalidades como dashboards, gestión de calendarios, archivos compartidos y comunicación interna. Los usuarios clave —como especialistas de área, contratistas y entidades contratantes— validan estas necesidades. El objetivo es aumentar en un 50% los proyectos entregados a tiempo en 5 años y alcanzar al 3% del mercado en Lima Metropolitana en 3 años.
 
 
