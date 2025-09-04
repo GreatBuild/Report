@@ -16,8 +16,8 @@ El análisis competitivo es fundamental para desarrollar una estrategia sólida 
         </tr>
         <tr>
             <th style="border: 1px solid #000; padding: 10px;font-weight: bold;" colspan="2">(En la cabecera colocar por cada competidor nombre y logo)</th>
-            <th style="border: 1px solid #000; padding: 10px;font-weight: bold; width: 20%; text-align: center;">Galaxia Wonder
-            <img style="display : flex; justify-content: center;" src="../../../img/chapter2/statupLogo.png" alt="Galaxia Wonder logo">
+            <th style="border: 1px solid #000; padding: 10px;font-weight: bold; width: 20%; text-align: center;">GreatBuild
+            <img style="display : flex; justify-content: center;" src="../../../img/chapter2/statupLogo.png" alt="GreatBuild logo">
             </th>
             <th style="border: 1px solid #000; padding: 10px;font-weight: bold; width: 20%; text-align: center;">
                 Autodesk Construction Cloud
@@ -38,7 +38,7 @@ El análisis competitivo es fundamental para desarrollar una estrategia sólida 
             <th style="border: 1px solid #000; padding: 10px; font-weight: normal; width: 12%; writing-mode: tb-rl; text-align: center; vertical-align: middle; white-space: nowrap; font-weight: bold; width: 8%;" rowspan="2">Perfil</th>
             <th style="border: 1px solid #000; padding: 10px; font-weight: normal; width: 12%;">Overview</th>
             <td style="border: 1px solid #000; padding: 10px;" style="text-align:center;">
-                Galaxia Wonder ofrece un sistema de gestión de proyectos de ingeniería civil diseñado para contratistas, consultoras pequeñas de obras y subcontratistas. La plataforma permite gestionar proyectos, planificar cronogramas, controlar costos, administrar documentación técnica y organizar expedientes técnicos en un solo lugar, asegurando eficiencia y cumplimiento de plazos.
+                GreatBuild ofrece un sistema de gestión de proyectos de ingeniería civil diseñado para contratistas, consultoras pequeñas de obras y subcontratistas. La plataforma permite gestionar proyectos, planificar cronogramas, controlar costos, administrar documentación técnica y organizar expedientes técnicos en un solo lugar, asegurando eficiencia y cumplimiento de plazos.
             </td>
             <td style="border: 1px solid #000; padding: 10px;" style="text-align:center;">
                 Esta plataforma conecta flujos de trabajo, equipos y datos en todas las etapas de la construcción, facilitando la colaboración y mejorando la eficiencia en proyectos de construcción.
@@ -53,7 +53,7 @@ El análisis competitivo es fundamental para desarrollar una estrategia sólida 
         <tr>
             <th style="border: 1px solid #000; padding: 10px; font-weight: normal; width: 12%;">Ventaja competitiva ¿Qué valor ofrece a los clientes?</th>
             <td style="border: 1px solid #000; padding: 10px;" style="text-align:center;">
-                Galaxia Wonder se diferencia por ser una nube especializada en la gestión de proyectos de ingeniería civil, ofreciendo una solución integral que combina planificación, control de costos, gestión documental y expedientes técnicos en una sola plataforma.
+                GreatBuild se diferencia por ser una nube especializada en la gestión de proyectos de ingeniería civil, ofreciendo una solución integral que combina planificación, control de costos, gestión documental y expedientes técnicos en una sola plataforma.
             </td>
             <td style="border: 1px solid #000; padding: 10px;" style="text-align:center;">
                 Ofrece una integración completa de herramientas para la gestión de proyectos de construcción, desde el diseño hasta la adjudicación.
@@ -157,7 +157,7 @@ El análisis competitivo es fundamental para desarrollar una estrategia sólida 
         <tr>
             <th style="border: 1px solid #000; padding: 10px; font-weight: normal; width: 12%;">Precios & Costos</th>
             <td style="border: 1px solid #000; padding: 10px;" style="text-align:center;">
-                Galaxia Wonder brinda una modelo de precios basado en suscripción. Además, evalua las funciones y caracteristicas del software en base al cliente.
+                GreatBuild brinda una modelo de precios basado en suscripción. Además, evalua las funciones y caracteristicas del software en base al cliente.
             </td>
             <td style="border: 1px solid #000; padding: 10px;" style="text-align:center;">
                 Utiliza un modelo de precios basado en suscripción. Ofrece prubas gratuitas para su producto BIM 360.
