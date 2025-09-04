@@ -1,16 +1,11 @@
 # 1.1. Startup Profile
 
 ### 1.1.1. Descripción de la Startup
-GreatBuild es una startup orientada a transformar la gestión financiera en el sector construcción, brindando a las constructoras y a sus clientes una herramienta confiable y transparente para el control económico de los proyectos. Nuestra propuesta permite supervisar presupuestos, gastos en tareas específicas (como estudios topográficos, maquinaria o materiales) y liquidaciones contractuales, garantizando un seguimiento claro y accesible para todas las partes interesadas.
+GreatBuild impulsa la transformación digital en el sector de la ingeniería civil. A través de ClearCost, desarrollamos soluciones tecnológicas que optimizan la planificación, el control financiero y la gestión integral de proyectos de construcción. Nuestro enfoque no solo busca reducir errores en los expedientes técnicos, sino también mejorar la coordinación de equipos multidisciplinarios, la organización de tareas y el seguimiento de reuniones, asegurando una ejecución más eficiente y transparente.
 
-Misión: Facilitar el control financiero de los proyectos de construcción mediante una plataforma que promueva transparencia, confianza y eficiencia en el uso de los recursos.
+Misión: Nuestra misión es transformar la manera en que se gestionan los expedientes técnicos y la operación diaria de los proyectos de construcción mediante herramientas digitales innovadoras. Nos proponemos reducir errores en la recopilación y procesamiento de información, optimizar la asignación de tareas y fortalecer la comunicación entre equipos. A través de una plataforma accesible y colaborativa, facilitamos el trabajo de constructoras, contratistas y especialistas, garantizando un flujo de información claro, ordenado y en tiempo real.
 
-Visión: Convertirnos en la solución de referencia en Latinoamérica para la gestión financiera de proyectos de construcción, alcanzando en los próximos 3 años:
-
-- Una disponibilidad de la plataforma de al menos 99.9% para asegurar acceso confiable en cualquier momento.
-- Estándares de seguridad de datos que cumplan con normativas internacionales, minimizando riesgos y garantizando la confidencialidad de la información de clientes y constructoras.
-- Reducir en al menos un 25% los tiempos de elaboración y validación de presupuestos en las empresas que adopten nuestra solución.
-- Lograr una adopción inicial de al menos 50 constructoras en el primer año de operación y llegar a más de 500 proyectos activos gestionados en los primeros 3 años.
+Visión: Aspiramos a convertirnos en la plataforma de referencia para constructoras y consultoras independientes en la gestión financiera y operativa de proyectos de construcción. En los próximos tres años, buscamos consolidar nuestra presencia alcanzando al menos el 3% de las empresas consultoras de obra en Lima Metropolitana, posicionándonos como un aliado estratégico en la modernización y digitalización de los procesos constructivos en el país. Nuestro compromiso es ofrecer una herramienta que no solo optimice los presupuestos y expedientes, sino que también eleve la productividad y colaboración de los equipos en cada proyecto.
 
 Valores:
 
