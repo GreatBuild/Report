@@ -87,3 +87,62 @@ Actualmente, los presupuestos y gastos asociados a los expedientes técnicos car
 Se requiere una forma de presentar y supervisar la información financiera de los proyectos de construcción que sea accesible, precisa y transparente, de modo que tanto constructoras como clientes puedan comprender y evaluar con mayor facilidad cómo se distribuyen los recursos.
 
 #### 1.2.3.2. Lean UX Assumptions.
+
+**Business Outcomes**
+* Reducir en un 20% los incrementos de plazo en obras de Lima Metropolitana durante los próximos 3 años, mediante una gestión financiera más clara y controlada.
+* Alcanzar una participación del 2% de las empresas consultoras en Lima Metropolitana como usuarias de la plataforma en los próximos 3 años, consolidando una base inicial de clientes validadores.
+* Lograr una trazabilidad verificable de al menos el 90% del gasto presupuestal por obra registrada en la plataforma en los próximos 4 años, fortaleciendo la confianza y la transparencia en la gestión de recursos.
+
+**Business Assumptions**
+* Creo que mis clientes necesitan una plataforma que les brinde claridad y trazabilidad financiera en sus proyectos de construcción.
+* Estas necesidades se pueden resolver con una herramienta digital que centralice y organice presupuestos, gastos y liquidaciones.
+* Mis clientes iniciales son (o serán) constructoras medianas y consultoras independientes que gestionan expedientes técnicos.
+* El valor #1 que un cliente quiere de mi servicio es transparencia en el uso de su presupuesto.
+* El cliente también puede obtener estos beneficios adicionales: ahorro de tiempo en validaciones, confianza con sus clientes y reducción de riesgos de sobrecostos.
+* Voy a adquirir la mayoría de mis clientes a través de alianzas con constructoras, networking en cámaras de construcción y marketing B2B digital.
+* Haré dinero a través de planes de suscripción y servicios premium de reportes avanzados.
+* Mi competencia principal en el mercado será el uso de hojas de cálculo y sistemas financieros genéricos.
+* Los venceremos debido a una propuesta especializada en construcción, diseñada para las necesidades reales del sector.
+* Mi mayor riesgo de producto es la baja adopción tecnológica por parte de usuarios con poca experiencia digital.
+* Resolveremos esto a través de una interfaz intuitiva, capacitaciones y soporte personalizado.
+* ¿Qué otros supuestos tenemos? Eso sí, si se prueba que es falso, causará que nuestro negocio/proyecto no funcione:
+    - Que las constructoras y clientes estén dispuestos a usar una plataforma digital en lugar de hojas de cálculo dispersas.
+    - Que la transparencia financiera se perciba como un valor agregado y no como una amenaza interna para los actores involucrados.
+
+**User Assumptions**
+* ¿Quién es el usuario?
+    - Empresas constructoras, contratistas independientes y clientes de proyectos de construcción.
+* ¿Dónde encaja nuestro producto en su trabajo o vida?
+    - En el seguimiento diario de presupuestos y control financiero de proyectos, así como en la verificación de gastos por parte de los clientes.
+* ¿Qué problemas tiene nuestro producto que resolver?
+    - Falta de claridad en presupuestos, retrasos en validaciones, poca visibilidad del gasto real y dificultad en comunicar transparencia a los clientes.
+* ¿Cuándo y cómo es nuestro producto usado?
+    - Durante la planificación inicial del expediente técnico y a lo largo de la ejecución del proyecto, accediendo desde la oficina o en campo mediante dispositivos digitales.
+* ¿Qué características son importantes?
+    - **Trazabilidad financiera detallada:** seguimiento completo del flujo presupuestal desde la planificación hasta la ejecución, identificando con precisión en qué tarea, contrato o recurso se utiliza cada monto, evitando pérdidas de información y mejorando la rendición de cuentas.
+    - **Reportes claros:** generación de informes comprensibles para profesionales y clientes, con gráficos, comparativos y resúmenes que faciliten la lectura y la toma de decisiones sin necesidad de conocimientos técnicos avanzados.
+    - **Facilidad de uso:** interfaz intuitiva y amigable que minimice la curva de aprendizaje, permitiendo que incluso usuarios con poca experiencia digital puedan navegar y aprovechar la herramienta de manera rápida y sin fricciones.
+    - **Seguridad en los datos:** protección de la información financiera y contractual con estándares altos de privacidad y acceso restringido, garantizando que solo los usuarios autorizados puedan visualizar o modificar la información sensible.
+    - **Disponibilidad 24/7:** acceso permanente a la plataforma en cualquier momento y desde cualquier dispositivo, lo que asegura continuidad operativa y permite consultas críticas tanto en oficina como en campo.
+* ¿Cómo debe verse nuestro producto y comportarse?
+    - Debe transmitir confianza y simplicidad, con un diseño claro, dashboards fáciles de interpretar y procesos fluidos que no requieran conocimientos técnicos avanzados.
+
+<div style="page-break-before: always;"></div>
+
+#### 1.2.3.3. Lean UX Hypothesis Statements.
+
+Hemos formulado como equipo las siguientes hipótesis orientadas a probar las distintas funcionalidades que hemos obtenido como parte del Lean UX Process:
+
+* Creemos que las constructoras medianas y consultoras independientes necesitan una forma más clara de supervisar sus presupuestos de obra. Sabremos que hemos tenido éxito cuando veamos una reducción del 20% en el tiempo promedio de validación de presupuestos en proyectos gestionados con la plataforma durante el primer año.
+* Creemos que los clientes de proyectos valoran la transparencia financiera para confiar en la constructora que ejecuta su inversión. Sabremos que tuvimos éxito cuando veamos un incremento del 15% en el índice de satisfacción del cliente medido en encuestas posteriores al uso de la plataforma.
+* Creemos que una plataforma digital intuitiva puede superar la resistencia de usuarios con poca experiencia tecnológica. Sabremos que lo logramos cuando veamos que al menos el 70% de usuarios nuevos completan el registro de un proyecto sin asistencia externa en sus primeros 30 días.
+* Creemos que la trazabilidad verificable de los gastos reducirá los sobrecostos derivados de falta de control. Sabremos que alcanzamos resultados positivos cuando veamos una disminución del 10% en incidencias de sobrecostos en proyectos piloto gestionados con ClearCost.
+* Creemos que la integración con sistemas financieros ya existentes en las constructoras aumentará la aceptación del producto. Sabremos que confirmamos la hipótesis cuando veamos que al menos el 50% de clientes activos utilizan la función de integración en los primeros 12 meses.
+* Creemos que el valor principal percibido será el ahorro de tiempo en la elaboración y revisión de presupuestos. Sabremos que hemos validado la propuesta cuando veamos una reducción promedio del 25% en el tiempo de elaboración de presupuestos en comparación con los procesos previos al uso de ClearCost.
+* Creemos que la disponibilidad 24/7 será considerada indispensable para el seguimiento en campo y oficina. Sabremos que obtuvimos éxito cuando veamos que al menos el 90% de los accesos provienen de múltiples dispositivos (móvil y escritorio) y que se registran accesos fuera del horario de oficina.
+
+<div style="page-break-before: always;"></div>
+
+#### 1.2.3.4. Lean UX Canvas.
+
+
