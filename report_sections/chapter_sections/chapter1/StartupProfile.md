@@ -42,15 +42,15 @@ Valores:
                 </td>
             </tr>
             <tr>
-                <td style="border: 1px solid #ddd; padding: 10px; text-align: left; background-color: #f2f2f2; color: #333;"><img style="width: 240px; height: auto; border-radius: 25%;" src="../../../img/chapter1/Andrea.png" alt="Foto de Roy Fernandez"></td>
+                <td style="border: 1px solid #ddd; padding: 10px; text-align: left; background-color: #f2f2f2; color: #333;"><img style="width: 240px; height: auto; border-radius: 25%;" src="../../../img/chapter1/FOTIÑO.jpeg" alt="Foto de Roy Fernandez"></td>
                 <td style="border: 1px solid #ddd; padding: 10px; text-align: left; background-color: #f2f2f2; color: #333;">Fernandez Remon, Roy Linsh</td>
                 <td style="border: 1px solid #ddd; padding: 10px; text-align: left; background-color: #f2f2f2; color: #333;">20221b778</td>
                 <td style="border: 1px solid #ddd; padding: 10px; text-align: left; background-color: #f2f2f2; color: #333;">Ingeniería de Software</td>
                 <td style="max-width: 300px; overflow: hidden; text-overflow: ellipsis; white-space: normal;">
                     <ul>
-                        <li>Diseño web</li>
-                        <li>Gestión y diseño de bases de datos SQL y noSQL</li>
-                        <li>Programación en C++ y Python</li>
+                        <li>Análisis de datos</li>
+                        <li>Gestión y diseño de bases de datos SQL</li>
+                        <li>Experiencia en programación en C++, Python y uso de herramientas de Análisis de datos</li>
                     </ul>
                 </td>
             </tr>
