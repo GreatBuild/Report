@@ -128,7 +128,7 @@ La plantilla de datos generales permite obtener información básica sobre los e
               <li><strong>Nombres: Maryori</strong> </li>
               <li><strong>Apellidos: Atanacio Cruces</strong> </li>
               <li><strong>Edad: 24 años</strong> </li>
-              <li><strong>Distrito:San Juan de Lurigancho</strong> </li>
+              <li><strong>Distrito: San Juan de Lurigancho</strong> </li>
               <li><strong>URL Entrevista:</strong> <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/EREC9iNRgJhIinK3osJI6IYBrl5jviZ00gGwKmbTa1DFvA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=LTJHiH" target="_blank">Ver video</a></li>
               <li><strong>Timestamp:</strong> 00:00</li>
               <li><strong>Duración: 0 minutos</strong> </li>
@@ -188,10 +188,10 @@ La plantilla de datos generales permite obtener información básica sobre los e
           <div style="flex: 1; display: flex; flex-direction: column;">
             <p style="font-size: 18px; font-weight: bold; color: #2c3e50; margin-bottom: 12px; padding-bottom: 6px;">Datos generales</p>
             <ul style="margin: 0; padding-left: 20px; list-style-type: disc; font-size: 1.05em; line-height: 1.7; color: #333;">
-              <li><strong>Nombres: Maryori</strong> </li>
-              <li><strong>Apellidos: Atanacio Cruces</strong> </li>
+              <li><strong>Nombres: Jefry Alfredo</strong> </li>
+              <li><strong>Apellidos: Prado Remón</strong> </li>
               <li><strong>Edad: 24 años</strong> </li>
-              <li><strong>Distrito:San Juan de Lurigancho</strong> </li>
+              <li><strong>Distrito: San Juan de Lurigancho</strong> </li>
               <li><strong>URL Entrevista:</strong> <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/EREC9iNRgJhIinK3osJI6IYBrl5jviZ00gGwKmbTa1DFvA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=LTJHiH" target="_blank">Ver video</a></li>
               <li><strong>Timestamp:</strong> 00:00</li>
               <li><strong>Duración: 0 minutos</strong> </li>
@@ -206,7 +206,7 @@ La plantilla de datos generales permite obtener información básica sobre los e
         <div style="background-color: #f9f9f9; border-radius: 10px; padding: 24px; margin-top: 12px;">
           <p style="font-size: 18px; font-weight: bold; color: #2c3e50; margin-bottom: 12px; padding-bottom: 6px;">Resumen</p>
           <ul style="padding-left: 20px; list-style-type: disc; color: #333; font-size: 1em; margin: 0;">
-            <li><strong>Personalidad: Muy alegre</strong> </li>
+            <li><strong>Personalidad: Muy responsable</strong> </li>
             <li><strong>Marcas:</strong> </li>
             <li><strong>Uso de tecnología:</strong> </li>
             <li><strong>Canales:</strong>  </li>
