@@ -13,7 +13,7 @@ Las preguntas numeradas con un solo dígito corresponden a las preguntas princip
 **Empathy and Persona**
 
 1. Primero, díganos un poco sobre usted y a qué se dedica.
-  1.1. En base a su respuesta, se pregunta los campos que no se hayan podido llenar directamente según el formato presente en Plantilla de datos generales.
+- 1.1. En base a su respuesta, se pregunta los campos que no se hayan podido llenar directamente según el formato presente en Plantilla de datos generales.
 2. Cuéntenos, ¿Cómo luce un día típico de trabajo para usted?
 3. ¿Qué herramientas utiliza en su día a día para realizar o apoyarse en el desarrollo de estas labores?
 4. De estas actividades, ¿Qué parte identifica usted como la más laboriosa o frustrante?
@@ -23,8 +23,8 @@ Las preguntas numeradas con un solo dígito corresponden a las preguntas princip
 **Domain Model**
 
 7. Describir el dominio en base a lo aprendido autónomamente y en base a ello.
-  7.1. ¿Las secciones que hemos planteado son correctas? ¿Son un reflejo de su trabajo?
-  7.2. ¿Cuál de estas (del nuevo modelo) considera que es la más importante o fundamental para el éxito de la planificación del proyecto? ¿Por qué razón?
+- 7.1. ¿Las secciones que hemos planteado son correctas? ¿Son un reflejo de su trabajo?
+- 7.2. ¿Cuál de estas (del nuevo modelo) considera que es la más importante o fundamental para el éxito de la planificación del proyecto? ¿Por qué razón?
 8. En base a su experiencia, ¿Cómo organiza los documentos de un expediente técnico? (directorios, carpetas, documentos)
 9. ¿Cómo es la organización y repartición de tareas en la elaboración de un expediente técnico?
 10. ¿Qué valor tiene la comunicación entre especialistas del expediente técnico?
@@ -38,7 +38,7 @@ Las preguntas numeradas con un solo dígito corresponden a las preguntas princip
 **Empathy and Persona**
 
 1. Primero, díganos un poco sobre usted y a qué se dedica.
-  1.1. En base a su respuesta, se pregunta los campos que no se hayan podido llenar directamente según el formato presente en Plantilla de datos generales.
+- 1.1. En base a su respuesta, se pregunta los campos que no se hayan podido llenar directamente según el formato presente en Plantilla de datos generales.
 2. Cuéntenos, ¿Cómo es trabajar en la elaboración de un expediente técnico de obra / proyecto?
 3. ¿Qué herramientas utiliza para apoyarse en el desarrollo de estas labores?
 4. De estas actividades, ¿Qué parte identifica usted como la más laboriosa o frustrante?
@@ -60,18 +60,18 @@ Las preguntas numeradas con un solo dígito corresponden a las preguntas princip
 **Empathy and Persona**
 
 1. Primero, díganos un poco sobre usted y a qué se dedica.
-    1.1. En base a su respuesta, se pregunta los campos que no se hayan podido llenar directamente según el formato presente en Plantilla de datos generales
+- 1.1. En base a su respuesta, se pregunta los campos que no se hayan podido llenar directamente según el formato presente en Plantilla de datos generales
 2. Cuéntenos, ¿Alguna vez se ha planteado construir su propio hogar? ¿Por qué?
 3. En base a ello, ¿ha llegado a contactar a algún contratista o proyectista? ¿Qué impresión le dejaron?
-    3.1. ¿Por qué razón no ha contactado con ellos? ¿Es debido a algún factor de confianza?
+- 3.1. ¿Por qué razón no ha contactado con ellos? ¿Es debido a algún factor de confianza?
 4. ¿Conoce a alguien en su entorno (amigos, familiares, conocidos) que haya planificado la construcción de su hogar? ¿Cómo fue su experiencia?
 5. Cuando empiece a planificar su vivienda, ¿qué expectativas tendría respecto al servicio?
 
 **(Explicar brevemente la propuesta del proyecto al entrevistado).**
 
 6. ¿Ha escuchado de algún proyecto similar a este?
-    6.1. ¿Qué piensa de ello?¿En qué cree que aportaría?
-    6.2. ¿Qué características añadiría para mejorar la experiencia?
+- 6.1. ¿Qué piensa de ello?¿En qué cree que aportaría?
+- 6.2. ¿Qué características añadiría para mejorar la experiencia?
 
 <div style="page-break-before: always;"></div>
 
