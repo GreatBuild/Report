@@ -134,7 +134,7 @@ La plantilla de datos generales permite obtener información básica sobre los e
               <li><strong>Duración: 05:24 minutos</strong> </li>
             </ul>
           </div>
-          <img style="max-width: 40%; height: auto; border-radius: 10px; object-fit: cover; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);" src="../../../img/chapter2/.png" alt="Screenshot de la entrevista con ">
+          <img style="max-width: 40%; height: auto; border-radius: 10px; object-fit: cover; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);" src="../../../img/chapter2/Entrevista Maryori.png">
         </div>
       </td>
     </tr>
