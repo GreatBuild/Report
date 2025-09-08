@@ -173,6 +173,8 @@ La plantilla de datos generales permite obtener información básica sobre los e
   </tbody>
 </table>
 
+<div style="page-break-before: always;"></div>
+
 <table class="tabla-entrevista">
   <thead>
     <tr>
@@ -239,6 +241,7 @@ La plantilla de datos generales permite obtener información básica sobre los e
   </tbody>
 </table>
 
+<div style="page-break-before: always;"></div>
 
 <table class="tabla-entrevista">
   <thead>
@@ -249,6 +252,70 @@ La plantilla de datos generales permite obtener información básica sobre los e
             background-color: #f0f0f0;
             font-size: 22px;"><strong>SEGMENTO OBJETIVO: CONTRATISTA</strong></th>
       <th><strong>#3</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="2" style="padding: 0; vertical-align: top; background-color: #fff border-top: 1px solid #ddd;">
+        <div style="display: flex; gap: 24px; align-items: flex-start; background-color: #fafafa; border-radius: 10px; padding: 24px;">
+          <div style="flex: 1; display: flex; flex-direction: column;">
+            <p style="font-size: 18px; font-weight: bold; color: #2c3e50; margin-bottom: 12px; padding-bottom: 6px;">Datos generales</p>
+            <ul style="margin: 0; padding-left: 20px; list-style-type: disc; font-size: 1.05em; line-height: 1.7; color: #333;">
+              <li><strong>Nombres: </strong>Jorge Rolando </li>
+              <li><strong>Apellidos: </strong>García Roca </li>
+              <li><strong>Edad: </strong>30 </li>
+              <li><strong>URL Entrevista:</strong> <a href="poner el link del video">Ver video</a></li>
+              <li><strong>Timestamp:</strong> 18:26</li>
+              <li><strong>Duración:</strong> 09:00</li>
+            </ul>
+          </div>
+          <img style="max-width: 40%; height: auto; border-radius: 10px; object-fit: cover; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);" src="../../../img/chapter2/jorge_garcia.png">
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" style="padding: 0; vertical-align: top; background-color: #fff border-top: 1px solid #ddd;">
+        <div style="background-color: #f9f9f9; border-radius: 10px; padding: 24px; margin-top: 12px;">
+          <p style="font-size: 18px; font-weight: bold; color: #2c3e50; margin-bottom: 12px; padding-bottom: 6px;">Resumen</p>
+          <ul style="padding-left: 20px; list-style-type: disc; color: #333; font-size: 1em; margin: 0;">
+            <li><strong>Personalidad:</strong> Guardián. Como contratista de ejecución de obra, entiende la importancia de seguir lo establecido en el expediente técnico.</li>
+            <li><strong>Marcas:</strong> Microsoft, Autodesk Inc y S10. Son herramientas que utiliza en su trabajo.</li>
+            <li><strong>Uso de tecnología:</strong> Mínimo. Su empresa refleja un nivel de adopción de la tecnología bastante bajo, sin un grado de integración completa en las operaciones de empresa.</li>
+            <li><strong>Canales:</strong> WhatsApp y Telegram. Los usa como canales de comunicación.</li>
+            <li><strong>Browsers:</strong> Google Chrome. Sin razón en particular, posiblemente por la popularidad de Google.</li>
+            <li><strong>Dispositivos:</strong> Celular y PC. Son aquellos que le resultan más familiares.</li>
+            <li><strong>Background:</strong> Es gerente de su propia empresa dedicada a la ejecución de acabados finos en obras, públicas o privadas.</li>
+            <li>
+              <strong>Frustraciones:</strong>
+              <ul style="list-style-type: circle; padding-left: 20px;">
+                <li>Realizar consultas al residente de obra ante incompatibilidad de planos.</li>
+              </ul>
+            </li>
+            <li>
+              <strong>Flujos principales:</strong>
+              <ul style="list-style-type: circle; padding-left: 20px;">
+                <li>Seguir y cumplir los lineamientos de el expediente técnico.</li>
+                <li>Realizar consultas o solicitar revisiones ante incompatibilidad de planos.</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<div style="page-break-before: always;"></div>
+
+<table class="tabla-entrevista">
+  <thead>
+    <tr>
+      <th style="
+            text-align: left;
+            padding: 12px;
+            background-color: #f0f0f0;
+            font-size: 22px;"><strong>SEGMENTO OBJETIVO: ESPECIALISTA</strong></th>
+      <th><strong>#1</strong></th>
     </tr>
   </thead>
   <tbody>
@@ -302,7 +369,7 @@ La plantilla de datos generales permite obtener información básica sobre los e
   </tbody>
 </table>
 
-
+<div style="page-break-before: always;"></div>
 
 <table class="tabla-entrevista">
   <thead>
@@ -363,6 +430,8 @@ La plantilla de datos generales permite obtener información básica sobre los e
     </tr>
   </tbody>
 </table> 
+
+<div style="page-break-before: always;"></div>
 
 <table class="tabla-entrevista">
   <thead>
@@ -426,6 +495,8 @@ La plantilla de datos generales permite obtener información básica sobre los e
     </tr>
   </tbody>
 </table>
+
+<div style="page-break-after: always;"></div>
 
 ### 2.2.3. Análisis de entrevistas
 
