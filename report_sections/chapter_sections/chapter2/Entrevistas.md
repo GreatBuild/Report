@@ -240,6 +240,69 @@ La plantilla de datos generales permite obtener información básica sobre los e
 </table>
 
 
+<table class="tabla-entrevista">
+  <thead>
+    <tr>
+      <th style="
+            text-align: left;
+            padding: 12px;
+            background-color: #f0f0f0;
+            font-size: 22px;"><strong>SEGMENTO OBJETIVO: CONTRATISTA</strong></th>
+      <th><strong>#3</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="2" style="padding: 0; vertical-align: top; background-color: #fff border-top: 1px solid #ddd;">
+        <div style="display: flex; gap: 24px; align-items: flex-start; background-color: #fafafa; border-radius: 10px; padding: 24px;">
+          <div style="flex: 1; display: flex; flex-direction: column;">
+            <p style="font-size: 18px; font-weight: bold; color: #2c3e50; margin-bottom: 12px; padding-bottom: 6px;">Datos generales</p>
+            <ul style="margin: 0; padding-left: 20px; list-style-type: disc; font-size: 1.05em; line-height: 1.7; color: #333;">
+              <li><strong>Nombres: </strong>Bryan </li>
+              <li><strong>Apellidos: </strong>Espejo </li>
+              <li><strong>Edad: </strong>28 </li>
+              <li><strong>URL Entrevista:</strong> <a href="poner el link del video">Ver video</a></li>
+              <li><strong>Timestamp:</strong> 00:00</li>
+              <li><strong>Duración:</strong> 05:00</li>
+            </ul>
+          </div>
+          <img style="max-width: 40%; height: auto; border-radius: 10px; object-fit: cover; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);" src="foto">
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" style="padding: 0; vertical-align: top; background-color: #fff border-top: 1px solid #ddd;">
+        <div style="background-color: #f9f9f9; border-radius: 10px; padding: 24px; margin-top: 12px;">
+          <p style="font-size: 18px; font-weight: bold; color: #2c3e50; margin-bottom: 12px; padding-bottom: 6px;">Resumen</p>
+          <ul style="padding-left: 20px; list-style-type: disc; color: #333; font-size: 1em; margin: 0;">
+            <li><strong>Personalidad:</strong> Innovador, colaborador, analítico y oridentado a resultados.</li>
+            <li><strong>Marcas:</strong> Autodesk, BIM360, Contech influencers. Son herramientas que utiliza en su trabajo.</li>
+            <li><strong>Canales:</strong> Email corporativo, Microsoft Teams, WhatsApp Business, Trello.</li>
+            <li><strong>Browsers:</strong> Google Chrome, Mircosoft Edge</li>
+            <li><strong>Dispositivos:</strong> Laptop, tablet y celular.</li>
+            <li>
+              <strong>Frustraciones:</strong>
+              <ul style="list-style-type: circle; padding-left: 20px;">
+                <li>Revisar quue los metrados y presupuestos estén alineados con los planos. A veces hay inconsistencias y toca regresar a validar varias veces.</li>
+              </ul>
+            </li>
+            <li>
+              <strong>Flujos principales:</strong>
+              <ul style="list-style-type: circle; padding-left: 20px;">
+                <li>Estudios básicos (medidas descriptivas).</li>
+                <li>Elaboración y seguimiento de calendario.</li>
+                <li>Gestión de observaciones y compatibilidad.</li>
+                <li>Seguimiento del contrato.</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
 
 <table class="tabla-entrevista">
   <thead>
