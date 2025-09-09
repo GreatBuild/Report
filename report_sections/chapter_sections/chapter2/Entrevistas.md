@@ -329,8 +329,8 @@ La plantilla de datos generales permite obtener información básica sobre los e
               <li><strong>Apellidos: </strong>Espejo </li>
               <li><strong>Edad: </strong>28 </li>
               <li><strong>URL Entrevista:</strong> <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218110_upc_edu_pe/EaXm8JKIl2tJuBEe8dJViRkBDhAqC27mTxNw2yEHDqvv4Q?e=IGj6qN&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">Ver video</a></li>
-              <li><strong>Timestamp:</strong> 00:03</li>
-              <li><strong>Duración:</strong> 05:30</li>
+              <li><strong>Timestamp:</strong> 28:02</li>
+              <li><strong>Duración:</strong> 05:27</li>
             </ul>
           </div>
           <img style="max-width: 40%; height: auto; border-radius: 10px; object-fit: cover; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);" src="foto">
@@ -375,7 +375,6 @@ La plantilla de datos generales permite obtener información básica sobre los e
 
 <div style="page-break-before: always;"></div>
 
-
 <table class="tabla-entrevista">
   <thead>
     <tr>
@@ -398,8 +397,8 @@ La plantilla de datos generales permite obtener información básica sobre los e
               <li><strong>Apellidos: </strong>Santos </li>
               <li><strong>Edad: </strong>25 </li>
               <li><strong>URL Entrevista:</strong> <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218110_upc_edu_pe/ER4P_mI9465Lk4gnybJnVtIBoEfEy4FL4OuIu7wVAdAWZw?e=XNXkUi&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">Ver video</a></li>
-              <li><strong>Timestamp:</strong> 00:03</li>
-              <li><strong>Duración:</strong> 06:19</li>
+              <li><strong>Timestamp:</strong> 33:07</li>
+              <li><strong>Duración:</strong> 06:17</li>
             </ul>
           </div>
           <img style="max-width: 40%; height: auto; border-radius: 10px; object-fit: cover; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);" src="foto">
@@ -444,7 +443,6 @@ La plantilla de datos generales permite obtener información básica sobre los e
 
 <div style="page-break-before: always;"></div>
 
-
 <table class="tabla-entrevista">
   <thead>
     <tr>
@@ -467,7 +465,7 @@ La plantilla de datos generales permite obtener información básica sobre los e
               <li><strong>Apellidos: </strong>Escudero </li>
               <li><strong>Edad: </strong>27 </li>
               <li><strong>URL Entrevista:</strong> <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218110_upc_edu_pe/EWUwAvoIjZxGmilwGb2EKwYBkuAENoFbcbiRkpcpFgKuVA?e=H4V9ha&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">Ver video</a></li>
-              <li><strong>Timestamp:</strong> 00:03</li>
+              <li><strong>Timestamp:</strong> 39:48</li>
               <li><strong>Duración:</strong> 04:58</li>
             </ul>
           </div>
@@ -510,7 +508,6 @@ La plantilla de datos generales permite obtener información básica sobre los e
 
 <div style="page-break-before: always;"></div>
 
-
 <table class="tabla-entrevista">
   <thead>
     <tr>
@@ -518,7 +515,7 @@ La plantilla de datos generales permite obtener información básica sobre los e
             text-align: left;
             padding: 12px;
             background-color: #f0f0f0;
-            font-size: 22px;"><strong>SEGMENTO OBJETIVO: Entidad contratante</strong></th>
+            font-size: 22px;"><strong>SEGMENTO OBJETIVO: ENTIDAD CONTRATANTE</strong></th>
       <th><strong>#1</strong></th>
     </tr>
   </thead>
@@ -580,8 +577,73 @@ La plantilla de datos generales permite obtener información básica sobre los e
             text-align: left;
             padding: 12px;
             background-color: #f0f0f0;
-            font-size: 22px;"><strong>SEGMENTO OBJETIVO: </strong></th>
-      <th><strong>#1</strong></th>
+            font-size: 22px;"><strong>SEGMENTO OBJETIVO: ENTIDAD CONTRATANTE</strong></th>
+      <th><strong>#2</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="2" style="padding: 0; vertical-align: top; background-color: #fff border-top: 1px solid #ddd;">
+        <div style="display: flex; gap: 24px; align-items: flex-start; background-color: #fafafa; border-radius: 10px; padding: 24px;">
+          <div style="flex: 1; display: flex; flex-direction: column;">
+            <p style="font-size: 18px; font-weight: bold; color: #2c3e50; margin-bottom: 12px; padding-bottom: 6px;">Datos generales</p>
+            <ul style="margin: 0; padding-left: 20px; list-style-type: disc; font-size: 1.05em; line-height: 1.7; color: #333;">
+              <li><strong>Nombres: Jefry Alfredo</strong> </li>
+              <li><strong>Apellidos: Prado Remón</strong> </li>
+              <li><strong>Edad: 24 años</strong> </li>
+              <li><strong>Distrito: San Juan de Lurigancho</strong> </li>
+              <li><strong>URL Entrevista:</strong> <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/EREC9iNRgJhIinK3osJI6IYBrl5jviZ00gGwKmbTa1DFvA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=LTJHiH" target="_blank">Ver video</a></li>
+              <li><strong>Timestamp:</strong> 00:00</li>
+              <li><strong>Duración: 0 minutos</strong> </li>
+            </ul>
+          </div>
+          <img style="max-width: 40%; height: auto; border-radius: 10px; object-fit: cover; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);" src="../../../img/chapter2/.png" alt="Screenshot de la entrevista con ">
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" style="padding: 0; vertical-align: top; background-color: #fff border-top: 1px solid #ddd;">
+        <div style="background-color: #f9f9f9; border-radius: 10px; padding: 24px; margin-top: 12px;">
+          <p style="font-size: 18px; font-weight: bold; color: #2c3e50; margin-bottom: 12px; padding-bottom: 6px;">Resumen</p>
+          <ul style="padding-left: 20px; list-style-type: disc; color: #333; font-size: 1em; margin: 0;">
+            <li><strong>Personalidad: Muy responsable</strong> </li>
+            <li><strong>Marcas:</strong> </li>
+            <li><strong>Uso de tecnología:</strong> </li>
+            <li><strong>Canales:</strong>  </li>
+            <li><strong>Browsers:</strong> </li>
+            <li><strong>Dispositivos:</strong> </li>
+            <li><strong>Background:</strong> </li>
+            <li>
+              <strong>Frustraciones:</strong>
+              <ul style="list-style-type: circle; padding-left: 20px;">
+                <li></li>
+              </ul>
+            </li>
+            <li>
+              <strong>Flujos principales:</strong>
+              <ul style="list-style-type: circle; padding-left: 20px;">
+                <li>Contactar con el proyectista.</li>
+                <li>Presentar el requerimiento del proyecto.</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<div style="page-break-before: always;"></div>
+
+<table class="tabla-entrevista">
+  <thead>
+    <tr>
+      <th style="
+            text-align: left;
+            padding: 12px;
+            background-color: #f0f0f0;
+            font-size: 22px;"><strong>SEGMENTO OBJETIVO: ENTIDAD CONTRATANTE</strong></th>
+      <th><strong>#3</strong></th>
     </tr>
   </thead>
   <tbody>
