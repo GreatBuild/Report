@@ -328,9 +328,9 @@ La plantilla de datos generales permite obtener información básica sobre los e
               <li><strong>Nombres: </strong>Bryan </li>
               <li><strong>Apellidos: </strong>Espejo </li>
               <li><strong>Edad: </strong>28 </li>
-              <li><strong>URL Entrevista:</strong> <a href="poner el link del video">Ver video</a></li>
-              <li><strong>Timestamp:</strong> 00:00</li>
-              <li><strong>Duración:</strong> 05:00</li>
+              <li><strong>URL Entrevista:</strong> <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218110_upc_edu_pe/EaXm8JKIl2tJuBEe8dJViRkBDhAqC27mTxNw2yEHDqvv4Q?e=IGj6qN&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">Ver video</a></li>
+              <li><strong>Timestamp:</strong> 00:03</li>
+              <li><strong>Duración:</strong> 05:30</li>
             </ul>
           </div>
           <img style="max-width: 40%; height: auto; border-radius: 10px; object-fit: cover; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);" src="foto">
@@ -346,20 +346,24 @@ La plantilla de datos generales permite obtener información básica sobre los e
             <li><strong>Marcas:</strong> Autodesk, BIM360, Contech influencers. Son herramientas que utiliza en su trabajo.</li>
             <li><strong>Canales:</strong> Email corporativo, Microsoft Teams, WhatsApp Business, Trello.</li>
             <li><strong>Browsers:</strong> Google Chrome, Mircosoft Edge</li>
-            <li><strong>Dispositivos:</strong> Laptop, tablet y celular.</li>
+            <li><strong>Dispositivos:</strong> Laptop y celular.</li>
             <li>
               <strong>Frustraciones:</strong>
               <ul style="list-style-type: circle; padding-left: 20px;">
-                <li>Revisar quue los metrados y presupuestos estén alineados con los planos. A veces hay inconsistencias y toca regresar a validar varias veces.</li>
+                <li>Revisar que los metrados y presupuestos estén alineados con los planos, ya que las inconsistencias obligan a validar varias veces.</li>
+    <li>Recibir información inicial poco clara (planos y especificaciones), lo que complica todo el trabajo posterior.</li>
+    <li>Dependencia de un cruce manual entre planos, metrados y presupuestos, aumentando la probabilidad de errores.</li>
+    <li>Dificultades de coordinación porque cada especialista trabaja a un ritmo distinto, lo que genera retrasos.</li>
               </ul>
             </li>
             <li>
               <strong>Flujos principales:</strong>
               <ul style="list-style-type: circle; padding-left: 20px;">
-                <li>Estudios básicos (medidas descriptivas).</li>
-                <li>Elaboración y seguimiento de calendario.</li>
-                <li>Gestión de observaciones y compatibilidad.</li>
-                <li>Seguimiento del contrato.</li>
+                <li>Recepción de planos y términos de referencia del cliente.</li>
+                <li>Extracción de metrados a partir de los planos en AutoCAD/Civil 3D.</li>
+                <li>Elaboración de presupuestos y control en Excel.</li>
+                <li>Coordinación y comunicación con proyectistas y especialistas.</li>
+                <li>Seguimiento de cronogramas con fases y recordatorios en Google Calendar.</li>
               </ul>
             </li>
           </ul>
@@ -370,6 +374,142 @@ La plantilla de datos generales permite obtener información básica sobre los e
 </table>
 
 <div style="page-break-before: always;"></div>
+
+
+<table class="tabla-entrevista">
+  <thead>
+    <tr>
+      <th style="
+            text-align: left;
+            padding: 12px;
+            background-color: #f0f0f0;
+            font-size: 22px;"><strong>SEGMENTO OBJETIVO: ESPECIALISTA</strong></th>
+      <th><strong>#2</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="2" style="padding: 0; vertical-align: top; background-color: #fff border-top: 1px solid #ddd;">
+        <div style="display: flex; gap: 24px; align-items: flex-start; background-color: #fafafa; border-radius: 10px; padding: 24px;">
+          <div style="flex: 1; display: flex; flex-direction: column;">
+            <p style="font-size: 18px; font-weight: bold; color: #2c3e50; margin-bottom: 12px; padding-bottom: 6px;">Datos generales</p>
+            <ul style="margin: 0; padding-left: 20px; list-style-type: disc; font-size: 1.05em; line-height: 1.7; color: #333;">
+              <li><strong>Nombres: </strong>Juan Manuel </li>
+              <li><strong>Apellidos: </strong>Santos </li>
+              <li><strong>Edad: </strong>25 </li>
+              <li><strong>URL Entrevista:</strong> <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218110_upc_edu_pe/ER4P_mI9465Lk4gnybJnVtIBoEfEy4FL4OuIu7wVAdAWZw?e=XNXkUi&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">Ver video</a></li>
+              <li><strong>Timestamp:</strong> 00:03</li>
+              <li><strong>Duración:</strong> 06:19</li>
+            </ul>
+          </div>
+          <img style="max-width: 40%; height: auto; border-radius: 10px; object-fit: cover; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);" src="foto">
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" style="padding: 0; vertical-align: top; background-color: #fff border-top: 1px solid #ddd;">
+        <div style="background-color: #f9f9f9; border-radius: 10px; padding: 24px; margin-top: 12px;">
+          <p style="font-size: 18px; font-weight: bold; color: #2c3e50; margin-bottom: 12px; padding-bottom: 6px;">Resumen</p>
+          <ul style="padding-left: 20px; list-style-type: disc; color: #333; font-size: 1em; margin: 0;">
+            <li><strong>Personalidad:</strong> Colaborador, trabaja en equipo y comunicación efectiva.</li>
+            <li><strong>Marcas:</strong> Autodesk, BIM360</li>
+            <li><strong>Canales:</strong> Microsoft Teams, WhatsApp y correo.</li>
+            <li><strong>Browsers:</strong> Google Chrome</li>
+            <li><strong>Dispositivos:</strong> Laptop y celular.</li>
+            <li>
+              <strong>Frustraciones:</strong>
+              <ul style="list-style-type: circle; padding-left: 20px;">
+                <li>Integrar información de distintas especialidades (estructuras, arquitectura, instalaciones), ya que los datos llegan en formatos distintos y con inconsistencias.</li>
+                  <li>Necesidad de validar constantemente normativas y requisitos, lo que consume tiempo adicional.</li>
+                  <li>Dificultades en la coordinación entre equipos por diversidad de disciplinas y herramientas utilizadas.</li>
+              </ul>
+            </li>
+            <li>
+              <strong>Flujos principales:</strong>
+              <ul style="list-style-type: circle; padding-left: 20px;">
+                 <li>Obtención de información mediante entrevistas, planos preliminares y normativas.</li>
+    <li>Validación de normativas y requisitos de la entidad contratante.</li>
+    <li>Estandarización de formatos y plantillas de trabajo.</li>
+                  <li>Entrega final en PDF y DWG mediante correo, nube o plataformas colaborativas.</li>
+    <li>Planificación y control de cronogramas con Trello/MS Project.</li>
+    <li>Coordinación continua con equipos mediante Teams, Trello y WhatsApp Business.</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<div style="page-break-before: always;"></div>
+
+
+<table class="tabla-entrevista">
+  <thead>
+    <tr>
+      <th style="
+            text-align: left;
+            padding: 12px;
+            background-color: #f0f0f0;
+            font-size: 22px;"><strong>SEGMENTO OBJETIVO: ESPECIALISTA</strong></th>
+      <th><strong>#3</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="2" style="padding: 0; vertical-align: top; background-color: #fff border-top: 1px solid #ddd;">
+        <div style="display: flex; gap: 24px; align-items: flex-start; background-color: #fafafa; border-radius: 10px; padding: 24px;">
+          <div style="flex: 1; display: flex; flex-direction: column;">
+            <p style="font-size: 18px; font-weight: bold; color: #2c3e50; margin-bottom: 12px; padding-bottom: 6px;">Datos generales</p>
+            <ul style="margin: 0; padding-left: 20px; list-style-type: disc; font-size: 1.05em; line-height: 1.7; color: #333;">
+              <li><strong>Nombres: </strong>Jeremy </li>
+              <li><strong>Apellidos: </strong>Escudero </li>
+              <li><strong>Edad: </strong>27 </li>
+              <li><strong>URL Entrevista:</strong> <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218110_upc_edu_pe/EWUwAvoIjZxGmilwGb2EKwYBkuAENoFbcbiRkpcpFgKuVA?e=H4V9ha&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">Ver video</a></li>
+              <li><strong>Timestamp:</strong> 00:03</li>
+              <li><strong>Duración:</strong> 04:58</li>
+            </ul>
+          </div>
+          <img style="max-width: 40%; height: auto; border-radius: 10px; object-fit: cover; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);" src="foto">
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" style="padding: 0; vertical-align: top; background-color: #fff border-top: 1px solid #ddd;">
+        <div style="background-color: #f9f9f9; border-radius: 10px; padding: 24px; margin-top: 12px;">
+          <p style="font-size: 18px; font-weight: bold; color: #2c3e50; margin-bottom: 12px; padding-bottom: 6px;">Resumen</p>
+          <ul style="padding-left: 20px; list-style-type: disc; color: #333; font-size: 1em; margin: 0;">
+            <li><strong>Personalidad:</strong> Responsable, práctico y orientado a los resultados.</li>
+            <li><strong>Marcas:</strong> Autodesk, Bentley Systems, Construtech LATAM.</li>
+            <li><strong>Canales:</strong> Correo corporativo, WhatsApp y Microsoft Teams.</li>
+            <li><strong>Browsers:</strong> Google Chrome, Mircosoft Edge</li>
+            <li><strong>Dispositivos:</strong> Laptop y celular.</li>
+            <li>
+              <strong>Frustraciones:</strong>
+              <ul style="list-style-type: circle; padding-left: 20px;">
+                <li>Consolidar la información de todas las especialidades. Los errores de coordinación generan observaciones que retrasan la aprobación del expediente técnico.</li>
+    <li>Altos niveles de presión por tiempos ajustados y múltiples revisiones que demandan rehacer entregables.</li>
+              </ul>
+            </li>
+            <li>
+              <strong>Flujos principales:</strong>
+              <ul style="list-style-type: circle; padding-left: 20px;">
+                <li>Elaboración de estudios básicos y cálculos técnicos.</li>
+                <li>Revisión de planos y consistencia entre especialidades.</li>
+                <li>Elaboración de metrados, presupuestos y análisis de costos.</li>
+                <li>Generación de reportes, memorias y entregables.</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<div style="page-break-before: always;"></div>
+
 
 <table class="tabla-entrevista">
   <thead>
