@@ -708,13 +708,13 @@ La plantilla de datos generales permite obtener información básica sobre los e
 
 **2. Edad:**  Las edades de los entrevistados de este segmento están en mediados de llegar a los 30 años de edad. Se toma como edad representativa la media aritmética de los datos.
 
-| Entrevistado | Mario López | Alvaro Torres | Kevin Apolinario | Valor representativo |
+| Entrevistado | Mario López | Alvaro Torres | Jorge García | Valor representativo |
 |-|-|-|-|-|
-| **Edad** | 29 | 27 | 28 | 28 |
+| **Edad** | 29 | 27 | 30 | 29 |
 
 **3. Personalidad:** La totalidad de los entrevistados (100%) se alínean al arquetipo de personalidad *Guardián*, debido a su respeto irrestricto y meticuloso de las normas y acuerdos. Se toma este arquetipo de personalidad como representativo.
 
-| Entrevistado | Mario López | Raúl Reaño | William Salcedo | Valor representativo |
+| Entrevistado | Mario López | Alvaro Torres | Jorge García | Valor representativo |
 |-|-|-|-|-|
 | **Personalidad** | Guardián | Guardián | Guardián | Guardián |
 
