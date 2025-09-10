@@ -6,7 +6,7 @@ Para la definición de los segmentos objetivo se tomaron en cuenta principalment
 
 **Contratistas**
 
-Edilberto Cáceres representa al segmento objetivo de los contratistas. Se desempeña como gerente general de una empresa consultora de obras y cuenta con una amplia experiencia en el sector. Se caracteriza por mantener una reputación intachable en cuanto al cumplimiento de términos de referencia y normativas vigentes. Además, destaca por su capacidad de liderazgo, la gestión de equipos multidisciplinarios y su habilidad para manejar con eficiencia los tiempos y cronogramas de los proyectos.
+Edilberto Cáceres es ingeniero civil de 29 años que inició su carrera como asistente y luego residente de obra, adquiriendo habilidades fundamentales en gestión de proyectos y en la resolución de imprevistos en campo. Actualmente dirige una pequeña empresa consultora dedicada a la elaboración de expedientes técnicos para proyectos de obra civil, enfocándose en asegurar la calidad de los entregables y el cumplimiento de la normativa vigente. Se le reconoce por su profesionalismo, su compromiso con la excelencia técnica y su capacidad para brindar soluciones viables tanto a entidades públicas como a clientes privados.
 
 <div style="text-align: center;">
   <img 
