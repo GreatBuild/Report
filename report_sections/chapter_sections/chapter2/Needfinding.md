@@ -23,7 +23,7 @@ José Rodríguez representa al segmento objetivo de los Especialistas. Es arquit
 
 <div style="text-align: center;">
   <img 
-      src="../../../img/chapter2/userPersona_Especialista.png" 
+      src="../../../img/chapter2/Bryan Espejo.png"
       alt="User Persona de Especialistas"
       style="max-width: 65%; height: auto;">
 </div>
@@ -110,7 +110,7 @@ Se representan las necesidades, frustraciones y oportunidades del especialista, 
 
 <div style="text-align: center;">
   <img 
-      src="../../../img/chapter2/empathyMap_Especialista.png" 
+      src="../../../img/chapter2/Especialista.jpg"
       alt="Empathy Map de Especialista"
       style="max-width: 85%; height: auto;">
 </div>

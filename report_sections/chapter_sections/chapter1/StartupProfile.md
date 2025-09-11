@@ -29,14 +29,15 @@ Valores:
         </thead>
         <tbody>
             <tr>
-                <td style="border: 1px solid #ddd; padding: 10px; text-align: left; background-color: #f2f2f2; color: #333;"><img style="width: 240px; height: auto; border-radius: 25%;" src="../../../img/chapter1/Andrea.png" alt="Foto de Adriana Diestra"></td>
+                <td style="border: 1px solid #ddd; padding: 10px; text-align: left; background-color: #f2f2f2; color: #333;"><img style="width: 240px; height: auto; border-radius: 25%;" src="../../../img/chapter1/Adriana.jpg" alt="Foto de Adriana Diestra"></td>
                 <td style="border: 1px solid #ddd; padding: 10px; text-align: left; background-color: #f2f2f2; color: #333;">Diestra Zambrano, Adriana Maria</td>
                 <td style="border: 1px solid #ddd; padding: 10px; text-align: left; background-color: #f2f2f2; color: #333;">202218110</td>
                 <td style="border: 1px solid #ddd; padding: 10px; text-align: left; background-color: #f2f2f2; color: #333;">Ingeniería de Software</td>
                 <td style="max-width: 300px; overflow: hidden; text-overflow: ellipsis; white-space: normal;">
                     <ul>
-                        <li>Diseño web</li>
+                        <li>Desarrollo web</li>
                         <li>Gestión y diseño de bases de datos SQL y noSQL</li>
+                        <li>Experiencia con Frameworks ágiles</li>
                         <li>Programación en C++ y Python</li>
                     </ul>
                 </td>
