@@ -333,7 +333,7 @@ La plantilla de datos generales permite obtener información básica sobre los e
               <li><strong>Duración:</strong> 05:27</li>
             </ul>
           </div>
-          <img style="max-width: 40%; height: auto; border-radius: 10px; object-fit: cover; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);" src="foto">
+          <img style="max-width: 40%; height: auto; border-radius: 10px; object-fit: cover; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);" src="../../../img/chapter2/EntrevistaBryan.png">
         </div>
       </td>
     </tr>
@@ -401,7 +401,7 @@ La plantilla de datos generales permite obtener información básica sobre los e
               <li><strong>Duración:</strong> 06:17</li>
             </ul>
           </div>
-          <img style="max-width: 40%; height: auto; border-radius: 10px; object-fit: cover; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);" src="foto">
+          <img style="max-width: 40%; height: auto; border-radius: 10px; object-fit: cover; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);" src="../../../img/chapter2/EntrevistaJuanma.png">
         </div>
       </td>
     </tr>
@@ -469,7 +469,7 @@ La plantilla de datos generales permite obtener información básica sobre los e
               <li><strong>Duración:</strong> 04:58</li>
             </ul>
           </div>
-          <img style="max-width: 40%; height: auto; border-radius: 10px; object-fit: cover; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);" src="foto">
+          <img style="max-width: 40%; height: auto; border-radius: 10px; object-fit: cover; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);" src="../../../img/chapter2/EntrevistaJees.png">
         </div>
       </td>
     </tr>
