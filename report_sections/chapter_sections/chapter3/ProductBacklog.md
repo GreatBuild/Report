@@ -2,7 +2,7 @@
 
 La priorización de las SWR, US y TS se llevó a cabo de manera colaborativa, tomando como base los conocimientos técnicos y de dominio que cada integrante del equipo aportó al proyecto. Para facilitar este proceso, empleamos la herramienta YouTrack, que permitió organizar y visualizar las tareas de forma estructurada, coordinar esfuerzos de manera conjunta, establecer prioridades con mayor claridad y mantener una trazabilidad efectiva de los elementos gestionados a lo largo del proyecto.
 
-<img src="../../../img/chapter3/youTrack.png" alt="Imagen del YouTrack de EasyCost">
+<img src="../../../img/chapter3/youTrack.png" alt="Imagen del YouTrack de ClearCost">
 
 <table>
 <thead>
