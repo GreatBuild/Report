@@ -119,11 +119,11 @@ Se representan las necesidades, frustraciones y oportunidades del especialista, 
 
 **Entidad contratante**
 
-Se representan las necesidades, frustraciones y oportunidades de la entidad contratante, junto con las percepciones de su entorno y sus propias observaciones. Se destaca especialmente la influencia de las experiencias compartidas por colegas y conocidos, así como la comunicación constante y directa que mantiene con el contratista a lo largo del proceso.
+Se representan las necesidades, frustraciones y oportunidades de la entidad contratante, junto con las percepciones de su entorno y sus propias observaciones. Se destaca especialmente la influencia de las experiencias compartidas por colegas y conocidos.
 
 <div style="text-align: center;">
   <img 
-      src="../../../img/chapter2/empathyMap_Contratante.png" 
+      src="../../../img/chapter2/Empathy map-Javier Luján.png" 
       alt="Empathy Map de Entidad Contratante"
       style="max-width: 85%; height: auto;">
 </div>
