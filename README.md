@@ -197,7 +197,7 @@ Este entregable comprende la elaboración del informe desde el Capítulo I hasta
                 <ul>
                     <li><strong>Adriana:</strong> </li>
                     <li><strong>Fabrizio:</strong> A través de las entrevistas obtuve una comprensión sólida tanto del modelo de negocio como del problema que se busca abordar.</li>
-                    <li><strong>Roy:</strong> </li>
+                    <li><strong>Roy: Mediante el desarrollo de las entrevistas y requerimientos pude entender los problemas que tienen las personas y el cómo poder solucionarlas.</strong> </li>
                 </ul>
             </td>
             <td>
