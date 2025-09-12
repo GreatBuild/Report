@@ -181,7 +181,7 @@ Este entregable comprende la elaboración del informe desde el Capítulo I hasta
             <td>
                 <strong>TB1:</strong><br>
                 <ul>
-                    <li><strong>Adriana:</strong> </li>
+                    <li><strong>Adriana:</strong> Desarrollé los user persona y el Empathy Mapping, junto con entrevistas, para entender al segmento objetivo y guiar el desarrollo del software. </li>
                     <li><strong>Fabrizio:</strong> Repasé los artefactos necesarios para el capítulo II y III para realizar un correcto dimensionamiento de la solución de software.</li>
                     <li><strong>Roy:</strong> Se realizó las entrevistas con su respectivo análisis y los requerimientos funcionales y no funcionales para obtener la información necesaria para seguir con el desarrollo de el proyecto y el software  </li>
                 </ul>
@@ -197,7 +197,7 @@ Este entregable comprende la elaboración del informe desde el Capítulo I hasta
             <td>
                 <strong>TB1:</strong><br>
                 <ul>
-                    <li><strong>Adriana:</strong> </li>
+                    <li><strong>Adriana:</strong> Reconocí que el aprendizaje continuo es esencial. Las entrevistas me permitieron comprender al segmento objetivo y orientar el software a resolver sus necesidades reales.</li>
                     <li><strong>Fabrizio:</strong> A través de las entrevistas obtuve una comprensión sólida tanto del modelo de negocio como del problema que se busca abordar.</li>
                     <li><strong>Roy:</strong> Mediante el desarrollo de las entrevistas y requerimientos pude entender los problemas que tienen las personas y el cómo poder solucionarlas </li>
                 </ul>
