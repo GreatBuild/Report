@@ -12,7 +12,7 @@
     <tbody>
         <tr>
             <td>1.0</td>
-            <td>07/09/2025</td>
+            <td>11/09/2025</td>
             <td>
                 <ul>
                     <li>Diestra Zambrano, Adriana Maria</li>
@@ -51,7 +51,8 @@
                 <p style="display: block; margin: 2px 0; text-indent: 0px; font-weight: bold;">3.1. To-Be Scenario Mapping</p>
                 <p style="display: block; margin: 2px 0; text-indent: 0px; font-weight: bold;">3.2. User Stories</p>
                 <p style="display: block; margin: 2px 0; text-indent: 0px; font-weight: bold;">3.3. Impact Mapping</p>
-                <p style="display: block; margin: 2px 0; text-indent: 0px; font-weight: bold;">3.4. Product Backlog</p>
+                <p style="display: block; margin: 2px 0; text-indent: 0px; font-weight: bold;">3.4. Alcance</p>
+                <p style="display: block; margin: 2px 0; text-indent: 0px; font-weight: bold;">3.5. Product Backlog</p>
         </tr>
     </tbody>
 </table>
