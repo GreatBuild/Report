@@ -1614,7 +1614,7 @@ José Rodríguez representa al segmento objetivo de los Especialistas. Es arquit
 
 <div style="text-align: center;">
   <img 
-      src="./img/chapter2/Bryan Espejo.png"
+      src="./img/chapter2/Jose_Rodriguez.png"
       alt="User Persona de Especialistas"
       style="max-width: 65%; height: auto;">
 </div>
@@ -1701,7 +1701,7 @@ Se representan las necesidades, frustraciones y oportunidades del especialista, 
 
 <div style="text-align: center;">
   <img 
-      src="./img/chapter2/Especialista.jpg"
+      src="./img/chapter2/Especialista.png"
       alt="Empathy Map de Especialista"
       style="max-width: 85%; height: auto;">
 </div>
@@ -2695,7 +2695,7 @@ En esta primera etapa, el proyecto no contemplará integraciones con sistemas ex
 
 La priorización de las SWR, US y TS se llevó a cabo de manera colaborativa, tomando como base los conocimientos técnicos y de dominio que cada integrante del equipo aportó al proyecto. Para facilitar este proceso, empleamos la herramienta YouTrack, que permitió organizar y visualizar las tareas de forma estructurada, coordinar esfuerzos de manera conjunta, establecer prioridades con mayor claridad y mantener una trazabilidad efectiva de los elementos gestionados a lo largo del proyecto.
 
-<img src="../../../img/chapter3/youTrack.png" alt="Imagen del YouTrack de ClearCost">
+<img src="/img/chapter3/youTrack.png" alt="Imagen del YouTrack de ClearCost">
 
 <table>
 <thead>
