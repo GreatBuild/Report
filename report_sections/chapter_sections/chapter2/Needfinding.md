@@ -32,11 +32,11 @@ José Rodríguez representa al segmento objetivo de los Especialistas. Es arquit
 
 **Entidad Contratante**
 
-Alfonso Villarán representa al segmento objetivo de las Entidades contratantes. Actualmente busca un contratista para planificar la construcción de su vivienda en un terreno heredado. Se caracteriza por ser una persona precavida, orientada a garantizar la seguridad y bienestar de su futura familia. Además, muestra una marcada afinidad con el uso de la tecnología, lo que le facilita involucrarse activamente en la gestión de su proyecto.
+Javier Luján representa al segmento objetivo de las Entidades contratantes. Actualmente busca un contratista para planificar la construcción de su vivienda en un terreno heredado. Se caracteriza por ser una persona precavida, orientada a garantizar la seguridad y bienestar de su futura familia. Además, muestra una marcada afinidad con el uso de la tecnología, lo que le facilita involucrarse activamente en la gestión de su proyecto.
 
 <div style="text-align: center;">
   <img 
-      src="../../../img/chapter2/userPersona_Contratante.png" 
+      src="../../../img/chapter2/Javier Luján.png" 
       alt="User Persona de Entidad contratante"
       style="max-width: 65%; height: auto;">
 </div>
@@ -53,7 +53,7 @@ Se considera para la realización de este User Task Matrix los User Persona, sus
       <th rowspan="2">Task</th>
       <th colspan="2">Edilberto Cáceres</th>
       <th colspan="2">José Rodríguez</th>
-      <th colspan="2">Alfonso Villarán</th>
+      <th colspan="2">Javier Luján</th>
     </tr>
     <tr>
       <th>Frecuencia</th>
@@ -119,11 +119,11 @@ Se representan las necesidades, frustraciones y oportunidades del especialista, 
 
 **Entidad contratante**
 
-Se representan las necesidades, frustraciones y oportunidades de la entidad contratante, junto con las percepciones de su entorno y sus propias observaciones. Se destaca especialmente la influencia de las experiencias compartidas por colegas y conocidos, así como la comunicación constante y directa que mantiene con el contratista a lo largo del proceso.
+Se representan las necesidades, frustraciones y oportunidades de la entidad contratante, junto con las percepciones de su entorno y sus propias observaciones. Se destaca especialmente la influencia de las experiencias compartidas por colegas y conocidos.
 
 <div style="text-align: center;">
   <img 
-      src="../../../img/chapter2/empathyMap_Contratante.png" 
+      src="../../../img/chapter2/Empathy map-Javier Luján.png" 
       alt="Empathy Map de Entidad Contratante"
       style="max-width: 85%; height: auto;">
 </div>
