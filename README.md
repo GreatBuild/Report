@@ -181,7 +181,7 @@ Este entregable comprende la elaboración del informe desde el Capítulo I hasta
                 <ul>
                     <li><strong>Adriana:</strong> </li>
                     <li><strong>Fabrizio:</strong> Repasé los artefactos necesarios para el capítulo II y III para realizar un correcto dimensionamiento de la solución de software.</li>
-                    <li><strong>Roy:</strong>  </li>
+                    <li><strong>Roy:</strong> Se realizó las entrevistas con su respectivo análisis y los requerimientos funcionales y no funcionales para obtener la información necesaria para seguir con el desarrollo de el proyecto y el software  </li>
                 </ul>
             </td>
             <td>
