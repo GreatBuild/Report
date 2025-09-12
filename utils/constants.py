@@ -55,6 +55,7 @@ CHAPTER_3 = HeaderOutputFile(
         "To-Be.md",
         "UserStories.md",
         "ImpactMapping.md",
+        "Alcance.md"
         "ProductBacklog.md",
     ]
 )
