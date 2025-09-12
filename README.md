@@ -153,6 +153,8 @@ Este entregable comprende la elaboración del informe desde el Capítulo I hasta
   - [3.3. Impact Mapping](#33-impact-mapping)
   - [3.4. Alcance](#34-alcance)
   - [3.5. Product Backlog](#35-product-backlog)
+  - [3.6. Requerimientos Funcionales](#36-requerimientos-funcionales)
+  - [3.7. Requerimientos No Funcionales](#37-requerimientos-no-funcionales)
 - [Conclusiones](#conclusiones)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
@@ -4285,6 +4287,91 @@ La priorización de las SWR, US y TS se llevó a cabo de manera colaborativa, to
 </table>
 
 <div style="page-break-before: always;"></div>
+
+## 3.6. Requerimientos Funcionales
+
+Los requerimientos funcionales definen qué debe hacer el sistema. Se han obtenido y agrupado a partir de las Epics y las Historias de Usuario (US, TS, SWR).
+
+**Módulo de Autenticación y Gestión de Cuentas**
+
+* RF01: El sistema deberá permitir a los nuevos usuarios registrarse, eligiendo entre un perfil de "Miembro de organización" y "Cliente".
+* RF02: El sistema deberá validar que el correo electrónico no esté previamente registrado antes de completar un nuevo registro.
+* RF03: El sistema deberá enviar un correo de confirmación para activar la cuenta del nuevo usuario.
+* RF04: El sistema deberá permitir a los usuarios registrados iniciar sesión con su correo y contraseña.
+* RF05: El sistema deberá permitir a los usuarios cerrar su sesión de forma manual y segura.
+* RF06: El sistema deberá ofrecer una opción para que los usuarios puedan restablecer su contraseña si la han olvidado.
+
+**Módulo de Gestión de Organizaciones**
+
+* RF07: El sistema deberá permitir a un usuario crear una nueva organización consultora, proporcionando datos como razón social y RUC.
+* RF08: El sistema deberá permitir al contratista (administrador) de una organización invitar a nuevos miembros a través de su correo electrónico.
+* RF09: El sistema deberá permitir a los usuarios invitados aceptar o rechazar las invitaciones para unirse a una organización.
+* RF10: El sistema deberá permitir al contratista visualizar y gestionar la lista de miembros de su organización, incluyendo la posibilidad de eliminarlos.
+* RF11: El sistema deberá permitir al contratista editar la información de su organización (razón social, nombre comercial).
+
+**Módulo de Gestión de Proyectos**
+
+* RF12: El sistema deberá permitir al contratista crear nuevos proyectos, especificando nombre, fechas de inicio y fin, y asociando un contrato y una entidad contratante.
+* RF13: El sistema deberá mostrar a los miembros de una organización una lista de todos los proyectos a los que tienen acceso.
+* RF14: El sistema deberá permitir a los miembros del equipo consultar los detalles de un proyecto específico, como su estado, fechas y equipo.
+* RF15: El sistema deberá permitir al contratista editar los datos de un proyecto y cambiar su estado (ej. "En progreso", "Finalizado").
+* RF16: El sistema deberá permitir al contratista eliminar proyectos que ya no son necesarios.
+
+**Módulo de Gestión de Equipo y Cronograma**
+
+* RF17: El sistema deberá permitir al contratista añadir miembros de su organización al equipo de un proyecto, asignándoles un rol ("Coordinador" o "Especialista") y una especialidad si corresponde.
+* RF18: El sistema deberá permitir gestionar el cronograma de un proyecto mediante la creación, edición y eliminación de hitos con fechas de inicio y fin definidas.
+
+**Módulo de Gestión de Tareas**
+
+* RF19: El sistema deberá permitir al contratista crear tareas dentro de un hito, definiendo su nombre, especialidad requerida y fechas de ejecución.
+* RF20: El sistema deberá permitir al contratista asignar un responsable a cada tarea.
+* RF21: El sistema deberá permitir al especialista asignado subir archivos como parte de la entrega de una tarea.
+* RF22: El sistema deberá permitir al coordinador o contratista aprobar o rechazar las entregas de tareas, proporcionando retroalimentación en caso de rechazo.
+* RF23: El sistema deberá permitir al especialista reenviar una tarea que fue rechazada previamente.
+
+**Módulo de Solicitudes de Cambio**
+
+* RF24: El sistema deberá permitir a la entidad contratante o al residente de obra iniciar una solicitud formal de cambio en un proyecto.
+* RF25: El sistema deberá permitir al contratista revisar, aprobar o rechazar las solicitudes de cambio recibidas.
+* RF26: Al aprobar un cambio, el sistema deberá permitir la creación de un nuevo hito en el cronograma para reflejar el trabajo adicional.
+
+## 3.7. Requerimientos No Funcionales
+
+Los requerimientos no funcionales definen cómo debe ser el sistema, estableciendo sus atributos de calidad.
+
+**Usabilidad y Accesibilidad**
+
+* RNF01: La interfaz de usuario deberá ser intuitiva y fácil de usar, incluso para personas con poca experiencia digital, minimizando la curva de aprendizaje.
+* RNF02: El sistema deberá estar disponible 24 horas al día, 7 días a la semana (24/7).
+* RNF03: La plataforma deberá ser accesible desde cualquier dispositivo con conexión a internet, como computadoras de escritorio y dispositivos móviles.
+* RNF04: El sitio web público (Landing Page) deberá ofrecer internacionalización para adaptar su contenido al menos a los idiomas español e inglés.
+
+**Seguridad**
+
+* RNF05: Toda la información financiera y contractual de los proyectos deberá estar protegida con altos estándares de privacidad.
+* RNF06: El acceso a la información deberá estar restringido, permitiendo que solo los usuarios con los permisos adecuados puedan visualizarla o modificarla.
+* RNF07: Las contraseñas de los usuarios deberán almacenarse de forma segura, utilizando técnicas de encriptación como hashing y salting para que nunca se guarden en texto plano.
+* RNF08: El sistema deberá implementar un mecanismo para limitar los intentos fallidos de inicio de sesión y así prevenir ataques de fuerza bruta.
+
+**Rendimiento**
+
+* RNF09: El sistema deberá ser eficiente para optimizar el tiempo y los recursos de los usuarios en la gestión de sus proyectos.
+* RNF10: Los tiempos de respuesta del sistema para las operaciones comunes (cargar proyectos, subir archivos, etc.) deberán ser ágiles para no afectar la productividad del usuario.
+
+**Escalabilidad e Interoperabilidad**
+
+* RNF11: La arquitectura del sistema deberá ser escalable para adaptarse al crecimiento futuro en número de usuarios y proyectos.
+* RNF12: El sistema deberá contemplar la posibilidad de integrarse con otras soluciones de software empresariales o de código abierto en el futuro.
+
+
+
+
+
+
+
+
+
 
 # Conclusiones
 

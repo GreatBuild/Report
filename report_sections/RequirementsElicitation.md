@@ -879,7 +879,7 @@ La plantilla de datos generales permite obtener información básica sobre los e
               <li><strong>Edad: 24 años</strong> </li>
               <li><strong>Distrito: San Juan de Lurigancho</strong> </li>
               <li><strong>URL Entrevista:</strong> <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221b778_upc_edu_pe/EXUmfDv35CtJlqIayO7BJjsB5uF_qp8kDdevyEcgz3_gKw?e=qMDWgB&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">Ver video</a></li>
-              <li><strong>Timestamp:</strong> 00:00</li>
+              <li><strong>Timestamp:</strong> 44:45</li>
               <li><strong>Duración: 05:24 minutos</strong> </li>
             </ul>
           </div>
@@ -940,12 +940,12 @@ La plantilla de datos generales permite obtener información básica sobre los e
               <li><strong>Apellidos: Prado Remón</strong> </li>
               <li><strong>Edad: 24 años</strong> </li>
               <li><strong>Distrito: San Juan de Lurigancho</strong> </li>
-              <li><strong>URL Entrevista:</strong> <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/EREC9iNRgJhIinK3osJI6IYBrl5jviZ00gGwKmbTa1DFvA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=LTJHiH" target="_blank">Ver video</a></li>
-              <li><strong>Timestamp:</strong> 00:00</li>
-              <li><strong>Duración: 0 minutos</strong> </li>
+              <li><strong>URL Entrevista:</strong> <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221b778_upc_edu_pe/ER9bt6vsEx1IgnmR-Iog4AEBGuRPJ5qfXmp1LLslX6VnGA?e=OjTzcZ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">Ver video</a></li>
+              <li><strong>Timestamp:</strong> 50:09</li>
+              <li><strong>Duración: 04:15 minutos</strong> </li>
             </ul>
           </div>
-          <img style="max-width: 40%; height: auto; border-radius: 10px; object-fit: cover; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);" src="../img/chapter2/.png" alt="Screenshot de la entrevista con ">
+          <img style="max-width: 40%; height: auto; border-radius: 10px; object-fit: cover; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);" src="../img/chapter2/EntrevistaJefry.png">
         </div>
       </td>
     </tr>
@@ -955,16 +955,14 @@ La plantilla de datos generales permite obtener información básica sobre los e
           <p style="font-size: 18px; font-weight: bold; color: #2c3e50; margin-bottom: 12px; padding-bottom: 6px;">Resumen</p>
           <ul style="padding-left: 20px; list-style-type: disc; color: #333; font-size: 1em; margin: 0;">
             <li><strong>Personalidad: Muy responsable</strong> </li>
-            <li><strong>Marcas:</strong> </li>
-            <li><strong>Uso de tecnología:</strong> </li>
-            <li><strong>Canales:</strong>  </li>
-            <li><strong>Browsers:</strong> </li>
-            <li><strong>Dispositivos:</strong> </li>
-            <li><strong>Background:</strong> </li>
+            <li><strong>Marcas: Urbania</strong> </li>
+            <li><strong>Uso de tecnología: Android y Windows</strong> </li>
+            <li><strong>Canales: Facebook, TikTok e Instragram</strong>  </li>
+            <li><strong>Browsers: Chrome</strong> </li>
+            <li><strong>Dispositivos: Teléfono y Laptop</strong> </li>
             <li>
-              <strong>Frustraciones:</strong>
+              <strong>Frustraciones: Considera que tiene una falta de experiencia que le permita poder contratar a una persona ideal</strong>
               <ul style="list-style-type: circle; padding-left: 20px;">
-                <li></li>
               </ul>
             </li>
             <li>
@@ -983,70 +981,6 @@ La plantilla de datos generales permite obtener información básica sobre los e
 
 <div style="page-break-before: always;"></div>
 
-<table class="tabla-entrevista">
-  <thead>
-    <tr>
-      <th style="
-            text-align: left;
-            padding: 12px;
-            background-color: #f0f0f0;
-            font-size: 22px;"><strong>SEGMENTO OBJETIVO: ENTIDAD CONTRATANTE</strong></th>
-      <th><strong>#3</strong></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td colspan="2" style="padding: 0; vertical-align: top; background-color: #fff border-top: 1px solid #ddd;">
-        <div style="display: flex; gap: 24px; align-items: flex-start; background-color: #fafafa; border-radius: 10px; padding: 24px;">
-          <div style="flex: 1; display: flex; flex-direction: column;">
-            <p style="font-size: 18px; font-weight: bold; color: #2c3e50; margin-bottom: 12px; padding-bottom: 6px;">Datos generales</p>
-            <ul style="margin: 0; padding-left: 20px; list-style-type: disc; font-size: 1.05em; line-height: 1.7; color: #333;">
-              <li><strong>Nombres: Jefry Alfredo</strong> </li>
-              <li><strong>Apellidos: Prado Remón</strong> </li>
-              <li><strong>Edad: 24 años</strong> </li>
-              <li><strong>Distrito: San Juan de Lurigancho</strong> </li>
-              <li><strong>URL Entrevista:</strong> <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/EREC9iNRgJhIinK3osJI6IYBrl5jviZ00gGwKmbTa1DFvA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=LTJHiH" target="_blank">Ver video</a></li>
-              <li><strong>Timestamp:</strong> 00:00</li>
-              <li><strong>Duración: 0 minutos</strong> </li>
-            </ul>
-          </div>
-          <img style="max-width: 40%; height: auto; border-radius: 10px; object-fit: cover; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);" src="../img/chapter2/.png" alt="Screenshot de la entrevista con ">
-        </div>
-      </td>
-    </tr>
-    <tr>
-      <td colspan="2" style="padding: 0; vertical-align: top; background-color: #fff border-top: 1px solid #ddd;">
-        <div style="background-color: #f9f9f9; border-radius: 10px; padding: 24px; margin-top: 12px;">
-          <p style="font-size: 18px; font-weight: bold; color: #2c3e50; margin-bottom: 12px; padding-bottom: 6px;">Resumen</p>
-          <ul style="padding-left: 20px; list-style-type: disc; color: #333; font-size: 1em; margin: 0;">
-            <li><strong>Personalidad: Muy responsable</strong> </li>
-            <li><strong>Marcas:</strong> </li>
-            <li><strong>Uso de tecnología:</strong> </li>
-            <li><strong>Canales:</strong>  </li>
-            <li><strong>Browsers:</strong> </li>
-            <li><strong>Dispositivos:</strong> </li>
-            <li><strong>Background:</strong> </li>
-            <li>
-              <strong>Frustraciones:</strong>
-              <ul style="list-style-type: circle; padding-left: 20px;">
-                <li></li>
-              </ul>
-            </li>
-            <li>
-              <strong>Flujos principales:</strong>
-              <ul style="list-style-type: circle; padding-left: 20px;">
-                <li>Contactar con el proyectista.</li>
-                <li>Presentar el requerimiento del proyecto.</li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-<div style="page-break-after: always;"></div>
 
 ### 2.2.3. Análisis de entrevistas
 
@@ -1163,11 +1097,11 @@ José Rodríguez representa al segmento objetivo de los Especialistas. Es arquit
 
 **Entidad Contratante**
 
-Alfonso Villarán representa al segmento objetivo de las Entidades contratantes. Actualmente busca un contratista para planificar la construcción de su vivienda en un terreno heredado. Se caracteriza por ser una persona precavida, orientada a garantizar la seguridad y bienestar de su futura familia. Además, muestra una marcada afinidad con el uso de la tecnología, lo que le facilita involucrarse activamente en la gestión de su proyecto.
+Javier Luján representa al segmento objetivo de las Entidades contratantes. Actualmente busca un contratista para planificar la construcción de su vivienda en un terreno heredado. Se caracteriza por ser una persona precavida, orientada a garantizar la seguridad y bienestar de su futura familia. Además, muestra una marcada afinidad con el uso de la tecnología, lo que le facilita involucrarse activamente en la gestión de su proyecto.
 
 <div style="text-align: center;">
   <img 
-      src="../img/chapter2/userPersona_Contratante.png" 
+      src="../img/chapter2/Javier Luján.png" 
       alt="User Persona de Entidad contratante"
       style="max-width: 65%; height: auto;">
 </div>
@@ -1184,7 +1118,7 @@ Se considera para la realización de este User Task Matrix los User Persona, sus
       <th rowspan="2">Task</th>
       <th colspan="2">Edilberto Cáceres</th>
       <th colspan="2">José Rodríguez</th>
-      <th colspan="2">Alfonso Villarán</th>
+      <th colspan="2">Javier Luján</th>
     </tr>
     <tr>
       <th>Frecuencia</th>
@@ -1250,11 +1184,11 @@ Se representan las necesidades, frustraciones y oportunidades del especialista, 
 
 **Entidad contratante**
 
-Se representan las necesidades, frustraciones y oportunidades de la entidad contratante, junto con las percepciones de su entorno y sus propias observaciones. Se destaca especialmente la influencia de las experiencias compartidas por colegas y conocidos, así como la comunicación constante y directa que mantiene con el contratista a lo largo del proceso.
+Se representan las necesidades, frustraciones y oportunidades de la entidad contratante, junto con las percepciones de su entorno y sus propias observaciones. Se destaca especialmente la influencia de las experiencias compartidas por colegas y conocidos.
 
 <div style="text-align: center;">
   <img 
-      src="../img/chapter2/empathyMap_Contratante.png" 
+      src="../img/chapter2/Empathy map-Javier Luján.png" 
       alt="Empathy Map de Entidad Contratante"
       style="max-width: 85%; height: auto;">
 </div>
