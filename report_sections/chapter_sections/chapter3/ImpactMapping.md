@@ -12,7 +12,7 @@ En primer lugar, alcanzar que el 3% de las empresas consultoras de obras en Lima
 
 * José Rodríguez interviene de manera activa en las reuniones del proyecto.
 
-* Alfonso Villarán realiza un seguimiento constante de que se cumplan sus requisitos durante la elaboración del expediente técnico.
+* Javier Luján realiza un seguimiento constante de que se cumplan sus requisitos durante la elaboración del expediente técnico.
 
 En segundo lugar, el objetivo de reducir en un 50% el tiempo requerido para replanificar un expediente técnico podrá lograrse si:
 
@@ -20,4 +20,4 @@ En segundo lugar, el objetivo de reducir en un 50% el tiempo requerido para repl
 
 * José Rodríguez es notificado puntualmente sobre nuevas tareas asignadas y reuniones programadas.
 
-* Alfonso Villarán solicita las modificaciones necesarias de forma oportuna durante el desarrollo del expediente técnico.
+* Javier Luján solicita las modificaciones necesarias de forma oportuna durante el desarrollo del expediente técnico.

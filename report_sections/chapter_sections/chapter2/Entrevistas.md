@@ -531,7 +531,7 @@ La plantilla de datos generales permite obtener información básica sobre los e
               <li><strong>Edad: 24 años</strong> </li>
               <li><strong>Distrito: San Juan de Lurigancho</strong> </li>
               <li><strong>URL Entrevista:</strong> <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221b778_upc_edu_pe/EXUmfDv35CtJlqIayO7BJjsB5uF_qp8kDdevyEcgz3_gKw?e=qMDWgB&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">Ver video</a></li>
-              <li><strong>Timestamp:</strong> 00:00</li>
+              <li><strong>Timestamp:</strong> 44:45</li>
               <li><strong>Duración: 05:24 minutos</strong> </li>
             </ul>
           </div>
@@ -593,7 +593,7 @@ La plantilla de datos generales permite obtener información básica sobre los e
               <li><strong>Edad: 24 años</strong> </li>
               <li><strong>Distrito: San Juan de Lurigancho</strong> </li>
               <li><strong>URL Entrevista:</strong> <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221b778_upc_edu_pe/ER9bt6vsEx1IgnmR-Iog4AEBGuRPJ5qfXmp1LLslX6VnGA?e=OjTzcZ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">Ver video</a></li>
-              <li><strong>Timestamp:</strong> 00:00</li>
+              <li><strong>Timestamp:</strong> 50:09</li>
               <li><strong>Duración: 04:15 minutos</strong> </li>
             </ul>
           </div>
