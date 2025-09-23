@@ -94,3 +94,12 @@ Servicios autónomos por dominio de negocio, con datos propios y comunicación p
 ### 4.1.3. Context Diagram
 
 Se adjuntó diagrama de contexto del sistema ***ClearCost*** realizado con Visual Paradigm.
+
+![Foto](/img/chapter4/structurizr-ContextDiagram.png)
+
+<div style="page-break-before: always;"></div>
+
+### 4.1.4. Approach driven ViewPoints Diagrams
+
+
+
