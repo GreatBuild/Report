@@ -155,6 +155,22 @@ Este entregable comprende la elaboración del informe desde el Capítulo I hasta
   - [3.5. Product Backlog](#35-product-backlog)
   - [3.6. Requerimientos Funcionales](#36-requerimientos-funcionales)
   - [3.7. Requerimientos No Funcionales](#37-requerimientos-no-funcionales)
+- [Capítulo IV: Product Architecture Design](#capítulo-iv-product-architecture-design)
+  - [4.1.	Desing Concepts, ViewPoints & ER Diagrams](desing-concepts)
+    - [4.1.1.	Principles Statements](principales-statements)
+    - [4.1.2.	Approaches Statements Architectural Styles & Patterns](Approaches-statements-architectural-styles)
+    - [4.1.3.	 Context Diagram](context-diagram)
+    - [4.1.4.	Approach driven ViewPoints Diagrams](Approach-driven-ViewPoints-Diagrams)
+    - [4.1.5.	Relational/Non Relational Database Diagram](Relational/NonRelational-Database-Diagram)
+    - [4.1.6.	Design Patterns](design-patterns)
+    - [4.1.7.	Tactics](tactics)
+  - [4.2.	Architectural Drivers](Architectural-Drivers)
+    - [4.1.8.	Design Purpose](Design-Purpose)
+    - [4.1.9.	Primary Functionality (Primary User Stories)](Primary-Functionality-Primary-User-Stories)
+    - [4.1.10.	Quality Attribute Scenarios](Quality-Attribute-Scenarios)
+    - [4.1.11.	Constraints](Constraints)
+    - [4.1.12.	Architectural Concerns](Architectural-Concerns)
+
 - [Conclusiones](#conclusiones)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
@@ -4364,8 +4380,19 @@ Los requerimientos no funcionales definen cómo debe ser el sistema, establecien
 * RNF11: La arquitectura del sistema deberá ser escalable para adaptarse al crecimiento futuro en número de usuarios y proyectos.
 * RNF12: El sistema deberá contemplar la posibilidad de integrarse con otras soluciones de software empresariales o de código abierto en el futuro.
 
+# Capítulo IV: Product Architecture Design
 
+## 4.2.	Architectural Drivers
 
+## 4.1.8. Design Purpose
+
+El propósito del diseño de GreatBuild – ClearCost es garantizar una implementación coherente con la arquitectura del sistema, integrando módulos de gestión de expedientes técnicos, control financiero y organización de tareas. Su diseño busca optimizar procesos, reducir errores y fortalecer la comunicación entre equipos multidisciplinarios, asegurando una plataforma escalable y confiable que apoye la transformación digital del sector de la construcción.
+
+## 4.1.9.	Primary Functionality (Primary User Stories)
+
+## 4.1.10.	Quality Attribute Scenarios
+## 4.1.11.	Constraints
+## 4.1.12.	Architectural Concerns
 
 
 
