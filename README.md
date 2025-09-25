@@ -4386,16 +4386,145 @@ Los requerimientos no funcionales definen cómo debe ser el sistema, establecien
 
 ## 4.1.8. Design Purpose
 
-El propósito del diseño de GreatBuild – ClearCost es garantizar una implementación coherente con la arquitectura del sistema, integrando módulos de gestión de expedientes técnicos, control financiero y organización de tareas. Su diseño busca optimizar procesos, reducir errores y fortalecer la comunicación entre equipos multidisciplinarios, asegurando una plataforma escalable y confiable que apoye la transformación digital del sector de la construcción.
+El propósito del diseño de ClearCost es garantizar una implementación coherente con la arquitectura del sistema, integrando módulos de gestión de expedientes técnicos, control financiero y organización de tareas. Su diseño busca optimizar procesos, reducir errores y fortalecer la comunicación entre equipos multidisciplinarios, asegurando una plataforma escalable y confiable que apoye la transformación digital del sector de la construcción.
 
 ## 4.1.9.	Primary Functionality (Primary User Stories)
 
+En esta sección se identifican los requisitos iniciales que impactan la estructura de la aplicación.  
+Estos user stories definen las entidades, módulos y relaciones fundamentales sobre las que se construirá el sistema.
+
+| ID        | Título                       | Descripción                                                                                  | Impacto estructural |
+|-----------|------------------------------|----------------------------------------------------------------------------------------------|----------------------|
+| US001–US005 | Crear proyecto con nombre, fechas, contrato y entidad contratante | Permite definir la base de un proyecto de construcción. | Entidad **Proyecto** con relaciones a **Contrato** y **Entidad Contratante**. |
+| US006–US007 | Listado y detalles de proyectos | Usuarios visualizan proyectos accesibles según su rol. | Control de **accesos y permisos**. |
+| US012–US017 | Gestión de equipo y roles   | Contratista agrega miembros, define roles y especialidades.                                  | Entidades **MiembroProyecto**, **Rol**, **Especialidad**. |
+| US022–US026 | Hitos del cronograma        | Definición de etapas dentro del proyecto.                                                    | Entidad **Hito**, validaciones de fechas dentro del proyecto. |
+| US032–US038 | Tareas del cronograma       | Creación y asignación de tareas a miembros.                                                  | Entidad **Tarea** y relación con **Hito** y **Miembro**. |
+| US045–US051 | Entrega y revisión de tareas | Flujo de trabajo con estados (SUBMITTED, APPROVED, REJECTED).                                | Ciclo de vida de **Tarea**, **TaskSubmission** y adjuntos. |
+| US076–US083 | Procesos de cambio          | Solicitud, aprobación o rechazo de cambios.                                                  | Entidad **ProcesoCambio** vinculada a **Proyecto**. |
+| US087–US093 | Organización e invitaciones | Crear y gestionar organizaciones.                                                            | Entidad **Organización**, relación con proyectos y miembros. |
+| US117–US125 | Registro e inicio de sesión | Registro por tipo de cuenta, confirmación y autenticación.                                   | Módulo **Auth** y entidades **Usuario** y **Perfil**. |
+
 ## 4.1.10.	Quality Attribute Scenarios
+
+A continuación, se presentan los escenarios de atributos de calidad definidos para el sistema. Cada escenario se describe considerando la fuente de estímulo, el estímulo, el medioambiente, el artefacto, la respuesta y la medida de respuesta.
+
+### 1. Rendimiento (Performance)  
+- **Fuente de estímulo:** Un contratista.  
+- **Estímulo:** Solicita visualizar el cronograma de un proyecto con más de 500 actividades.  
+- **Medioambiente:** El sistema está operando en condiciones normales, con 50 usuarios concurrentes.  
+- **Artefacto:** Módulo de gestión de cronogramas.  
+- **Respuesta:** El sistema carga y muestra el cronograma completo.  
+- **Medida de respuesta:** El tiempo de respuesta no debe exceder los 3 segundos.  
+
+
+### 2. Disponibilidad (Availability)  
+- **Fuente de estímulo:** Un contratista o supervisor.  
+- **Estímulo:** Intenta acceder al sistema durante el horario de trabajo.  
+- **Medioambiente:** El sistema está en operación normal.  
+- **Artefacto:** Plataforma completa (backend y frontend).  
+- **Respuesta:** El sistema permite iniciar sesión y ejecutar funciones principales.  
+- **Medida de respuesta:** El sistema debe garantizar una disponibilidad mínima del 99.5% mensual.  
+
+
+### 3. Seguridad (Security)  
+- **Fuente de estímulo:** Un usuario no autenticado.  
+- **Estímulo:** Intenta acceder a la información financiera de un proyecto.  
+- **Medioambiente:** El sistema se encuentra en producción y bajo carga normal.  
+- **Artefacto:** Módulo de gestión financiera.  
+- **Respuesta:** El acceso es denegado y el intento queda registrado en los logs de seguridad.  
+- **Medida de respuesta:** Ningún dato sensible es expuesto y el evento debe registrarse en menos de 1 segundo.  
+
+
+### 4. Mantenibilidad (Modifiability)  
+- **Fuente de estímulo:** Un desarrollador.  
+- **Estímulo:** Se requiere cambiar la lógica de cálculo de costos unitarios.  
+- **Medioambiente:** El sistema se encuentra en fase de desarrollo, con acceso al repositorio de código.  
+- **Artefacto:** Módulo de cálculo de costos.  
+- **Respuesta:** El desarrollador realiza el cambio, prueba y despliega en el ambiente de pruebas.  
+- **Medida de respuesta:** El tiempo requerido para la modificación no debe superar 4 horas.  
+
+
+### 5. Usabilidad (Usability)  
+- **Fuente de estímulo:** Un contratista nuevo en la plataforma.  
+- **Estímulo:** Intenta crear su primer proyecto desde el formulario.  
+- **Medioambiente:** El sistema está en operación normal.  
+- **Artefacto:** Módulo de creación de proyectos.  
+- **Respuesta:** El usuario completa exitosamente el registro del proyecto siguiendo los pasos guiados.  
+- **Medida de respuesta:** El 90% de los usuarios primerizos logra crear un proyecto en menos de 5 minutos sin asistencia.  
+
+
 ## 4.1.11.	Constraints
+
+En esta sección se detallan las restricciones arquitectónicas que condicionan el diseño y la implementación del sistema:
+
+- **Topología de red**  
+  - Acceso a través de DMZ con firewall corporativo.  
+  - Conexiones externas obligatoriamente por HTTPS.  
+
+- **Base de datos**  
+  - Uso obligatorio de PostgreSQL administrado por el área de TI.  
+  - No se permite introducir nuevos motores de base de datos.  
+
+- **Entorno web**  
+  - Despliegue en servidores aprobados por la organización.  
+  - Balanceo de carga y WAF corporativo son obligatorios.  
+
+- **Servidores e infraestructura**  
+  - Uso de Azure como nube autorizada, en la región South America.  
+  - Imágenes de sistema operativo homologadas por TI.  
+
+- **Software de terceros**  
+  - Integraciones permitidas solo con herramientas aprobadas: Power BI, SAP, Autodesk.  
+  - Gestión de secretos mediante Azure Key Vault.  
+
+- **Cumplimiento de normas**  
+  - Cumplimiento de la **Ley N.º 29733 (Protección de Datos Personales en Perú)**.  
+  - Adopción de buenas prácticas OWASP y cifrado de datos en reposo y en tránsito.  
+
+- **Integraciones**  
+  - Autenticación centralizada con Azure AD.  
+  - Conector a sistemas ERP (SAP/Oracle) y exportación a Power BI.  
+
+- **Disponibilidad y continuidad**  
+  - SLA objetivo de 99.9%.  
+  - RPO máximo: 15 minutos.  
+  - RTO máximo: 2 horas.  
+
+- **Costos y tiempos**  
+  - Presupuesto mensual de nube limitado por centro de costos.  
+  - Autoescalado configurado con límites superiores para controlar gastos.  
+
+- **UX y accesibilidad**  
+  - Idioma por defecto: Español (es-PE).  
+  - Interfaz responsive.  
+
+
 ## 4.1.12.	Architectural Concerns
 
+En el contexto del proyecto ClearCost, las principales preocupaciones arquitectónicas identificadas son:
 
+- **Seguridad de la información**  
+  Protección de datos financieros y técnicos sensibles de cada proyecto.  
+  Control de accesos para evitar que contratistas o clientes modifiquen información crítica sin autorización.  
 
+- **Disponibilidad y continuidad**  
+  Garantizar que la plataforma esté disponible para los usuarios con un SLA objetivo de 99.9%.  
+  Planes de contingencia en caso de fallos (RPO de 15 min, RTO de 2 horas).  
+
+- **Escalabilidad**  
+  Posibilidad de manejar proyectos de distintas magnitudes (pequeñas obras vs. megaproyectos de infraestructura).  
+  Adaptabilidad a más usuarios y equipos en paralelo.  
+
+- **Integración con sistemas existentes**  
+  Conexión con herramientas de contabilidad, gestión documental y comunicación ya usadas por constructoras.  
+
+- **Cumplimiento normativo**  
+  Asegurar que los procesos digitales respeten regulaciones de construcción, auditorías financieras y normas de seguridad digital.  
+
+- **Experiencia de usuario y colaboración**  
+  Interfaz clara para contratistas, especialistas y administradores.  
+  Soporte para trabajo colaborativo y seguimiento de reuniones.  
 
 
 
