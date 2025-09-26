@@ -131,3 +131,53 @@ Para continuar con el proceso de desarrollo de **ClearCost**, y basándonos en l
   * **Razón para el Refinamiento:** Aumentar la resiliencia y **disponibilidad** del sistema, desacoplando los servicios para que el fallo de un componente no crítico (ej. Notificaciones) no afecte a los componentes centrales (ej. Gestión de Proyectos).
   * **Esperado:** Una implementación clara de patrones como **API Gateway** y **Comunicación Asíncrona** que asegure un sistema robusto y resiliente.
 
+#### 4.3.1.4. Choose One or More Design Concepts That Satisfy the Selected Drivers
+
+Tras identificar los elementos del sistema que requieren refinamiento, el siguiente paso es seleccionar los conceptos de diseño adecuados que satisfagan los drivers arquitectónicos seleccionados. Estos conceptos de diseño son esenciales para guiar el desarrollo del sistema y asegurar que los objetivos de la iteración se cumplan eficientemente. A continuación, se detallan los conceptos de diseño seleccionados para cada uno de los drivers clave:
+
+---
+
+#### **Seguridad**
+
+* **Concepto de Diseño: Autenticación y Autorización Centralizada**
+  * [cite_start]**Descripción:** Emplear un proveedor de identidad externo (Azure AD) y un modelo de Control de Acceso Basado en Roles (RBAC) para gestionar permisos de usuario. [cite: 5542]
+  * **Justificación:** Esta decisión satisface la restricción del uso de Azure AD y centraliza la lógica de seguridad, evitando que cada microservicio la reimplemente. Minimiza el riesgo de accesos no autorizados y apoya el driver de seguridad.
+
+* **Concepto de Diseño: Gateway de API Seguro (API Gateway)**
+  * [cite_start]**Descripción:** Utilizar un API Gateway que actúe como un punto único de control de seguridad para gestionar la validación de tokens, las autorizaciones y el cifrado de las comunicaciones. [cite: 5466]
+  * **Justificación:** Proporciona una capa adicional de seguridad para las interacciones entre los clientes y el back-end, fortaleciendo la protección contra ataques externos y simplificando la gestión de la seguridad.
+
+---
+
+#### **Alta Disponibilidad**
+
+* **Concepto de Diseño: Sistemas Tolerantes a Fallos**
+  * [cite_start]**Descripción:** Emplear tácticas de redundancia (múltiples instancias de cada servicio) y replicación de datos para garantizar que el sistema siga operativo incluso si una parte falla. [cite: 5533, 5536]
+  * **Justificación:** Aumenta la resiliencia del sistema y minimiza el tiempo de inactividad, asegurando una alta disponibilidad para cumplir con el SLA del 99.5%.
+
+* **Concepto de Diseño: Comunicación Asíncrona**
+  * [cite_start]**Descripción:** Utilizar un Message Broker para la comunicación entre servicios que no requieren una respuesta inmediata. [cite: 957, 5472]
+  * **Justificación:** Desacopla los servicios, permitiendo que el sistema siga funcionando incluso si un servicio consumidor está temporalmente caído. [cite_start]Esto mejora la disponibilidad general y la percepción de rendimiento. [cite: 1417, 1488]
+
+* **Concepto de Diseño: Patrón Circuit Breaker**
+  * [cite_start]**Descripción:** Implementar un mecanismo de *Circuit Breaker* para evitar que las llamadas a servicios que están fallando se propaguen en cascada. [cite: 1113, 5468]
+  * **Justificación:** Permite que el sistema se degrade de forma controlada en lugar de fallar por completo, aislando el problema y dando tiempo para la recuperación.
+
+---
+
+#### **Mantenibilidad (Modificabilidad)**
+
+* **Concepto de Diseño: Arquitectura de Microservicios y Domain-Driven Design (DDD)**
+  * [cite_start]**Descripción:** Descomponer la aplicación en servicios pequeños y autónomos, donde cada uno se alinea con un Bounded Context del negocio (Finanzas, Proyectos, Colaboración, etc.). [cite: 3131, 5455]
+  * **Justificación:** Reduce drásticamente la complejidad de cada módulo. Permite que equipos independientes desarrollen, prueben y desplieguen sus servicios sin afectar a los demás, cumpliendo así el objetivo de implementar cambios en menos de 4 horas.
+
+* **Concepto de Diseño: Base de Datos por Servicio (Database per Service)**
+  * [cite_start]**Descripción:** Asignar a cada microservicio su propia base de datos, evitando el acceso directo a la base de datos de otros servicios. [cite: 5470]
+  * **Justificación:** Es la táctica clave para lograr un bajo acoplamiento. Garantiza que el esquema de datos de un servicio pueda evolucionar sin romper otros servicios, lo que es fundamental para la mantenibilidad a largo plazo.
+
+---
+
+##### **Objetivo de los Conceptos de Diseño**
+
+Para la **seguridad**, la Autenticación Centralizada y el API Gateway aseguran que solo usuarios autorizados accedan a los datos. Para la **alta disponibilidad**, el uso de Sistemas Tolerantes a Fallos, Comunicación Asíncrona y el patrón Circuit Breaker implementan redundancia y resiliencia para garantizar la operación continua. Para la **mantenibilidad**, la Arquitectura de Microservicios alineada con DDD y el patrón de Base de Datos por Servicio permiten que el sistema evolucione de forma rápida y segura, facilitando el desarrollo paralelo y los despliegues independientes.
+
