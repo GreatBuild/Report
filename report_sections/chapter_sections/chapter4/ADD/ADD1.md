@@ -105,3 +105,29 @@ En esta iteración, se seleccionarán los drivers clave para establecer metas y 
 * **Alta Disponibilidad:** El objetivo es asegurar una operatividad continua con mínimas interrupciones, implementando sistemas de replicación de servicios y políticas de *failover* efectivas para una rápida recuperación ante fallos.
 * **Mantenibilidad:** Nos proponemos diseñar una arquitectura de microservicios alineada con los dominios del negocio que facilite la evolución del sistema y la entrega continua de valor. Esto se logrará mediante la implementación de límites claros entre servicios y bases de datos independientes.
 
+#### 4.3.1.3. Choose One or More Elements of the System to Refine
+
+Para continuar con el proceso de desarrollo de **ClearCost**, y basándonos en los objetivos de la iteración y los drivers previamente establecidos, el siguiente paso es seleccionar uno o más elementos del sistema que requieren refinamiento. Estos elementos se eligen con el propósito de mejorar la **Seguridad**, la **Disponibilidad** y la **Mantenibilidad** de la plataforma. A continuación, se detallan los elementos seleccionados para el refinamiento:
+
+---
+
+* **Autenticación y Seguridad de Datos:**
+  * **Elemento a Refinar:** Sistema de autenticación y mecanismos de cifrado de datos.
+  * **Razón para el Refinamiento:** Asegurar que todos los aspectos de la seguridad de la información cumplan con los estándares actuales y protejan eficazmente la data financiera y contractual contra amenazas externas e internas.
+  * **Esperado:** Implementación de una autenticación centralizada y robusta (integrada con Azure AD), junto con la actualización de los protocolos de cifrado para datos en reposo y en tránsito.
+
+* **Arquitectura de Microservicios:**
+  * **Elemento a Refinar:** Descomposición de la aplicación en microservicios alineados a los Bounded Contexts.
+  * **Razón para el Refinamiento:** Mejorar la **mantenibilidad** y la **escalabilidad** del sistema, permitiendo que diferentes dominios funcionales (Proyectos, Finanzas, etc.) se desarrollen y desplieguen de manera independiente.
+  * **Esperado:** Un diseño de microservicios bien estructurado que optimice la evolución del producto y la velocidad de entrega de nuevas funcionalidades.
+
+* **Sistemas de Replicación y Failover:**
+  * **Elemento a Refinar:** Mecanismos de replicación de servicios y políticas de *failover*.
+  * **Razón para el Refinamiento:** Minimizar el tiempo de inactividad y garantizar una alta **disponibilidad** (SLA del 99.5%) incluso durante incidentes no planificados.
+  * **Esperado:** Configuración de replicación en múltiples zonas de disponibilidad y pruebas de *failover* automáticas que garanticen la continuidad del servicio.
+
+* **Comunicación entre Servicios:**
+  * **Elemento a Refinar:** Diseño de la comunicación síncrona (vía API Gateway) y asíncrona (vía Message Broker).
+  * **Razón para el Refinamiento:** Aumentar la resiliencia y **disponibilidad** del sistema, desacoplando los servicios para que el fallo de un componente no crítico (ej. Notificaciones) no afecte a los componentes centrales (ej. Gestión de Proyectos).
+  * **Esperado:** Una implementación clara de patrones como **API Gateway** y **Comunicación Asíncrona** que asegure un sistema robusto y resiliente.
+
