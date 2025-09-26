@@ -62,3 +62,46 @@ En este backlog, nos enfocaremos en desarrollar y detallar las características 
     * Se demuestra que un cambio en la lógica de cálculo de costos (dentro del `FinanceService`) se puede implementar y desplegar en **menos de 4 horas** sin necesidad de redesplegar otros servicios.
     * Las interfaces entre microservicios están documentadas y no presentan acoplamiento a nivel de base de datos.
     * Cada microservicio puede ser desplegado de forma independiente en un entorno de pruebas.
+
+#### 4.3.1.2. Establish Iteration Goal by Selecting Drivers
+
+En esta iteración, se seleccionarán los drivers clave para establecer metas y objetivos concretos que garanticen la efectividad, seguridad y evolución de la plataforma **ClearCost**. Las metas se definirán a partir de los pilares de **Seguridad**, **Disponibilidad** y **Mantenibilidad**, identificados como fundamentales en el *Architectural Design Backlog* para cumplir con las expectativas de los usuarios y los objetivos de negocio de GreatBuild.
+
+---
+
+##### **Meta de Seguridad**
+
+* **Objetivo:** Fortalecer la infraestructura de seguridad de ClearCost para proteger la integridad de los datos financieros y de los proyectos, así como las transacciones dentro de la plataforma, generando confianza en todos los actores.
+* **Acciones Clave:**
+  * Implementar autenticación centralizada para todos los usuarios, integrando un proveedor de identidad externo (Azure AD).
+  * Aplicar cifrado robusto para los datos sensibles tanto en tránsito (HTTPS) como en reposo (bases de datos y almacenamiento de archivos).
+  * Establecer un sistema de logging y auditoría para registrar las operaciones críticas y los intentos de acceso.
+
+---
+
+##### **Meta de Alta Disponibilidad**
+
+* **Objetivo:** Mantener la disponibilidad continua del servicio ClearCost, asegurando una mínima interrupción incluso durante fallos para que los equipos de construcción puedan operar sin impedimentos.
+* **Acciones Clave:**
+  * Implementar replicación de los servicios críticos en múltiples zonas de disponibilidad.
+  * Establecer y probar políticas de *failover* automáticas para asegurar una rápida recuperación ante fallos.
+  * Utilizar patrones de resiliencia como *Circuit Breaker* para evitar fallos en cascada entre microservicios.
+
+---
+
+##### **Meta de Mantenibilidad (Modificabilidad)**
+
+* **Objetivo:** Diseñar una arquitectura que permita una evolución rápida y desacoplada del sistema, facilitando que los equipos de desarrollo puedan entregar nuevas funcionalidades de manera eficiente y en paralelo.
+* **Acciones Clave:**
+  * Diseñar los servicios basándose en los **Bounded Contexts** definidos (Finanzas, Proyectos, Colaboración, Identidad y Accesos).
+  * Implementar el patrón **Database per Service** para garantizar la autonomía de cada microservicio.
+  * Establecer contratos de API claros y versionados para asegurar una comunicación predecible entre los servicios.
+
+---
+
+##### **Objetivo de la Iteración**
+
+* **Seguridad:** El objetivo es robustecer la protección mediante la implementación de autenticación centralizada y el cifrado de datos sensibles, garantizando así la seguridad integral de la información y la confidencialidad de los proyectos.
+* **Alta Disponibilidad:** El objetivo es asegurar una operatividad continua con mínimas interrupciones, implementando sistemas de replicación de servicios y políticas de *failover* efectivas para una rápida recuperación ante fallos.
+* **Mantenibilidad:** Nos proponemos diseñar una arquitectura de microservicios alineada con los dominios del negocio que facilite la evolución del sistema y la entrega continua de valor. Esto se logrará mediante la implementación de límites claros entre servicios y bases de datos independientes.
+
