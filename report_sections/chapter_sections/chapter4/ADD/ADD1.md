@@ -181,3 +181,49 @@ Tras identificar los elementos del sistema que requieren refinamiento, el siguie
 
 Para la **seguridad**, la Autenticación Centralizada y el API Gateway aseguran que solo usuarios autorizados accedan a los datos. Para la **alta disponibilidad**, el uso de Sistemas Tolerantes a Fallos, Comunicación Asíncrona y el patrón Circuit Breaker implementan redundancia y resiliencia para garantizar la operación continua. Para la **mantenibilidad**, la Arquitectura de Microservicios alineada con DDD y el patrón de Base de Datos por Servicio permiten que el sistema evolucione de forma rápida y segura, facilitando el desarrollo paralelo y los despliegues independientes.
 
+#### 4.3.1.5. Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces
+
+En esta fase del diseño, se instancian los elementos arquitectónicos basados en los conceptos previamente seleccionados. Se definen las responsabilidades de cada módulo y las interfaces a través de las cuales interactuarán. Este proceso asegura que cada componente cumpla con una función específica y se integre de manera cohesiva en la arquitectura general de **ClearCost**, satisfaciendo los drivers de **Seguridad**, **Disponibilidad** y **Mantenibilidad**.
+
+---
+
+* **Módulo de API Gateway**
+  * **Elementos Arquitectónicos:** Servidor de API Gateway (ej. Spring Cloud Gateway), Lógica de enrutamiento, Filtros de seguridad.
+  * **Responsabilidades:**
+    * Ser el único punto de entrada para todas las peticiones externas.
+    * Validar los tokens de autenticación (JWT) en cada solicitud.
+    * Enrutar las peticiones a los microservicios internos correspondientes.
+    * Aplicar políticas de seguridad transversales (ej. Rate Limiting).
+  * **Interfaces:** API REST expuesta a los clientes (SPA, Móvil) con endpoints versionados. Comunicación interna con los microservicios vía HTTPS o gRPC.
+
+* **Módulo de Arquitectura de Microservicios (Estilo Principal)**
+  * **Elementos Arquitectónicos:** Contenedores de servicios independientes por cada Bounded Context (`IdentityService`, `ProjectService`, `FinanceService`, `CollaborationService`).
+  * **Responsabilidades:**
+    * [cite_start]Cada servicio encapsula una capacidad de negocio específica y completa[cite: 5751].
+    * [cite_start]Cada servicio gestiona su propio estado y persistencia de datos[cite: 8094].
+    * [cite_start]Los servicios se despliegan de forma independiente[cite: 5752].
+  * **Interfaces:** Cada servicio expone una API REST/gRPC bien definida para ser consumida por el API Gateway u otros servicios. Se suscriben y publican eventos en el Message Broker.
+
+* **Módulo de Comunicación Asíncrona**
+  * **Elementos Arquitectónicos:** Message Broker (ej. Azure Service Bus, RabbitMQ), Canales de eventos (Topics/Queues).
+  * **Responsabilidades:**
+    * [cite_start]Gestionar la cola de mensajes para desacoplar la comunicación entre microservicios[cite: 8879].
+    * Garantizar la entrega de eventos incluso si los servicios consumidores no están disponibles temporalmente.
+    * [cite_start]Soportar patrones como Publish/Subscribe para notificaciones[cite: 8796].
+  * **Interfaces:** Interfaz para publicar eventos (ej. `TareaCreada`, `PresupuestoAprobado`) y para suscribirse a dichos eventos.
+
+* **Módulo de Diseño de Sistemas Tolerantes a Fallos**
+  * **Elementos Arquitectónicos:** Orquestador de contenedores (ej. Kubernetes en Azure AKS), Múltiples instancias (réplicas) de cada microservicio, Health Check endpoints.
+  * **Responsabilidades:**
+    * [cite_start]Mantener la disponibilidad del sistema mediante la replicación de componentes críticos[cite: 8578].
+    * Detectar y reiniciar automáticamente instancias de servicios que han fallado.
+    * Distribuir la carga de trabajo entre las instancias disponibles.
+  * **Interfaces:** Endpoints `/health` en cada microservicio que el orquestador consume para verificar el estado del servicio.
+
+* **Módulo de Persistencia de Datos**
+  * **Elementos Arquitectónicos:** Bases de datos PostgreSQL independientes para cada microservicio (Patrón Database per Service).
+  * **Responsabilidades:**
+    * [cite_start]Cada base de datos es propiedad exclusiva de un único microservicio, que es el único que puede acceder a ella directamente[cite: 8094].
+    * Garantizar la integridad y consistencia de los datos dentro de su propio Bounded Context.
+  * **Interfaces:** Interfaces de Repositorio (ej. `ProjectRepository`) dentro de cada microservicio que abstraen el acceso a los datos.
+
