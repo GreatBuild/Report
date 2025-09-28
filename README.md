@@ -203,7 +203,7 @@ Este entregable comprende la elaboración del informe desde el Capítulo I hasta
                 </ul>
                 <strong>TB2:</strong><br>
                 <ul>
-                    <li><strong>Adriana:</strong>  </li>
+                    <li><strong>Adriana:</strong> Actualicé mis conocimientos aplicando conceptos de arquitectura de software, trabajando en los drivers arquitectónicos, el propósito de diseño, la funcionalidad principal (user stories), los escenarios de atributos de calidad, las restricciones y las preocupaciones arquitectónicas. Esto me permitió fortalecer mi capacidad para traducir requisitos en decisiones arquitectónicas justificadas, especificar atributos de calidad medibles, diseñar bajo limitaciones reales y gestionar riesgos, consolidando así criterios técnicos y prácticos que aportan directamente a mi desarrollo profesional y a la solidez del proyecto. </li>
                     <li><strong>Fabrizio:</strong> </li>
                     <li><strong>Roy:</strong> La aplicación del método Attribute-Driven Design (ADD) y el Modelo C4 fue fundamental para nuestro desarrollo. A través de este proceso,se logró traducir los requerimientos de negocio y los atributos de calidad abstractos de ClearCost como la Mantenibilidad y la Seguridad en decisiones arquitectónicas concretas y justificables, como la adopción de Microservicios y el uso de un API Gateway. Esta experiencia práctica permitió actualizar y afianzar el conocimiento teórico, aplicándolo directamente para construir una base arquitectónica sólida y bien documentada.  </li>
                 </ul>
@@ -226,7 +226,7 @@ Este entregable comprende la elaboración del informe desde el Capítulo I hasta
                 </ul>
                 <strong>TB2:</strong><br>
                 <ul>
-                    <li><strong>Adriana:</strong> </li>
+                    <li><strong>Adriana:</strong> Reconocí que el aprendizaje continuo es esencial, ya que al profundizar en aspectos de arquitectura de software como drivers, atributos de calidad y preocupaciones arquitectónicas, pude ampliar mis conocimientos técnicos y aplicarlos en ClearCost, fortaleciendo mi desarrollo profesional y la calidad del proyecto. </li>
                     <li><strong>Fabrizio:</strong> </li>
                     <li><strong>Roy:</strong> El diseño de la arquitectura para ClearCost demostró que la aplicación de metodologías formales, como Attribute-Driven Design (ADD) y el Modelo C4, es un ejercicio de aprendizaje constante. No fue suficiente con entender la teoría; el verdadero desafío consistió en traducir los drivers de negocio y los atributos de calidad en un modelo visual coherente y justificable. Este proceso me obligó a investigar y aplicar patrones y tácticas arquitectónicas específicas para resolver los problemas del proyecto, evidenciando que el rol del arquitecto exige una actualización continua de conocimientos para diseñar soluciones robustas y comunicar eficazmente decisiones complejas. </li>
                 </ul>
