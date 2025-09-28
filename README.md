@@ -201,9 +201,16 @@ Este entregable comprende la elaboración del informe desde el Capítulo I hasta
                     <li><strong>Fabrizio:</strong> Repasé los artefactos necesarios para el capítulo II y III para realizar un correcto dimensionamiento de la solución de software.</li>
                     <li><strong>Roy:</strong> Se realizó las entrevistas con su respectivo análisis y los requerimientos funcionales y no funcionales para obtener la información necesaria para seguir con el desarrollo de el proyecto y el software  </li>
                 </ul>
+                <strong>TB2:</strong><br>
+                <ul>
+                    <li><strong>Adriana:</strong>  </li>
+                    <li><strong>Fabrizio:</strong> </li>
+                    <li><strong>Roy:</strong> La aplicación del método Attribute-Driven Design (ADD) y el Modelo C4 fue fundamental para nuestro desarrollo. A través de este proceso,se logró traducir los requerimientos de negocio y los atributos de calidad abstractos de ClearCost como la Mantenibilidad y la Seguridad en decisiones arquitectónicas concretas y justificables, como la adopción de Microservicios y el uso de un API Gateway. Esta experiencia práctica permitió actualizar y afianzar el conocimiento teórico, aplicándolo directamente para construir una base arquitectónica sólida y bien documentada.  </li>
+                </ul>
             </td>
             <td>
                 <strong>TB1:</strong> El entregable más que laborioso fue interesante ya que nos permitio usar conocimientos previos para el desarrollo de la solución de software.<br>
+                <strong>TB2:</strong> <br>
             </td>
         </tr>
         <tr>
@@ -217,9 +224,16 @@ Este entregable comprende la elaboración del informe desde el Capítulo I hasta
                     <li><strong>Fabrizio:</strong> A través de las entrevistas obtuve una comprensión sólida tanto del modelo de negocio como del problema que se busca abordar.</li>
                     <li><strong>Roy:</strong> Mediante el desarrollo de las entrevistas y requerimientos pude entender los problemas que tienen las personas y el cómo poder solucionarlas </li>
                 </ul>
+                <strong>TB2:</strong><br>
+                <ul>
+                    <li><strong>Adriana:</strong> </li>
+                    <li><strong>Fabrizio:</strong> </li>
+                    <li><strong>Roy:</strong> El diseño de la arquitectura para ClearCost demostró que la aplicación de metodologías formales, como Attribute-Driven Design (ADD) y el Modelo C4, es un ejercicio de aprendizaje constante. No fue suficiente con entender la teoría; el verdadero desafío consistió en traducir los drivers de negocio y los atributos de calidad en un modelo visual coherente y justificable. Este proceso me obligó a investigar y aplicar patrones y tácticas arquitectónicas específicas para resolver los problemas del proyecto, evidenciando que el rol del arquitecto exige una actualización continua de conocimientos para diseñar soluciones robustas y comunicar eficazmente decisiones complejas. </li>
+                </ul>
             </td>
             <td>
                 <strong>TB1:</strong> Como equipo, coincidimos en que las entrevistas constituyeron un elemento clave para comprender con mayor profundidad el modelo de negocio. Asimismo, el trabajo se desarrolló en un marco de coordinación y apoyo mutuo.<br>
+                <strong>TB2:</strong> <br>
             </td>
         </tr>
     </tobdy>
