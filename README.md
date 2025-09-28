@@ -201,16 +201,16 @@ Este entregable comprende la elaboración del informe desde el Capítulo I hasta
                     <li><strong>Fabrizio:</strong> Repasé los artefactos necesarios para el capítulo II y III para realizar un correcto dimensionamiento de la solución de software.</li>
                     <li><strong>Roy:</strong> Se realizó las entrevistas con su respectivo análisis y los requerimientos funcionales y no funcionales para obtener la información necesaria para seguir con el desarrollo de el proyecto y el software  </li>
                 </ul>
-                <strong>TB2:</strong><br>
+                <strong>TB2:</strong> Como equipo, la iteración TB2 nos permitió actualizar y aplicar conocimiento de forma tangible al convertir requerimientos en artefactos consistentes —C4, UML, patrones y tácticas— e integrar desde el diseño las dependencias externas prioritarias; esto elevó la mantenibilidad y la trazabilidad de ClearCost y dejó lista la base para la implementación de la landing y los primeros incrementos funcionales.<br>
                 <ul>
                     <li><strong>Adriana:</strong> Actualicé mis conocimientos aplicando conceptos de arquitectura de software, trabajando en los drivers arquitectónicos, el propósito de diseño, la funcionalidad principal (user stories), los escenarios de atributos de calidad, las restricciones y las preocupaciones arquitectónicas. Esto me permitió fortalecer mi capacidad para traducir requisitos en decisiones arquitectónicas justificadas, especificar atributos de calidad medibles, diseñar bajo limitaciones reales y gestionar riesgos, consolidando así criterios técnicos y prácticos que aportan directamente a mi desarrollo profesional y a la solidez del proyecto. </li>
-                    <li><strong>Fabrizio:</strong> </li>
+                    <li><strong>Fabrizio:</strong> Aplicó Attribute-Driven Design (ADD) para traducir drivers de negocio y atributos de calidad en decisiones arquitectónicas concretas, y consolidó las vistas C4 del sistema junto con el diagrama de estados de la tarea (DRAFT → IN PROCESS → UNDER REVIEW → APPROVED/REJECTED → IN PROCESS). Seleccionó y justificó patrones adecuados al dominio —Factory, Strategy, Observer/Domain Events, Repository y Saga/Process Manager— ubicándolos por bounded context (IAM, Organizations, Budget y Change Management), y redactó tácticas de disponibilidad, resiliencia, seguridad y observabilidad, fortaleciendo la coherencia técnica del diseño.</li>
                     <li><strong>Roy:</strong> La aplicación del método Attribute-Driven Design (ADD) y el Modelo C4 fue fundamental para nuestro desarrollo. A través de este proceso,se logró traducir los requerimientos de negocio y los atributos de calidad abstractos de ClearCost como la Mantenibilidad y la Seguridad en decisiones arquitectónicas concretas y justificables, como la adopción de Microservicios y el uso de un API Gateway. Esta experiencia práctica permitió actualizar y afianzar el conocimiento teórico, aplicándolo directamente para construir una base arquitectónica sólida y bien documentada.  </li>
                 </ul>
             </td>
             <td>
                 <strong>TB1:</strong> El entregable más que laborioso fue interesante ya que nos permitio usar conocimientos previos para el desarrollo de la solución de software.<br>
-                <strong>TB2:</strong> <br>
+                <strong>TB2:</strong> Como equipo, la iteración TB2 nos permitió actualizar y aplicar conocimiento de forma tangible al convertir requerimientos en artefactos consistentes —C4, UML, patrones y tácticas— e integrar desde el diseño las dependencias externas prioritarias; esto elevó la mantenibilidad y la trazabilidad de ClearCost y dejó lista la base para la implementación de la landing y los primeros incrementos funcionales.<br>
             </td>
         </tr>
         <tr>
@@ -227,13 +227,13 @@ Este entregable comprende la elaboración del informe desde el Capítulo I hasta
                 <strong>TB2:</strong><br>
                 <ul>
                     <li><strong>Adriana:</strong> Reconocí que el aprendizaje continuo es esencial, ya que al profundizar en aspectos de arquitectura de software como drivers, atributos de calidad y preocupaciones arquitectónicas, pude ampliar mis conocimientos técnicos y aplicarlos en ClearCost, fortaleciendo mi desarrollo profesional y la calidad del proyecto. </li>
-                    <li><strong>Fabrizio:</strong> </li>
+                    <li><strong>Fabrizio:</strong> Consolidó un proceso de decisiones arquitectónicas justificadas mediante la documentación de trade-offs, reforzó prácticas de arquitectura evolutiva con límites claros por bounded context y pruebas de contrato para APIs, e incorporó seguridad temprana (enfoque shift-left) en el ciclo de diseño. Este trabajo evidenció que el rol arquitectónico exige actualización continua para comunicar con precisión los riesgos y diseñar soluciones robustas.</li>
                     <li><strong>Roy:</strong> El diseño de la arquitectura para ClearCost demostró que la aplicación de metodologías formales, como Attribute-Driven Design (ADD) y el Modelo C4, es un ejercicio de aprendizaje constante. No fue suficiente con entender la teoría; el verdadero desafío consistió en traducir los drivers de negocio y los atributos de calidad en un modelo visual coherente y justificable. Este proceso me obligó a investigar y aplicar patrones y tácticas arquitectónicas específicas para resolver los problemas del proyecto, evidenciando que el rol del arquitecto exige una actualización continua de conocimientos para diseñar soluciones robustas y comunicar eficazmente decisiones complejas. </li>
                 </ul>
             </td>
             <td>
                 <strong>TB1:</strong> Como equipo, coincidimos en que las entrevistas constituyeron un elemento clave para comprender con mayor profundidad el modelo de negocio. Asimismo, el trabajo se desarrolló en un marco de coordinación y apoyo mutuo.<br>
-                <strong>TB2:</strong> <br>
+                <strong>TB2:</strong> El equipo confirmó que el aprendizaje permanente es parte del flujo de trabajo: cada decisión —visual, funcional o arquitectónica— quedó respaldada por investigación, métricas y documentación, reduciendo incertidumbre y retrabajo. La integración de buenas prácticas y medición temprana consolidó una cultura de mejora continua que guía los siguientes entregables de ClearCost.<br>
             </td>
         </tr>
     </tobdy>
