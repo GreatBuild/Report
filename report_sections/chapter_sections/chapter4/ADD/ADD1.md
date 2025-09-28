@@ -227,8 +227,32 @@ En esta fase del diseño, se instancian los elementos arquitectónicos basados e
     * Garantizar la integridad y consistencia de los datos dentro de su propio Bounded Context.
   * **Interfaces:** Interfaces de Repositorio (ej. `ProjectRepository`) dentro de cada microservicio que abstraen el acceso a los datos.
 
-
+#### 4.3.1.6. Sketch Views (C4 & UML) and Record Design Decisions
 
 ![Foto](/img/chapter4/ContenedorDiagram.png) 
 
 ![Foto](/img/chapter4/ComponentDiagram.png)
+
+##### Análisis de los Diagramas
+
+Los siguientes diagramas visualizan la arquitectura de **ClearCost** aplicando el Modelo C4. Cada diagrama ofrece un nivel de abstracción distinto, permitiendo comunicar las decisiones de diseño a diferentes audiencias.
+
+**Análisis del Diagrama de Contenedores (C2)**
+
+Este diagrama es la columna vertebral de la arquitectura y valida visualmente las decisiones estratégicas tomadas para satisfacer los drivers arquitectónicos:
+
+* **Punto de Entrada Único y Seguro:** Se observa cómo todo el tráfico de los usuarios (desde la SPA) se canaliza a través de un único **API Gateway**. Esta táctica es fundamental para el driver de **Seguridad**, ya que centraliza la autenticación y la aplicación de políticas de seguridad antes de que cualquier petición alcance la lógica de negocio.
+* **Separación por Dominio (Alta Mantenibilidad):** La descomposición en microservicios (`Identity & Access Service`, `Finance Service`, `Project Service`, `Collaboration Service`) está claramente definida. Esto materializa nuestra meta de **Mantenibilidad**, ya que permite que los equipos puedan desarrollar, probar y desplegar cada dominio de forma independiente.
+* **Aislamiento de Datos y Resiliencia:** Cada microservicio posee su propia base de datos, como lo demuestra la relación uno a uno (ej. `Project Service` -> `Project DB`). Este patrón (`Database per Service`) es clave para lograr un bajo acoplamiento y alta **Disponibilidad**, ya que la falla en una base de datos solo impacta a su servicio correspondiente.
+* **Comunicación Asíncrona para la Disponibilidad:** El `Message Broker` actúa como un intermediario que desacopla los servicios. Por ejemplo, el `Project Service` puede publicar un evento como "TareaCompletada" sin necesidad de esperar a que el `Collaboration Service` lo procese para enviar una notificación. Esto mejora la **Disponibilidad** y el **Rendimiento** del sistema.
+
+**Análisis del Diagrama de Componentes (C3) - Project Service**
+
+Este diagrama ofrece una vista detallada para los desarrolladores que trabajarán dentro del **Project Service**, mostrando una arquitectura interna limpia y bien estructurada:
+
+* **Separación de Responsabilidades:** Se evidencia una clara división de responsabilidades siguiendo los principios de una arquitectura limpia:
+  * El **API Controller** gestiona exclusivamente las peticiones web (HTTP).
+  * La **Domain Logic** contiene las reglas de negocio, aislada de las preocupaciones de la infraestructura.
+  * El **Data Repository** encapsula la lógica de acceso a la base de datos, haciendo que el dominio sea agnóstico a la tecnología de persistencia.
+* **Patrón Adapter para Mantenibilidad:** Los componentes `S3 Adapter` y `Event Publisher` actúan como adaptadores. Aíslan la lógica de dominio de los detalles de implementación de sistemas externos (Amazon S3 y el Message Broker). Si en el futuro se decidiera cambiar el proveedor de almacenamiento o de mensajería, solo habría que modificar o reemplazar estos adaptadores, sin tocar el núcleo del negocio, lo que refuerza enormemente la **Mantenibilidad**.
+
