@@ -227,3 +227,8 @@ En esta fase del diseño, se instancian los elementos arquitectónicos basados e
     * Garantizar la integridad y consistencia de los datos dentro de su propio Bounded Context.
   * **Interfaces:** Interfaces de Repositorio (ej. `ProjectRepository`) dentro de cada microservicio que abstraen el acceso a los datos.
 
+
+
+![Foto](/img/chapter4/ContenedorDiagram.png) 
+
+![Foto](/img/chapter4/ComponentDiagram.png)
