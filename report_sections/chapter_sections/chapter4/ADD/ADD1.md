@@ -256,3 +256,5 @@ Este diagrama ofrece una vista detallada para los desarrolladores que trabajará
   * El **Data Repository** encapsula la lógica de acceso a la base de datos, haciendo que el dominio sea agnóstico a la tecnología de persistencia.
 * **Patrón Adapter para Mantenibilidad:** Los componentes `S3 Adapter` y `Event Publisher` actúan como adaptadores. Aíslan la lógica de dominio de los detalles de implementación de sistemas externos (Amazon S3 y el Message Broker). Si en el futuro se decidiera cambiar el proveedor de almacenamiento o de mensajería, solo habría que modificar o reemplazar estos adaptadores, sin tocar el núcleo del negocio, lo que refuerza enormemente la **Mantenibilidad**.
 
+**Link de drive de los diagramas: https://drive.google.com/drive/folders/1UDiHLSKOWT2RsOc2JCLYziVjQBBG1DOW?usp=sharing**
+
