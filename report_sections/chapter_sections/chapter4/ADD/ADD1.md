@@ -258,3 +258,27 @@ Este diagrama ofrece una vista detallada para los desarrolladores que trabajará
 
 **Link de drive de los diagramas: https://drive.google.com/drive/folders/1UDiHLSKOWT2RsOc2JCLYziVjQBBG1DOW?usp=sharing**
 
+#### 4.3.1.7. Analysis of Current Design and Review Iteration Goal
+
+En esta última fase de la iteración, realizamos un análisis del diseño arquitectónico propuesto para **ClearCost** con el fin de verificar si las decisiones tomadas satisfacen los objetivos establecidos. La arquitectura de microservicios, junto con los patrones y tácticas seleccionadas, ha abordado directamente los drivers de **Seguridad**, **Disponibilidad** y **Mantenibilidad**. El siguiente tablero Kanban resume el estado de las principales tareas arquitectónicas que surgieron de nuestro backlog, demostrando que hemos cumplido con los objetivos de esta primera iteración de diseño.
+
+---
+
+##### Kanban Board de la Iteración Arquitectónica 
+
+
+
+| POR HACER (To Do) | EN CURSO (In Progress) | COMPLETADO (Done) |
+| :--- | :--- | :--- |
+| ✒️ **(ARQ-04) Refinar políticas de autorización:** Detallar los permisos específicos para roles de Coordinador y Especialista. | ⚙️ **(ARQ-03) Implementar el patrón Circuit Breaker:** Añadir la dependencia (ej. Resilience4j) y configurar los umbrales de fallo en las llamadas entre servicios. | ✅ **(ARQ-01) Definir el estilo arquitectónico principal:** Se ha seleccionado y documentado la **Arquitectura de Microservicios** alineada con Bounded Contexts de DDD. |
+| ✒️ **(ARQ-07) Configurar pipeline de CI/CD por servicio:** Crear plantillas para despliegues independientes que automaticen pruebas y el paso a producción. | ⚙️ **(ARQ-05) Configurar réplicas y Health Checks:** Preparar los archivos de despliegue (ej. Kubernetes manifests) para asegurar la redundancia de los servicios críticos. | ✅ **(ARQ-02) Diseñar la capa de seguridad con API Gateway:** Se ha definido el API Gateway como punto de entrada único para centralizar la validación de tokens JWT. |
+| ✒️ **(ARQ-08) Implementar estrategia de observabilidad:** Definir las métricas clave y configurar el tracing distribuido entre los servicios. | | ✅ **(ARQ-06) Establecer la comunicación asíncrona:** Se ha definido el uso de un **Message Broker** para desacoplar los servicios y mejorar la resiliencia del sistema. |
+
+---
+
+##### Análisis y Revisión del Objetivo de la Iteración
+
+* **Meta de Seguridad:** **(Completada)** La selección de un **API Gateway** y la definición de una estrategia de autenticación centralizada satisfacen el objetivo de proteger la plataforma. Las tareas restantes son de refinamiento y no alteran la decisión fundamental.
+* **Meta de Alta Disponibilidad:** **(Completada)** La elección de microservicios con réplicas y el uso de comunicación asíncrona a través de un **Message Broker** son las decisiones estructurales que cumplen con el objetivo. Las tareas en progreso y por hacer se enfocan en la implementación de estas tácticas.
+* **Meta de Mantenibilidad:** **(Completada)** La descomposición del sistema en microservicios, cada uno con su propia base de datos (como se visualiza en el diagrama C2), aborda directamente el driver de mantenibilidad. El diseño permite que los equipos trabajen en paralelo y que los cambios se realicen en menos de 4 horas, cumpliendo el escenario de calidad.
+
