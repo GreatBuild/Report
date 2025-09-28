@@ -105,14 +105,14 @@
     <p style="display:block;margin:2px 0;text-indent:0px;">4.1.11 Constraints</p>
     <p style="display:block;margin:2px 0;text-indent:0px;">4.1.12 Architectural Concerns</p>
     <p style="display:block;margin:2px 0;text-indent:0px;">4.3 ADD Iterations</p>
-    <p style="display:block;margin:2px 0;text-indent:10px;">4.2.X Iteration N: &lt;Iteration Name&gt;</p>
-    <p style="display:block;margin:2px 0;text-indent:20px;">4.2.X.1 Architectural Design Backlog N</p>
-    <p style="display:block;margin:2px 0;text-indent:20px;">4.2.X.2 Establish Iteration Goal by Selecting Drivers</p>
-    <p style="display:block;margin:2px 0;text-indent:20px;">4.2.X.3 Choose One or More Elements of the System to Refine</p>
-    <p style="display:block;margin:2px 0;text-indent:20px;">4.2.X.4 Choose One or More Design Concepts That Satisfy the Selected Drivers</p>
-    <p style="display:block;margin:2px 0;text-indent:20px;">4.2.X.5 Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces</p>
-    <p style="display:block;margin:2px 0;text-indent:20px;">4.2.X.6 Sketch Views (C4 &amp; UML) and Record Design Decisions</p>
-    <p style="display:block;margin:2px 0;text-indent:20px;">4.2.X.7 Analysis of Current Design and Review Iteration Goal (Kanban Board) (Avance 2)</p>
+    <p style="display:block;margin:2px 0;text-indent:10px;">4.3.1 Iteration N: &lt;Iteration Name&gt;</p>
+    <p style="display:block;margin:2px 0;text-indent:20px;">4.3.1.1 Architectural Design Backlog N</p>
+    <p style="display:block;margin:2px 0;text-indent:20px;">4.3.1.2 Establish Iteration Goal by Selecting Drivers</p>
+    <p style="display:block;margin:2px 0;text-indent:20px;">4.3.1.3 Choose One or More Elements of the System to Refine</p>
+    <p style="display:block;margin:2px 0;text-indent:20px;">4.3.1.4 Choose One or More Design Concepts That Satisfy the Selected Drivers</p>
+    <p style="display:block;margin:2px 0;text-indent:20px;">4.3.1.5 Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces</p>
+    <p style="display:block;margin:2px 0;text-indent:20px;">4.3.1.6 Sketch Views (C4 &amp; UML) and Record Design Decisions</p>
+    <p style="display:block;margin:2px 0;text-indent:20px;">4.3.1.7 Analysis of Current Design and Review Iteration Goal (Kanban Board)</p>
   </td>
 </tr>
   </tbody>
@@ -5179,9 +5179,10 @@ En esta fase del diseño, se instancian los elementos arquitectónicos basados e
 
 #### 4.3.1.6. Sketch Views (C4 & UML) and Record Design Decisions
 
-![Foto](/img/chapter4/ContenedorDiagram.png) 
+<img src="./img/chapter4/ContenedorDiagram.png" alt="Diagrama de Contenedores">
 
-![Foto](/img/chapter4/ComponentDiagram.png)
+
+<img src="./img/chapter4/ComponentDiagram.png" alt="Diagrama de Componentes">
 
 ##### Análisis de los Diagramas
 
@@ -5216,7 +5217,7 @@ En esta última fase de la iteración, realizamos un análisis del diseño arqui
 
 ##### Kanban Board
 
-![Foto](/img/chapter4/Kanban.png)
+<img src="./img/chapter4/Kanban.png" alt="Kanban Board">
 
 | POR HACER (To Do)                                                                                                                                          | EN CURSO (In Progress)                                                                                                                                                     | COMPLETADO (Done)                                                                                                                                                      |
 |:-----------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -5236,11 +5237,11 @@ En esta última fase de la iteración, realizamos un análisis del diseño arqui
 
 # Conclusiones
 
-- El análisis detallado de las entrevistas permitió al equipo identificar y diferenciar oportunidades de mejora, así como nuevas funcionalidades para el proyecto. De igual manera, la investigación del mercado objetivo, complementada con el estudio de competidores directos e indirectos, facilitó el reconocimiento de debilidades y fortalezas en el enfoque general de **ClearCost**.
+- La arquitectura de microservicios, delimitada por bounded contexts (IAM, Organizations, Budget y Change Management) y documentada en C4, quedó alineada con los objetivos de negocio de ClearCost; esto reduce el acoplamiento, facilita el trabajo en paralelo del equipo y habilita una evolución funcional por incrementos sin reescrituras estructurales.
 
-- En el ámbito del trabajo colaborativo, se identificó como principal desafío la falta de organización y coordinación en el desarrollo de funcionalidades previamente definidas. Aun así, se logró cumplir en gran medida con los objetivos establecidos y mantener un progreso constante a lo largo del entregable.
+- La selección de patrones (Factory, Composite, Strategy, State, Repository, Specification, Observer/Domain Events y Saga) junto con las tácticas de disponibilidad, seguridad, observabilidad y resiliencia proporciona un marco técnico para cumplir atributos de calidad medibles (SLOs, trazabilidad financiera y auditoría), mitigando riesgos críticos desde el diseño.
 
-- Finalmente, el proyecto demuestra una alta **viabilidad técnica y de mercado**, ya que responde a necesidades reales del sector construcción al ofrecer un control financiero claro y transparente. Esta propuesta no solo aporta valor a las constructoras, sino que también genera confianza en los clientes, lo que aumenta las posibilidades de adopción y sostenibilidad en el tiempo.
+- El plan de integración con servicios externos (Auth0, SendGrid/FCM, S3, Google Calendar/Meet, Mercado Pago y GA4) y el enfoque de entrega incremental (MVP → R1 → R2), acompañado de documentación de decisiones y modelos UML, fortalecen la viabilidad del proyecto y aceleran el time-to-market de la landing page y de los primeros módulos productivos.
 
 <div style="page-break-before: always;"></div>
 
