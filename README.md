@@ -75,7 +75,47 @@
                 <p style="display: block; margin: 2px 0; text-indent: 0px; font-weight: bold;">3.4. Alcance</p>
                 <p style="display: block; margin: 2px 0; text-indent: 0px; font-weight: bold;">3.5. Product Backlog</p>
         </tr>
-    </tbody>
+        <tr>
+  <td>2.0</td>
+  <td>28/09/2025</td>
+  <td>
+    <ul>
+      <li>Diestra Zambrano, Adriana Maria</li>
+      <li>Fernandez Remon, Roy Linsh</li>
+      <li>León Vivas, Fabrizio Amir</li>
+    </ul>
+  </td>
+  <td>
+    <strong>Actualización de secciones:</strong><br>
+    <p style="display:block;margin:2px 0;text-indent:0px;font-weight:bold;">
+      Capítulo IV: Product Architecture Design
+    </p>
+    <p style="display:block;margin:2px 0;text-indent:0px;">4.1 Desing Concepts, ViewPoints &amp; ER Diagrams</p>
+    <p style="display:block;margin:2px 0;text-indent:10px;">4.1.1 Principles Statements</p>
+    <p style="display:block;margin:2px 0;text-indent:10px;">4.1.2 Approaches Statements Architectural Styles &amp; Patterns</p>
+    <p style="display:block;margin:2px 0;text-indent:10px;">4.1.3 Context Diagram</p>
+    <p style="display:block;margin:2px 0;text-indent:10px;">4.1.4 Approach driven ViewPoints Diagrams</p>
+    <p style="display:block;margin:2px 0;text-indent:10px;">4.1.5 Relational/Non Relational Database Diagram</p>
+    <p style="display:block;margin:2px 0;text-indent:10px;">4.1.6 Design Patterns</p>
+    <p style="display:block;margin:2px 0;text-indent:10px;">4.1.7 Tactics</p>
+    <p style="display:block;margin:2px 0;text-indent:0px;">4.2 Architectural Drivers</p>
+    <p style="display:block;margin:2px 0;text-indent:0px;">4.1.8 Design Purpose</p>
+    <p style="display:block;margin:2px 0;text-indent:0px;">4.1.9 Primary Functionality (Primary User Stories)</p>
+    <p style="display:block;margin:2px 0;text-indent:0px;">4.1.10 Quality Attribute Scenarios</p>
+    <p style="display:block;margin:2px 0;text-indent:0px;">4.1.11 Constraints</p>
+    <p style="display:block;margin:2px 0;text-indent:0px;">4.1.12 Architectural Concerns</p>
+    <p style="display:block;margin:2px 0;text-indent:0px;">4.3 ADD Iterations</p>
+    <p style="display:block;margin:2px 0;text-indent:10px;">4.2.X Iteration N: &lt;Iteration Name&gt;</p>
+    <p style="display:block;margin:2px 0;text-indent:20px;">4.2.X.1 Architectural Design Backlog N</p>
+    <p style="display:block;margin:2px 0;text-indent:20px;">4.2.X.2 Establish Iteration Goal by Selecting Drivers</p>
+    <p style="display:block;margin:2px 0;text-indent:20px;">4.2.X.3 Choose One or More Elements of the System to Refine</p>
+    <p style="display:block;margin:2px 0;text-indent:20px;">4.2.X.4 Choose One or More Design Concepts That Satisfy the Selected Drivers</p>
+    <p style="display:block;margin:2px 0;text-indent:20px;">4.2.X.5 Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces</p>
+    <p style="display:block;margin:2px 0;text-indent:20px;">4.2.X.6 Sketch Views (C4 &amp; UML) and Record Design Decisions</p>
+    <p style="display:block;margin:2px 0;text-indent:20px;">4.2.X.7 Analysis of Current Design and Review Iteration Goal (Kanban Board) (Avance 2)</p>
+  </td>
+</tr>
+  </tbody>
 </table>
 
 
