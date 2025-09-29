@@ -75,7 +75,47 @@
                 <p style="display: block; margin: 2px 0; text-indent: 0px; font-weight: bold;">3.4. Alcance</p>
                 <p style="display: block; margin: 2px 0; text-indent: 0px; font-weight: bold;">3.5. Product Backlog</p>
         </tr>
-    </tbody>
+        <tr>
+  <td>2.0</td>
+  <td>28/09/2025</td>
+  <td>
+    <ul>
+      <li>Diestra Zambrano, Adriana Maria</li>
+      <li>Fernandez Remon, Roy Linsh</li>
+      <li>León Vivas, Fabrizio Amir</li>
+    </ul>
+  </td>
+  <td>
+    <strong>Actualización de secciones:</strong><br>
+    <p style="display:block;margin:2px 0;text-indent:0px;font-weight:bold;">
+      Capítulo IV: Product Architecture Design
+    </p>
+    <p style="display:block;margin:2px 0;text-indent:0px;">4.1 Desing Concepts, ViewPoints &amp; ER Diagrams</p>
+    <p style="display:block;margin:2px 0;text-indent:10px;">4.1.1 Principles Statements</p>
+    <p style="display:block;margin:2px 0;text-indent:10px;">4.1.2 Approaches Statements Architectural Styles &amp; Patterns</p>
+    <p style="display:block;margin:2px 0;text-indent:10px;">4.1.3 Context Diagram</p>
+    <p style="display:block;margin:2px 0;text-indent:10px;">4.1.4 Approach driven ViewPoints Diagrams</p>
+    <p style="display:block;margin:2px 0;text-indent:10px;">4.1.5 Relational/Non Relational Database Diagram</p>
+    <p style="display:block;margin:2px 0;text-indent:10px;">4.1.6 Design Patterns</p>
+    <p style="display:block;margin:2px 0;text-indent:10px;">4.1.7 Tactics</p>
+    <p style="display:block;margin:2px 0;text-indent:0px;">4.2 Architectural Drivers</p>
+    <p style="display:block;margin:2px 0;text-indent:0px;">4.1.8 Design Purpose</p>
+    <p style="display:block;margin:2px 0;text-indent:0px;">4.1.9 Primary Functionality (Primary User Stories)</p>
+    <p style="display:block;margin:2px 0;text-indent:0px;">4.1.10 Quality Attribute Scenarios</p>
+    <p style="display:block;margin:2px 0;text-indent:0px;">4.1.11 Constraints</p>
+    <p style="display:block;margin:2px 0;text-indent:0px;">4.1.12 Architectural Concerns</p>
+    <p style="display:block;margin:2px 0;text-indent:0px;">4.3 ADD Iterations</p>
+    <p style="display:block;margin:2px 0;text-indent:10px;">4.3.1 Iteration N: &lt;Iteration Name&gt;</p>
+    <p style="display:block;margin:2px 0;text-indent:20px;">4.3.1.1 Architectural Design Backlog N</p>
+    <p style="display:block;margin:2px 0;text-indent:20px;">4.3.1.2 Establish Iteration Goal by Selecting Drivers</p>
+    <p style="display:block;margin:2px 0;text-indent:20px;">4.3.1.3 Choose One or More Elements of the System to Refine</p>
+    <p style="display:block;margin:2px 0;text-indent:20px;">4.3.1.4 Choose One or More Design Concepts That Satisfy the Selected Drivers</p>
+    <p style="display:block;margin:2px 0;text-indent:20px;">4.3.1.5 Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces</p>
+    <p style="display:block;margin:2px 0;text-indent:20px;">4.3.1.6 Sketch Views (C4 &amp; UML) and Record Design Decisions</p>
+    <p style="display:block;margin:2px 0;text-indent:20px;">4.3.1.7 Analysis of Current Design and Review Iteration Goal (Kanban Board)</p>
+  </td>
+</tr>
+  </tbody>
 </table>
 
 
@@ -112,6 +152,14 @@ Se presenta una tabla que especifica qué miembro del equipo se corresponde con 
 Este entregable comprende la elaboración del informe desde el Capítulo I hasta el Capítulo III, desarrollado íntegramente a partir del proceso de investigación en equipo y del diseño del sistema.
 
 <img src="./img/insight_tb1.png">
+
+<div style="page-break-before: always;"></div>
+
+**TB2**
+
+Este entregable comprende la elaboración del capítulo IV del informe, desarrollado íntegramente a partir del proceso de investigación en equipo y del diseño del sistema.
+
+<img src="./img/insight_tb2.png">
 
 <div style="page-break-before: always;"></div>
 
@@ -155,6 +203,31 @@ Este entregable comprende la elaboración del informe desde el Capítulo I hasta
   - [3.5. Product Backlog](#35-product-backlog)
   - [3.6. Requerimientos Funcionales](#36-requerimientos-funcionales)
   - [3.7. Requerimientos No Funcionales](#37-requerimientos-no-funcionales)
+- [Capítulo IV: Product Architecture Design](#capítulo-iv-product-architecture-design)
+  - [4.1.	Desing Concepts, ViewPoints & ER Diagrams](#41-design-concepts-viewpoints--er-diagrams)
+    - [4.1.1.	Principles Statements](#411-principles-statements)
+    - [4.1.2.	Approaches Statements Architectural Styles & Patterns](#412-approaches-statements-architectural-styles--patterns)
+    - [4.1.3.	 Context Diagram](#413-context-diagram)
+    - [4.1.4.	Approach driven ViewPoints Diagrams](#414-approach-driven-viewpoints-diagrams)
+    - [4.1.5.	Relational/Non Relational Database Diagram](#415-relationalnon-relational-database-diagram)
+    - [4.1.6.	Design Patterns](#416-design-patterns)
+    - [4.1.7.	Tactics](#417-tactics)
+  - [4.2.	Architectural Drivers](#42architectural-drivers)
+    - [4.1.8.	Design Purpose](#418-design-purpose)
+    - [4.1.9.	Primary Functionality (Primary User Stories)](#419primary-functionality-primary-user-stories)
+    - [4.1.10.	Quality Attribute Scenarios](#4110quality-attribute-scenarios)
+    - [4.1.11.	Constraints](#4111constraints)
+    - [4.1.12.	Architectural Concerns](#4112architectural-concerns)
+  - [4.3. ADD Iterations](#43-add-iterations)
+    - [4.3.1. Iteration 1: Definición del Core Arquitectónico de ClearCost](#431-iteration-1-definición-del-core-arquitectónico-de-clearcost)
+      - [4.3.1.1. Architectural Design Backlog 1](#4311-architectural-design-backlog-1)
+      - [4.3.1.2. Establish Iteration Goal by Selecting Drivers](#4312-establish-iteration-goal-by-selecting-drivers)
+      - [4.3.1.3. Choose One or More Elements of the System to Refine](#4313-choose-one-or-more-elements-of-the-system-to-refine)
+      - [4.3.1.4. Choose One or More Design Concepts That Satisfy the Selected Drivers](#4314-choose-one-or-more-design-concepts-that-satisfy-the-selected-drivers)
+      - [4.3.1.5. Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces](#4315-instantiate-architectural-elements-allocate-responsibilities-and-define-interfaces)
+      - [4.3.1.6. Sketch Views (C4 & UML) and Record Design Decisions](#4316-sketch-views-c4--uml-and-record-design-decisions)
+      - [4.3.1.7. Analysis of Current Design and Review Iteration Goal (Kanban Board)](#4317-analysis-of-current-design-and-review-iteration-goal)
+
 - [Conclusiones](#conclusiones)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
@@ -185,9 +258,16 @@ Este entregable comprende la elaboración del informe desde el Capítulo I hasta
                     <li><strong>Fabrizio:</strong> Repasé los artefactos necesarios para el capítulo II y III para realizar un correcto dimensionamiento de la solución de software.</li>
                     <li><strong>Roy:</strong> Se realizó las entrevistas con su respectivo análisis y los requerimientos funcionales y no funcionales para obtener la información necesaria para seguir con el desarrollo de el proyecto y el software  </li>
                 </ul>
+                <strong>TB2:</strong> Como equipo, la iteración TB2 nos permitió actualizar y aplicar conocimiento de forma tangible al convertir requerimientos en artefactos consistentes —C4, UML, patrones y tácticas— e integrar desde el diseño las dependencias externas prioritarias; esto elevó la mantenibilidad y la trazabilidad de ClearCost y dejó lista la base para la implementación de la landing y los primeros incrementos funcionales.<br>
+                <ul>
+                    <li><strong>Adriana:</strong> Actualicé mis conocimientos aplicando conceptos de arquitectura de software, trabajando en los drivers arquitectónicos, el propósito de diseño, la funcionalidad principal (user stories), los escenarios de atributos de calidad, las restricciones y las preocupaciones arquitectónicas. Esto me permitió fortalecer mi capacidad para traducir requisitos en decisiones arquitectónicas justificadas, especificar atributos de calidad medibles, diseñar bajo limitaciones reales y gestionar riesgos, consolidando así criterios técnicos y prácticos que aportan directamente a mi desarrollo profesional y a la solidez del proyecto. </li>
+                    <li><strong>Fabrizio:</strong> Aplicó Attribute-Driven Design (ADD) para traducir drivers de negocio y atributos de calidad en decisiones arquitectónicas concretas, y consolidó las vistas C4 del sistema junto con el diagrama de estados de la tarea (DRAFT → IN PROCESS → UNDER REVIEW → APPROVED/REJECTED → IN PROCESS). Seleccionó y justificó patrones adecuados al dominio —Factory, Strategy, Observer/Domain Events, Repository y Saga/Process Manager— ubicándolos por bounded context (IAM, Organizations, Budget y Change Management), y redactó tácticas de disponibilidad, resiliencia, seguridad y observabilidad, fortaleciendo la coherencia técnica del diseño.</li>
+                    <li><strong>Roy:</strong> La aplicación del método Attribute-Driven Design (ADD) y el Modelo C4 fue fundamental para nuestro desarrollo. A través de este proceso,se logró traducir los requerimientos de negocio y los atributos de calidad abstractos de ClearCost como la Mantenibilidad y la Seguridad en decisiones arquitectónicas concretas y justificables, como la adopción de Microservicios y el uso de un API Gateway. Esta experiencia práctica permitió actualizar y afianzar el conocimiento teórico, aplicándolo directamente para construir una base arquitectónica sólida y bien documentada.  </li>
+                </ul>
             </td>
             <td>
                 <strong>TB1:</strong> El entregable más que laborioso fue interesante ya que nos permitio usar conocimientos previos para el desarrollo de la solución de software.<br>
+                <strong>TB2:</strong> Como equipo, la iteración TB2 nos permitió actualizar y aplicar conocimiento de forma tangible al convertir requerimientos en artefactos consistentes —C4, UML, patrones y tácticas— e integrar desde el diseño las dependencias externas prioritarias; esto elevó la mantenibilidad y la trazabilidad de ClearCost y dejó lista la base para la implementación de la landing y los primeros incrementos funcionales.<br>
             </td>
         </tr>
         <tr>
@@ -201,9 +281,16 @@ Este entregable comprende la elaboración del informe desde el Capítulo I hasta
                     <li><strong>Fabrizio:</strong> A través de las entrevistas obtuve una comprensión sólida tanto del modelo de negocio como del problema que se busca abordar.</li>
                     <li><strong>Roy:</strong> Mediante el desarrollo de las entrevistas y requerimientos pude entender los problemas que tienen las personas y el cómo poder solucionarlas </li>
                 </ul>
+                <strong>TB2:</strong><br>
+                <ul>
+                    <li><strong>Adriana:</strong> Reconocí que el aprendizaje continuo es esencial, ya que al profundizar en aspectos de arquitectura de software como drivers, atributos de calidad y preocupaciones arquitectónicas, pude ampliar mis conocimientos técnicos y aplicarlos en ClearCost, fortaleciendo mi desarrollo profesional y la calidad del proyecto. </li>
+                    <li><strong>Fabrizio:</strong> Consolidó un proceso de decisiones arquitectónicas justificadas mediante la documentación de trade-offs, reforzó prácticas de arquitectura evolutiva con límites claros por bounded context y pruebas de contrato para APIs, e incorporó seguridad temprana (enfoque shift-left) en el ciclo de diseño. Este trabajo evidenció que el rol arquitectónico exige actualización continua para comunicar con precisión los riesgos y diseñar soluciones robustas.</li>
+                    <li><strong>Roy:</strong> El diseño de la arquitectura para ClearCost demostró que la aplicación de metodologías formales, como Attribute-Driven Design (ADD) y el Modelo C4, es un ejercicio de aprendizaje constante. No fue suficiente con entender la teoría; el verdadero desafío consistió en traducir los drivers de negocio y los atributos de calidad en un modelo visual coherente y justificable. Este proceso me obligó a investigar y aplicar patrones y tácticas arquitectónicas específicas para resolver los problemas del proyecto, evidenciando que el rol del arquitecto exige una actualización continua de conocimientos para diseñar soluciones robustas y comunicar eficazmente decisiones complejas. </li>
+                </ul>
             </td>
             <td>
                 <strong>TB1:</strong> Como equipo, coincidimos en que las entrevistas constituyeron un elemento clave para comprender con mayor profundidad el modelo de negocio. Asimismo, el trabajo se desarrolló en un marco de coordinación y apoyo mutuo.<br>
+                <strong>TB2:</strong> El equipo confirmó que el aprendizaje permanente es parte del flujo de trabajo: cada decisión —visual, funcional o arquitectónica— quedó respaldada por investigación, métricas y documentación, reduciendo incertidumbre y retrabajo. La integración de buenas prácticas y medición temprana consolidó una cultura de mejora continua que guía los siguientes entregables de ClearCost.<br>
             </td>
         </tr>
     </tobdy>
@@ -4364,22 +4451,805 @@ Los requerimientos no funcionales definen cómo debe ser el sistema, establecien
 * RNF11: La arquitectura del sistema deberá ser escalable para adaptarse al crecimiento futuro en número de usuarios y proyectos.
 * RNF12: El sistema deberá contemplar la posibilidad de integrarse con otras soluciones de software empresariales o de código abierto en el futuro.
 
+# Capítulo IV: Product Architecture Design
+
+## 4.1. Design Concepts, ViewPoints & ER Diagrams
+
+### 4.1.1. Principles Statements
+
+A partir de la visión arquitectónica y los objetivos de negocio de **ClearCost**, se definen los siguientes principios que orientarán el desarrollo y evolución de la plataforma, garantizando coherencia y sostenibilidad a largo plazo:  
+
+- **Transparencia como eje central**: toda la información financiera y de gestión de proyectos debe ser clara, verificable y fácilmente accesible para usuarios internos y clientes.  
+- **Disponibilidad 24/7**: la plataforma debe garantizar un acceso constante, desde cualquier lugar y dispositivo, asegurando continuidad en las operaciones de obra.  
+- **Escalabilidad modular**: la solución debe construirse con una arquitectura modular que facilite la incorporación de nuevas funcionalidades en fases futuras sin comprometer la estabilidad.  
+- **Simplicidad y usabilidad**: la interfaz debe priorizar la facilidad de uso, reduciendo la curva de aprendizaje para contratistas, especialistas y entidades contratantes.  
+- **Seguridad y privacidad de datos**: el sistema debe implementar prácticas sólidas de protección de la información financiera y documental, respetando la confidencialidad de cada usuario.  
+- **Colaboración integrada**: ClearCost debe favorecer la comunicación fluida entre equipos y áreas, centralizando tareas, cronogramas y documentos en un mismo entorno.  
+- **Estandarización de procesos**: las funcionalidades deben fomentar la uniformidad en la elaboración de expedientes técnicos y en la gestión financiera, reduciendo errores y reprocesos.  
 
 
+### 4.1.2. Approaches Statements Architectural Styles & Patterns
+
+#### A. Approaches Statements
+Enfoques que guiarán el diseño y la evolución de **ClearCost**:
+
+- **Domain-Driven Design (DDD)**  
+  Modelar el dominio (expedientes, presupuestos, contratos, tareas, hitos, reuniones) en **bounded contexts** claros (Finanzas, Proyectos, Colaboración, Identidad & Accesos), con contratos explícitos entre dominios.
+  
+- **Arquitectura Evolutiva y entrega incremental**  
+  Roadmap por incrementos funcionales; decisiones reversibles y *fitness functions* para validar atributos de calidad (disponibilidad 24/7, trazabilidad, desempeño).
+
+- **Twelve-Factor App**  
+  Configuración por entorno, dependencias explícitas, *build/release/run* separados y logs como *streams* para portabilidad entre nubes.
+
+- **DevOps & CI/CD**  
+  Automatización de *build*, pruebas y despliegues; *feature flags* para habilitar capacidades sin relanzar; *blue/green* o *rolling updates* para minimizar downtime.
+
+- **Observabilidad desde el diseño**  
+  *Tracing* distribuido, métricas (SLO/SLA) y *structured logging* por servicio para diagnosticar cuellos de botella y cumplir objetivos de disponibilidad.
+
+- **Security & Privacy by Design**  
+  Autenticación y autorización centralizada, mínimos privilegios, cifrado en tránsito y en reposo, segregación de datos por cliente y auditoría de acceso.
+
+- **Infraestructura como Código (IaC)**  
+  Definir entornos reproducibles (provisión, redes, seguridad) con plantillas versionadas para asegurar consistencia y escalabilidad.
+
+- **APIs primero**  
+  Contratos bien definidos (p. ej., OpenAPI) y gestión del ciclo de vida de APIs para habilitar integraciones graduales con terceros en fases futuras.
+
+---
+
+#### B. Architectural Styles & Patterns
+
+**Estilo principal: Microservicios**  
+Servicios autónomos por dominio de negocio, con datos propios y comunicación principalmente asíncrona. Beneficios buscados: escalabilidad independiente, despliegue aislado, resiliencia y alineamiento con equipos multifuncionales.
+
+**Patrones de integración y resiliencia**
+- **API Gateway**: único punto de entrada (agregación, *rate limiting*, *authz*); expone APIs públicas y orquesta llamadas hacia servicios internos.
+- **Service Mesh** (opcional/etapa futura): *mTLS*, *traffic shaping*, *retries* y *circuit breaking* sin cambiar código de negocio.
+- **Circuit Breaker & Retry/Backoff**: evitar cascadas de fallos y mejorar tolerancia a errores transitorios entre servicios.
+- **Bulkhead**: aislamiento de recursos por servicio/cola para contener fallos.
+
+**Patrones de datos y mensajería**
+- **Database per Service**: cada microservicio es dueño de su esquema para reducir acoplamiento.
+- **Outbox + Event Relay**: consistencia entre operaciones locales y publicación de eventos (evita pérdida/duplicidad).
+- **Event-Driven Architecture** (mensajería/colas): propagar cambios entre Finanzas, Proyectos y Colaboración sin acoplamiento fuerte.
+- **CQRS** (selectivo): separar comandos/lecturas cuando se requiera alto rendimiento en consultas (p. ej., paneles financieros).
+- **Saga** (coreografía/orquestación): coordinar transacciones de larga duración (p. ej., creación de proyecto + presupuesto + permisos).
+
+**Patrones de acceso y seguridad**
+- **AuthN/AuthZ centralizado**: proveedor de identidad (OIDC) + **RBAC** por rol (contratista, especialista, entidad contratante, admin).
+- **Tenant Isolation**: segmentación lógica/física de datos por cliente; políticas de retención y auditoría.
+
+**Patrones para experiencia y colaboración**
+- **Backend for Frontend (BFF)**: adaptaciones por público (equipo interno vs. cliente) para optimizar payloads y permisos.
+- **Scheduler/Worker**: trabajos programados (recordatorios, cortes de período, conciliaciones) fuera del *request/response*.
+
+**Patrones de evolución**
+- **Strangler Fig**: migrar o incorporar módulos gradualmente, permitiendo sustituir componentes sin interrumpir a los usuarios.
+- **Feature Toggle**: activar funcionalidades a grupos piloto y reducir riesgo en lanzamientos.
+
+**Asignación sugerida de bounded contexts (ejemplo)**
+- **Finanzas**: Presupuestos, valorizaciones, liquidaciones, contratos, reportes.
+- **Proyectos**: Expediente, hitos, cronogramas, tareas, adjuntos, control de cambios.
+- **Colaboración**: Mensajes, reuniones, notificaciones, recordatorios.
+- **Identidad & Accesos**: Usuarios, roles, permisos, auditoría.
+
+**Atributos de calidad soportados por la arquitectura**
+- **Disponibilidad 24/7**: despliegues sin caída, escalado horizontal, *health checks* y *self-healing*.
+- **Seguridad**: cifrado, principio de mínimo privilegio y trazabilidad de acceso.
+- **Escalabilidad**: servicios y almacenes que escalan de forma independiente según la carga (p. ej., reportes financieros).
+- **Mantenibilidad**: módulos pequeños con límites claros; contratos API versionados.
+- **Observabilidad**: *tracing* y métricas por servicio para detectar anomalías y cumplir SLOs.
+
+> Nota: la adopción de patrones como **CQRS**, **Service Mesh** o **Sagas** puede ser progresiva. La primera entrega priorizará API Gateway, *database per service*, mensajería para eventos clave, *circuit breaker* y observabilidad básica; los patrones avanzados se incorporarán conforme crezca la carga y el alcance funcional.
+
+### 4.1.3. Context Diagram
+
+Se adjuntó diagrama de contexto del sistema ***ClearCost*** realizado con Visual Paradigm.
+
+<img src="./img/chapter4/structurizr-ContextDiagram.png" alt="Context Diagram de ClearCost">
+
+<div style="page-break-before: always;"></div>
+
+### 4.1.4. Approach driven ViewPoints Diagrams
+
+**Activity Diagrams**
+
+Se presenta el flujo de actividades desde que el contratista crea una cuenta en ClearCost hasta el momento de finalización del expediente técnico e inicio de la obra.
+
+<img src="./img/chapter4/activityDiagram.png" alt="Activity Diagrams de ClearCost">
+
+<div style="page-break-before: always;"></div>
+
+**State Diagrams**
+
+Se presenta el diagrama de estado de una tarea dentro de un hito.
+
+<img src="./img/chapter4/activity-ClearCost___State__Task.png" alt="State Diagram de ClearCost">
+
+**Class diagram**
+
+<img src="./img/chapter4/general.svg" alt="Diagrama de clases general de ClearCost">
+
+<div style="page-break-before: always;"></div>
 
 
+### 4.1.5. Relational/Non Relational Database Diagram
+
+<img src="./img/chapter4/database.png" alt="Diagrama de base de datos de ClearCost">
+
+<div style="page-break-before: always;"></div>
+
+### 4.1.6. Design Patterns
+
+Detalle por bounded context
+
+**1) IAM (Identidad y Accesos)**
+
+* Adapter + Facade
+    - Cuándo: integrarte con Auth0/Keycloak sin “filtrar” su API a tu dominio.
+    - Beneficio: desacoplas tu core del proveedor; si cambias IdP no rompes el dominio.
+    - Aplicación: AuthFacade expone login(), assignRole(), verifyToken(), y por debajo usa Auth0Adapter.
+
+* Strategy / Policy (RBAC/ABAC)
+    - Cuándo: reglas distintas por rol/tenant (contratista, especialista, cliente).
+    - Beneficio: cambiar políticas sin tocar lógica de aplicación.
+    - Aplicación: PermissionPolicy con estrategias ContractorPolicy, ClientPolicy, etc.
+
+* Specification
+    - Cuándo: expresar reglas complejas: “usuario pertenece al proyecto y tiene rol X”.
+    - Beneficio: reglas recomponibles y testeables.
+    - Aplicación: BelongsToProjectSpec AND HasRoleSpec.
+
+* Proxy
+    - Cuándo: llamadas remotas al IdP con timeouts/retries.
+Beneficio: punto único para resiliencia y circuit breaking.
+
+* Repository
+    - Cuándo: gestionar usuarios, roles y grants propios.
+    - Beneficio: persistencia encapsulada; prepara CQRS si lo necesitas.
+
+**2) Organizations (Estructura organizacional)**
+
+* Composite
+    - Cuándo: modelar jerarquías (Organización → Equipo → Sub-equipo → Miembro).
+    - Beneficio: operaciones uniformes (listar, mover, contar).
+    - Aplicación: OrgComponent con Organization, Team, Member.
+
+* Chain of Responsibility
+    - Cuándo: pipeline de validaciones de alta/invitación (dominio, cupo, política, conflictos).
+    - Beneficio: agregar/quitar validaciones sin reescribir flujo.
+
+* Specification
+    - Cuándo: pertenencia/compatibilidad de roles (“miembro puede ser responsable de especialidad”).
+
+* Observer (Domain Events)
+    - Cuándo: cuando cambie un rol, notificar a Colaboración/Proyectos.
+    - Beneficio: baja cohesión entre servicios.
+
+* Repository
+    - Cuándo: persistir organizaciones, equipos, membresías.
+
+**3) Budget (Presupuesto, valorizaciones y liquidación)**
+
+* Composite
+    - Cuándo: estructura jerárquica (Presupuesto → Partidas → Actividades → Insumos).
+    - Beneficio: acumular montos y navegar jerarquías fácilmente.
+
+* Strategy
+    - Cuándo: distintos métodos de valorización (por avance físico, por hitos, mixto) y prorrateos.
+    - Beneficio: conmutar cálculo sin tocar el dominio.
+
+* State
+    - Cuándo: ciclo de vida del presupuesto (Borrador → En_Revision → Aprobado → En_Valorización → Liquidado).
+    - Beneficio: reglas por estado (qué operaciones se permiten).
+
+* Specification
+    - Cuándo: reglas de aprobación: “si aumento > X% requiere doble firma”.
+
+* Builder
+    - Cuándo: armar un presupuesto a partir de plantillas/cotizaciones.
+    - Beneficio: construcción paso a paso, validando consistencia.
+
+* Observer
+    - Cuándo: cambios de partidas disparan recalculo de totales y reportes.
+
+**4) Change Management (Solicitudes y control de cambios)**
+
+* Command + Handler
+    - Cuándo: cada cambio es un comando (RequestBudgetChange, AdjustMilestone).
+    - Beneficio: separa intención de ejecución; facilita colas/reintentos.
+
+* State
+    - Cuándo: ciclo del cambio (Propuesto → En_Análisis → Aprobado/Rechazado → Implementado).
+    - Beneficio: control de transiciones válidas.
+
+* Saga (coreografía u orquestación)
+    - Cuándo: cambios que involucran varios servicios (Budget, Projects, Colaboración, IAM).
+    - Beneficio: consistencia eventual sin transacciones distribuidas.
+
+* Memento + Audit Log
+    - Cuándo: necesitas “antes y después” para auditoría o rollback lógico.
+    - Beneficio: trazabilidad completa del cambio.
+
+* Outbox
+    - Cuándo: publicar eventos confiablemente tras confirmar cambios.
+    - Beneficio: evita perder/duplicar eventos.
+
+* Mediator
+    - Cuándo: coordinar tareas de revisión entre varios roles sin dependencias directas.
+
+**Transversal (aplica a varios servicios)**
+
+- DTO/Assembler (Mapper) para separar API ↔ dominio.
+
+- Decorator para logging/metrics sin ensuciar la lógica.
+
+- Template Method para flujos similares por especialidad (p.ej., envío/validación de entregables).
+
+- Anti-Corruption Layer (Adapter) en integraciones (Auth0, S3, GA4, Mercado Pago).
+
+#### Qué aplicar primero (evitar sobre-ingeniería en el MVP)
+
+* Budget: Composite + State + Strategy + Repository.
+
+* Projects/Colaboración: State (tareas) + Template Method (workflows por especialidad) + Observer (notificaciones).
+
+* IAM: Adapter/Facade con el IdP + Specification/Policy para permisos.
+
+* Change Management: Command + State.
+
+<div style="page-break-before: always;"></div>
+
+### 4.1.7. Tactics
+
+A continuación se detallan tácticas de arquitectura alineadas a los atributos de calidad prioritarios de ClearCost (microservicios con bounded contexts: IAM, Organizations, Budget, Change Management). Cada táctica indica qué se hace y cómo aplicarla en la plataforma.
+
+#### Disponibilidad & Continuidad (24/7)
+
+* Despliegues sin caída: rolling updates y blue/green detrás del API Gateway; readiness/liveness probes y graceful shutdown.
+
+* Redundancia: instancias en múltiples zonas; stateless services; sesiones en store compartido solo cuando sea necesario.
+
+* Aislamiento de fallos: circuit breaker, timeouts, bulkheads por servicio y por pool de conexiones.
+
+* Colas como búfer: desacoplar procesos pesados (cálculo de reportes, notificaciones) con mensajería y reintentos.
+
+* Base de datos: réplicas de lectura y failover gestionado por servicio (DB-per-service).
+
+#### Rendimiento & Escalabilidad
+
+* Horizontal scaling: autoscaling por CPU/RAM/cola; rate limiting y quotas en el Gateway.
+
+* Caching: caché de lectura en BFF/API Gateway, ETags y compresión; precálculo de paneles (Budget, Proyectos).
+
+* Procesamiento asíncrono: jobs batch y workers para valorizaciones, generación de reportes y envíos masivos.
+
+* Lecturas optimizadas: CQRS ligero para dashboards; paginación y streaming en listados de tareas/documentos.
+
+* Archivos: URLs prefirmadas en S3 para subir/descargar grandes adjuntos sin sobrecargar la API.
+
+#### Seguridad & Privacidad (Security by Design)
+
+* AuthN/AuthZ centralizado: OIDC con RBAC por rol (contratista, especialista, cliente) y scopes por API.
+
+* Aislamiento por tenant: segmentación de datos (filtros a nivel de servicio y/o esquema por organización).
+
+* Cifrado: TLS extremo a extremo; cifrado en reposo; rotación de llaves y secrets management.
+
+* Validación de entrada: input validation y sanitización en BFF/APIs; límites de tamaño de payload y archivos.
+
+* Auditoría: logs inmutables de acceso y cambios (Budget y Change Management), 4-eyes principle para montos sobre umbral.
+
+* Políticas de retención: eliminación/anonimización programada de PII y documentos caducos.
+
+#### Modificabilidad & Evolución
+
+* API-first: contratos OpenAPI versionados; contract testing (Pact) y política de deprecation.
+
+* Feature flags: habilitar capacidades por cohortes y canary releases.
+
+* Versionado de esquema: migraciones forward-only y compatibilidad hacia atrás (eventos versionados).
+
+* DDD + límites claros: bounded contexts (IAM, Organizations, Budget, Change) con repositorios y anti-corruption layer para externos.
+
+* Infraestructura como código: entornos reproducibles y reviewables.
+
+#### Fiabilidad & Resiliencia
+
+* Reintentos con exponential backoff y jitter solo en operaciones idempotentes.
+
+* Idempotencia: idempotency keys en pagos/ajustes; deduplication de eventos.
+
+* Dead-letter queues: aislar mensajes problemáticos y re-procesarlos.
+
+* Sagas: coordinar cambios de larga duración (p. ej., Change Management afectando Budget y Projects).
+
+* Outbox: publicación confiable de eventos de dominio tras commit local.
+
+#### Observabilidad & Operación
+
+* Trazas distribuidas: OpenTelemetry con correlation IDs por solicitud.
+
+* Métricas: KPIs técnicos (latencia, errores, saturación) y de negocio (avance de hitos, variaciones de presupuesto).
+
+* Logging estructurado: JSON con niveles, request-id y user-id; retención y búsqueda centralizada.
+
+* SLOs y alertas: objetivos por servicio (p. ej., p95 de API < X ms, disponibilidad mensual) con alertas accionables.
+
+* Monitoreo sintético: health checks externos a flujos críticos (login, subida de archivo, aprobación de hito).
+
+#### Usabilidad & Experiencia
+
+* BFF por audiencia: endpoints y payloads adaptados para contratista, especialista y cliente.
+
+* Validación en cliente: formularios con errores en línea, empty states y estados de carga.
+
+* Accesibilidad: guía de estilos y componentes con criterios WCAG; atajos y navegación por teclado.
+
+* Notificaciones útiles: recordatorios y resúmenes accionables (no spam).
+
+#### Gestión de Datos & Reportes
+
+* DB-per-service: cada microservicio dueño de su esquema; evitar joins cross-servicio.
+
+* Eventos de dominio: sincronización eventual (BudgetUpdated, MilestoneApproved).
+
+* Auditoría financiera: append-only para valorizaciones y liquidaciones; snapshots (tipo Memento) para comparativos.
+
+* ETL liviano: proyección segura a almacén de reportes para paneles históricos.
+
+#### Integraciones Externas (ACL)
+
+* Anti-Corruption Layer: adapters para Auth0, S3, SendGrid/FCM, Calendar, Mercado Pago, GA4.
+
+* Backpressure: colas y rate limiting hacia terceros; circuit breaker por proveedor.
+
+* Simuladores/stubs: pruebas determinísticas cuando los externos no estén disponibles.
+
+<div style="page-break-before: always;"></div>
+
+## 4.2.	Architectural Drivers
+
+## 4.1.8. Design Purpose
+
+El propósito del diseño de ClearCost es garantizar una implementación coherente con la arquitectura del sistema, integrando módulos de gestión de expedientes técnicos, control financiero y organización de tareas. Su diseño busca optimizar procesos, reducir errores y fortalecer la comunicación entre equipos multidisciplinarios, asegurando una plataforma escalable y confiable que apoye la transformación digital del sector de la construcción.
+
+## 4.1.9.	Primary Functionality (Primary User Stories)
+
+En esta sección se identifican los requisitos iniciales que impactan la estructura de la aplicación.  
+Estos user stories definen las entidades, módulos y relaciones fundamentales sobre las que se construirá el sistema.
+
+| ID        | Título                       | Descripción                                                                                  | Impacto estructural |
+|-----------|------------------------------|----------------------------------------------------------------------------------------------|----------------------|
+| US001–US005 | Crear proyecto con nombre, fechas, contrato y entidad contratante | Permite definir la base de un proyecto de construcción. | Entidad **Proyecto** con relaciones a **Contrato** y **Entidad Contratante**. |
+| US006–US007 | Listado y detalles de proyectos | Usuarios visualizan proyectos accesibles según su rol. | Control de **accesos y permisos**. |
+| US012–US017 | Gestión de equipo y roles   | Contratista agrega miembros, define roles y especialidades.                                  | Entidades **MiembroProyecto**, **Rol**, **Especialidad**. |
+| US022–US026 | Hitos del cronograma        | Definición de etapas dentro del proyecto.                                                    | Entidad **Hito**, validaciones de fechas dentro del proyecto. |
+| US032–US038 | Tareas del cronograma       | Creación y asignación de tareas a miembros.                                                  | Entidad **Tarea** y relación con **Hito** y **Miembro**. |
+| US045–US051 | Entrega y revisión de tareas | Flujo de trabajo con estados (SUBMITTED, APPROVED, REJECTED).                                | Ciclo de vida de **Tarea**, **TaskSubmission** y adjuntos. |
+| US076–US083 | Procesos de cambio          | Solicitud, aprobación o rechazo de cambios.                                                  | Entidad **ProcesoCambio** vinculada a **Proyecto**. |
+| US087–US093 | Organización e invitaciones | Crear y gestionar organizaciones.                                                            | Entidad **Organización**, relación con proyectos y miembros. |
+| US117–US125 | Registro e inicio de sesión | Registro por tipo de cuenta, confirmación y autenticación.                                   | Módulo **Auth** y entidades **Usuario** y **Perfil**. |
+
+## 4.1.10.	Quality Attribute Scenarios
+
+A continuación, se presentan los escenarios de atributos de calidad definidos para el sistema. Cada escenario se describe considerando la fuente de estímulo, el estímulo, el medioambiente, el artefacto, la respuesta y la medida de respuesta.
+
+### 1. Rendimiento (Performance)  
+- **Fuente de estímulo:** Un contratista.  
+- **Estímulo:** Solicita visualizar el cronograma de un proyecto con más de 500 actividades.  
+- **Medioambiente:** El sistema está operando en condiciones normales, con 50 usuarios concurrentes.  
+- **Artefacto:** Módulo de gestión de cronogramas.  
+- **Respuesta:** El sistema carga y muestra el cronograma completo.  
+- **Medida de respuesta:** El tiempo de respuesta no debe exceder los 3 segundos.  
 
 
+### 2. Disponibilidad (Availability)  
+- **Fuente de estímulo:** Un contratista o supervisor.  
+- **Estímulo:** Intenta acceder al sistema durante el horario de trabajo.  
+- **Medioambiente:** El sistema está en operación normal.  
+- **Artefacto:** Plataforma completa (backend y frontend).  
+- **Respuesta:** El sistema permite iniciar sesión y ejecutar funciones principales.  
+- **Medida de respuesta:** El sistema debe garantizar una disponibilidad mínima del 99.5% mensual.  
 
 
+### 3. Seguridad (Security)  
+- **Fuente de estímulo:** Un usuario no autenticado.  
+- **Estímulo:** Intenta acceder a la información financiera de un proyecto.  
+- **Medioambiente:** El sistema se encuentra en producción y bajo carga normal.  
+- **Artefacto:** Módulo de gestión financiera.  
+- **Respuesta:** El acceso es denegado y el intento queda registrado en los logs de seguridad.  
+- **Medida de respuesta:** Ningún dato sensible es expuesto y el evento debe registrarse en menos de 1 segundo.  
+
+
+### 4. Mantenibilidad (Modifiability)  
+- **Fuente de estímulo:** Un desarrollador.  
+- **Estímulo:** Se requiere cambiar la lógica de cálculo de costos unitarios.  
+- **Medioambiente:** El sistema se encuentra en fase de desarrollo, con acceso al repositorio de código.  
+- **Artefacto:** Módulo de cálculo de costos.  
+- **Respuesta:** El desarrollador realiza el cambio, prueba y despliega en el ambiente de pruebas.  
+- **Medida de respuesta:** El tiempo requerido para la modificación no debe superar 4 horas.  
+
+
+### 5. Usabilidad (Usability)  
+- **Fuente de estímulo:** Un contratista nuevo en la plataforma.  
+- **Estímulo:** Intenta crear su primer proyecto desde el formulario.  
+- **Medioambiente:** El sistema está en operación normal.  
+- **Artefacto:** Módulo de creación de proyectos.  
+- **Respuesta:** El usuario completa exitosamente el registro del proyecto siguiendo los pasos guiados.  
+- **Medida de respuesta:** El 90% de los usuarios primerizos logra crear un proyecto en menos de 5 minutos sin asistencia.  
+
+
+## 4.1.11.	Constraints
+
+En esta sección se detallan las restricciones arquitectónicas que condicionan el diseño y la implementación del sistema:
+
+- **Topología de red**  
+  - Acceso a través de DMZ con firewall corporativo.  
+  - Conexiones externas obligatoriamente por HTTPS.  
+
+- **Base de datos**  
+  - Uso obligatorio de PostgreSQL administrado por el área de TI.  
+  - No se permite introducir nuevos motores de base de datos.  
+
+- **Entorno web**  
+  - Despliegue en servidores aprobados por la organización.  
+  - Balanceo de carga y WAF corporativo son obligatorios.  
+
+- **Servidores e infraestructura**  
+  - Uso de Azure como nube autorizada, en la región South America.  
+  - Imágenes de sistema operativo homologadas por TI.  
+
+- **Software de terceros**  
+  - Integraciones permitidas solo con herramientas aprobadas: Power BI, SAP, Autodesk.  
+  - Gestión de secretos mediante Azure Key Vault.  
+
+- **Cumplimiento de normas**  
+  - Cumplimiento de la **Ley N.º 29733 (Protección de Datos Personales en Perú)**.  
+  - Adopción de buenas prácticas OWASP y cifrado de datos en reposo y en tránsito.  
+
+- **Integraciones**  
+  - Autenticación centralizada con Azure AD.  
+  - Conector a sistemas ERP (SAP/Oracle) y exportación a Power BI.  
+
+- **Disponibilidad y continuidad**  
+  - SLA objetivo de 99.9%.  
+  - RPO máximo: 15 minutos.  
+  - RTO máximo: 2 horas.  
+
+- **Costos y tiempos**  
+  - Presupuesto mensual de nube limitado por centro de costos.  
+  - Autoescalado configurado con límites superiores para controlar gastos.  
+
+- **UX y accesibilidad**  
+  - Idioma por defecto: Español (es-PE).  
+  - Interfaz responsive.  
+
+
+## 4.1.12.	Architectural Concerns
+
+En el contexto del proyecto ClearCost, las principales preocupaciones arquitectónicas identificadas son:
+
+- **Seguridad de la información**  
+  Protección de datos financieros y técnicos sensibles de cada proyecto.  
+  Control de accesos para evitar que contratistas o clientes modifiquen información crítica sin autorización.  
+
+- **Disponibilidad y continuidad**  
+  Garantizar que la plataforma esté disponible para los usuarios con un SLA objetivo de 99.9%.  
+  Planes de contingencia en caso de fallos (RPO de 15 min, RTO de 2 horas).  
+
+- **Escalabilidad**  
+  Posibilidad de manejar proyectos de distintas magnitudes (pequeñas obras vs. megaproyectos de infraestructura).  
+  Adaptabilidad a más usuarios y equipos en paralelo.  
+
+- **Integración con sistemas existentes**  
+  Conexión con herramientas de contabilidad, gestión documental y comunicación ya usadas por constructoras.  
+
+- **Cumplimiento normativo**  
+  Asegurar que los procesos digitales respeten regulaciones de construcción, auditorías financieras y normas de seguridad digital.  
+
+- **Experiencia de usuario y colaboración**  
+  Interfaz clara para contratistas, especialistas y administradores.  
+  Soporte para trabajo colaborativo y seguimiento de reuniones.  
+
+<div style="page-break-before: always;"></div>
+
+## 4.3. ADD Iterations
+
+### 4.3.1. Iteration 1: Definición del Core Arquitectónico de ClearCost
+
+#### 4.3.1.1. Architectural Design Backlog 1
+
+En este backlog, nos enfocaremos en desarrollar y detallar las características arquitectónicas clave que sustentarán el éxito y la sostenibilidad de **ClearCost**. Esto incluirá elementos críticos como la **Seguridad**, para proteger los datos financieros y de los proyectos; la **Disponibilidad**, para garantizar que los equipos puedan operar sin interrupciones; y la **Mantenibilidad**, para permitir que el sistema evolucione rápidamente según las necesidades del negocio. A través de historias de usuario, tareas específicas y criterios de aceptación, este backlog establecerá la hoja de ruta para el desarrollo arquitectónico de ClearCost.
+
+---
+
+#### **Seguridad**
+
+* **Historias de Usuario (User Stories):**
+    * Como **Contratista**, quiero que los datos financieros de mis proyectos estén protegidos para mantener la confidencialidad frente a mis clientes y competidores.
+    * Como **Entidad Contratante**, necesito tener la certeza de que solo las personas autorizadas pueden ver y modificar la información de mi proyecto para sentirme seguro al usar la aplicación.
+
+* **Tareas:**
+    * Implementar autenticación centralizada utilizando un proveedor de identidad externo (ej. Auth0 o Azure AD) mediante el protocolo OIDC.
+    * Utilizar un **API Gateway** como punto único de entrada para validar los tokens JWT en cada petición, denegando el acceso a peticiones no autorizadas.
+    * Implementar cifrado de datos sensibles (contratos, datos financieros) tanto en tránsito (HTTPS) como en reposo.
+    * Implementar un sistema de logging que registre todos los intentos de acceso, exitosos y fallidos, para auditoría.
+
+* **Criterios de Aceptación:**
+    * Las pruebas de penetración no deben revelar vulnerabilidades críticas antes del lanzamiento.
+    * Cumplimiento con la Ley de Protección de Datos Personales de Perú (Ley N.º 29733).
+    * El 100% de las operaciones sensibles deben ser registradas en el log de auditoría.
+
+---
+
+#### **Disponibilidad**
+
+* **Historias de Usuario (User Stories):**
+    * Como **Especialista de Área**, quiero que el servicio esté disponible el 99.5% del tiempo durante mi horario laboral, independientemente de fallos puntuales en otros módulos.
+    * Como **Contratista**, necesito que la plataforma se recupere rápidamente de fallos para minimizar el tiempo de inactividad y no afectar el cronograma del proyecto.
+
+* **Tareas:**
+    * Implementar **replicación de servicios críticos** (ej. Project Service, Finance Service) en múltiples zonas de disponibilidad en Azure.
+    * Establecer **políticas de failover automáticas** y *health checks* para que el orquestador (ej. Kubernetes) reinicie instancias caídas sin intervención manual.
+    * Aplicar el patrón **Circuit Breaker** en las llamadas entre servicios para evitar que la falla de un microservicio (ej. Notificaciones) cause una falla en cascada en los servicios que dependen de él.
+    * Utilizar **comunicación asíncrona** con un *message broker* para operaciones no críticas, de modo que si un servicio consumidor no está disponible, el mensaje quede en cola hasta que se recupere.
+
+* **Criterios de Aceptación:**
+    * Redundancia demostrada en todos los componentes críticos del sistema (API Gateway, microservicios clave, bases de datos).
+    * El sistema cumple con el **SLA objetivo del 99.5%** medido mensualmente.
+    * Pruebas de recuperación ante desastres (failover) demuestran que el sistema se recupera dentro del RTO establecido de 2 horas.
+
+---
+
+#### **Mantenibilidad (Modificabilidad)**
+
+* **Historias de Usuario (User Stories):**
+    * Como **Developer** del equipo de GreatBuild, quiero poder modificar la lógica de un dominio de negocio (ej. Finanzas) sin afectar a otros dominios (ej. Proyectos) para entregar nuevas funcionalidades más rápido.
+    * Como **Arquitecto**, necesito que la arquitectura permita que diferentes equipos trabajen en paralelo sobre distintos módulos para escalar la capacidad de desarrollo.
+
+* **Tareas:**
+    * Diseñar la arquitectura siguiendo un estilo de **Microservicios**, donde cada servicio se alinee con un **Bounded Context** de DDD (ej. `FinanceService`, `ProjectService`).
+    * Implementar el patrón **Database per Service**, asegurando que cada microservicio gestione su propia base de datos para minimizar el acoplamiento.
+    * Definir **contratos de API versionados** y claros (usando OpenAPI) para la comunicación entre servicios, asegurando que los cambios sean predecibles.
+    * Crear una **pipeline de CI/CD** que permita a cada equipo desplegar su microservicio de forma independiente y automatizada.
+
+* **Criterios de Aceptación:**
+    * Se demuestra que un cambio en la lógica de cálculo de costos (dentro del `FinanceService`) se puede implementar y desplegar en **menos de 4 horas** sin necesidad de redesplegar otros servicios.
+    * Las interfaces entre microservicios están documentadas y no presentan acoplamiento a nivel de base de datos.
+    * Cada microservicio puede ser desplegado de forma independiente en un entorno de pruebas.
+
+#### 4.3.1.2. Establish Iteration Goal by Selecting Drivers
+
+En esta iteración, se seleccionarán los drivers clave para establecer metas y objetivos concretos que garanticen la efectividad, seguridad y evolución de la plataforma **ClearCost**. Las metas se definirán a partir de los pilares de **Seguridad**, **Disponibilidad** y **Mantenibilidad**, identificados como fundamentales en el *Architectural Design Backlog* para cumplir con las expectativas de los usuarios y los objetivos de negocio de GreatBuild.
+
+---
+
+##### **Meta de Seguridad**
+
+* **Objetivo:** Fortalecer la infraestructura de seguridad de ClearCost para proteger la integridad de los datos financieros y de los proyectos, así como las transacciones dentro de la plataforma, generando confianza en todos los actores.
+* **Acciones Clave:**
+  * Implementar autenticación centralizada para todos los usuarios, integrando un proveedor de identidad externo (Azure AD).
+  * Aplicar cifrado robusto para los datos sensibles tanto en tránsito (HTTPS) como en reposo (bases de datos y almacenamiento de archivos).
+  * Establecer un sistema de logging y auditoría para registrar las operaciones críticas y los intentos de acceso.
+
+---
+
+##### **Meta de Alta Disponibilidad**
+
+* **Objetivo:** Mantener la disponibilidad continua del servicio ClearCost, asegurando una mínima interrupción incluso durante fallos para que los equipos de construcción puedan operar sin impedimentos.
+* **Acciones Clave:**
+  * Implementar replicación de los servicios críticos en múltiples zonas de disponibilidad.
+  * Establecer y probar políticas de *failover* automáticas para asegurar una rápida recuperación ante fallos.
+  * Utilizar patrones de resiliencia como *Circuit Breaker* para evitar fallos en cascada entre microservicios.
+
+---
+
+##### **Meta de Mantenibilidad (Modificabilidad)**
+
+* **Objetivo:** Diseñar una arquitectura que permita una evolución rápida y desacoplada del sistema, facilitando que los equipos de desarrollo puedan entregar nuevas funcionalidades de manera eficiente y en paralelo.
+* **Acciones Clave:**
+  * Diseñar los servicios basándose en los **Bounded Contexts** definidos (Finanzas, Proyectos, Colaboración, Identidad y Accesos).
+  * Implementar el patrón **Database per Service** para garantizar la autonomía de cada microservicio.
+  * Establecer contratos de API claros y versionados para asegurar una comunicación predecible entre los servicios.
+
+---
+
+##### **Objetivo de la Iteración**
+
+* **Seguridad:** El objetivo es robustecer la protección mediante la implementación de autenticación centralizada y el cifrado de datos sensibles, garantizando así la seguridad integral de la información y la confidencialidad de los proyectos.
+* **Alta Disponibilidad:** El objetivo es asegurar una operatividad continua con mínimas interrupciones, implementando sistemas de replicación de servicios y políticas de *failover* efectivas para una rápida recuperación ante fallos.
+* **Mantenibilidad:** Nos proponemos diseñar una arquitectura de microservicios alineada con los dominios del negocio que facilite la evolución del sistema y la entrega continua de valor. Esto se logrará mediante la implementación de límites claros entre servicios y bases de datos independientes.
+
+#### 4.3.1.3. Choose One or More Elements of the System to Refine
+
+Para continuar con el proceso de desarrollo de **ClearCost**, y basándonos en los objetivos de la iteración y los drivers previamente establecidos, el siguiente paso es seleccionar uno o más elementos del sistema que requieren refinamiento. Estos elementos se eligen con el propósito de mejorar la **Seguridad**, la **Disponibilidad** y la **Mantenibilidad** de la plataforma. A continuación, se detallan los elementos seleccionados para el refinamiento:
+
+---
+
+* **Autenticación y Seguridad de Datos:**
+  * **Elemento a Refinar:** Sistema de autenticación y mecanismos de cifrado de datos.
+  * **Razón para el Refinamiento:** Asegurar que todos los aspectos de la seguridad de la información cumplan con los estándares actuales y protejan eficazmente la data financiera y contractual contra amenazas externas e internas.
+  * **Esperado:** Implementación de una autenticación centralizada y robusta (integrada con Azure AD), junto con la actualización de los protocolos de cifrado para datos en reposo y en tránsito.
+
+* **Arquitectura de Microservicios:**
+  * **Elemento a Refinar:** Descomposición de la aplicación en microservicios alineados a los Bounded Contexts.
+  * **Razón para el Refinamiento:** Mejorar la **mantenibilidad** y la **escalabilidad** del sistema, permitiendo que diferentes dominios funcionales (Proyectos, Finanzas, etc.) se desarrollen y desplieguen de manera independiente.
+  * **Esperado:** Un diseño de microservicios bien estructurado que optimice la evolución del producto y la velocidad de entrega de nuevas funcionalidades.
+
+* **Sistemas de Replicación y Failover:**
+  * **Elemento a Refinar:** Mecanismos de replicación de servicios y políticas de *failover*.
+  * **Razón para el Refinamiento:** Minimizar el tiempo de inactividad y garantizar una alta **disponibilidad** (SLA del 99.5%) incluso durante incidentes no planificados.
+  * **Esperado:** Configuración de replicación en múltiples zonas de disponibilidad y pruebas de *failover* automáticas que garanticen la continuidad del servicio.
+
+* **Comunicación entre Servicios:**
+  * **Elemento a Refinar:** Diseño de la comunicación síncrona (vía API Gateway) y asíncrona (vía Message Broker).
+  * **Razón para el Refinamiento:** Aumentar la resiliencia y **disponibilidad** del sistema, desacoplando los servicios para que el fallo de un componente no crítico (ej. Notificaciones) no afecte a los componentes centrales (ej. Gestión de Proyectos).
+  * **Esperado:** Una implementación clara de patrones como **API Gateway** y **Comunicación Asíncrona** que asegure un sistema robusto y resiliente.
+
+#### 4.3.1.4. Choose One or More Design Concepts That Satisfy the Selected Drivers
+
+Tras identificar los elementos del sistema que requieren refinamiento, el siguiente paso es seleccionar los conceptos de diseño adecuados que satisfagan los drivers arquitectónicos seleccionados. Estos conceptos de diseño son esenciales para guiar el desarrollo del sistema y asegurar que los objetivos de la iteración se cumplan eficientemente. A continuación, se detallan los conceptos de diseño seleccionados para cada uno de los drivers clave:
+
+---
+
+#### **Seguridad**
+
+* **Concepto de Diseño: Autenticación y Autorización Centralizada**
+  * [cite_start]**Descripción:** Emplear un proveedor de identidad externo (Azure AD) y un modelo de Control de Acceso Basado en Roles (RBAC) para gestionar permisos de usuario. [cite: 5542]
+  * **Justificación:** Esta decisión satisface la restricción del uso de Azure AD y centraliza la lógica de seguridad, evitando que cada microservicio la reimplemente. Minimiza el riesgo de accesos no autorizados y apoya el driver de seguridad.
+
+* **Concepto de Diseño: Gateway de API Seguro (API Gateway)**
+  * [cite_start]**Descripción:** Utilizar un API Gateway que actúe como un punto único de control de seguridad para gestionar la validación de tokens, las autorizaciones y el cifrado de las comunicaciones. [cite: 5466]
+  * **Justificación:** Proporciona una capa adicional de seguridad para las interacciones entre los clientes y el back-end, fortaleciendo la protección contra ataques externos y simplificando la gestión de la seguridad.
+
+---
+
+#### **Alta Disponibilidad**
+
+* **Concepto de Diseño: Sistemas Tolerantes a Fallos**
+  * [cite_start]**Descripción:** Emplear tácticas de redundancia (múltiples instancias de cada servicio) y replicación de datos para garantizar que el sistema siga operativo incluso si una parte falla. [cite: 5533, 5536]
+  * **Justificación:** Aumenta la resiliencia del sistema y minimiza el tiempo de inactividad, asegurando una alta disponibilidad para cumplir con el SLA del 99.5%.
+
+* **Concepto de Diseño: Comunicación Asíncrona**
+  * [cite_start]**Descripción:** Utilizar un Message Broker para la comunicación entre servicios que no requieren una respuesta inmediata. [cite: 957, 5472]
+  * **Justificación:** Desacopla los servicios, permitiendo que el sistema siga funcionando incluso si un servicio consumidor está temporalmente caído. [cite_start]Esto mejora la disponibilidad general y la percepción de rendimiento. [cite: 1417, 1488]
+
+* **Concepto de Diseño: Patrón Circuit Breaker**
+  * [cite_start]**Descripción:** Implementar un mecanismo de *Circuit Breaker* para evitar que las llamadas a servicios que están fallando se propaguen en cascada. [cite: 1113, 5468]
+  * **Justificación:** Permite que el sistema se degrade de forma controlada en lugar de fallar por completo, aislando el problema y dando tiempo para la recuperación.
+
+---
+
+#### **Mantenibilidad (Modificabilidad)**
+
+* **Concepto de Diseño: Arquitectura de Microservicios y Domain-Driven Design (DDD)**
+  * [cite_start]**Descripción:** Descomponer la aplicación en servicios pequeños y autónomos, donde cada uno se alinea con un Bounded Context del negocio (Finanzas, Proyectos, Colaboración, etc.). [cite: 3131, 5455]
+  * **Justificación:** Reduce drásticamente la complejidad de cada módulo. Permite que equipos independientes desarrollen, prueben y desplieguen sus servicios sin afectar a los demás, cumpliendo así el objetivo de implementar cambios en menos de 4 horas.
+
+* **Concepto de Diseño: Base de Datos por Servicio (Database per Service)**
+  * [cite_start]**Descripción:** Asignar a cada microservicio su propia base de datos, evitando el acceso directo a la base de datos de otros servicios. [cite: 5470]
+  * **Justificación:** Es la táctica clave para lograr un bajo acoplamiento. Garantiza que el esquema de datos de un servicio pueda evolucionar sin romper otros servicios, lo que es fundamental para la mantenibilidad a largo plazo.
+
+---
+
+##### **Objetivo de los Conceptos de Diseño**
+
+Para la **seguridad**, la Autenticación Centralizada y el API Gateway aseguran que solo usuarios autorizados accedan a los datos. Para la **alta disponibilidad**, el uso de Sistemas Tolerantes a Fallos, Comunicación Asíncrona y el patrón Circuit Breaker implementan redundancia y resiliencia para garantizar la operación continua. Para la **mantenibilidad**, la Arquitectura de Microservicios alineada con DDD y el patrón de Base de Datos por Servicio permiten que el sistema evolucione de forma rápida y segura, facilitando el desarrollo paralelo y los despliegues independientes.
+
+#### 4.3.1.5. Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces
+
+En esta fase del diseño, se instancian los elementos arquitectónicos basados en los conceptos previamente seleccionados. Se definen las responsabilidades de cada módulo y las interfaces a través de las cuales interactuarán. Este proceso asegura que cada componente cumpla con una función específica y se integre de manera cohesiva en la arquitectura general de **ClearCost**, satisfaciendo los drivers de **Seguridad**, **Disponibilidad** y **Mantenibilidad**.
+
+---
+
+* **Módulo de API Gateway**
+  * **Elementos Arquitectónicos:** Servidor de API Gateway (ej. Spring Cloud Gateway), Lógica de enrutamiento, Filtros de seguridad.
+  * **Responsabilidades:**
+    * Ser el único punto de entrada para todas las peticiones externas.
+    * Validar los tokens de autenticación (JWT) en cada solicitud.
+    * Enrutar las peticiones a los microservicios internos correspondientes.
+    * Aplicar políticas de seguridad transversales (ej. Rate Limiting).
+  * **Interfaces:** API REST expuesta a los clientes (SPA, Móvil) con endpoints versionados. Comunicación interna con los microservicios vía HTTPS o gRPC.
+
+* **Módulo de Arquitectura de Microservicios (Estilo Principal)**
+  * **Elementos Arquitectónicos:** Contenedores de servicios independientes por cada Bounded Context (`IdentityService`, `ProjectService`, `FinanceService`, `CollaborationService`).
+  * **Responsabilidades:**
+    * [cite_start]Cada servicio encapsula una capacidad de negocio específica y completa[cite: 5751].
+    * [cite_start]Cada servicio gestiona su propio estado y persistencia de datos[cite: 8094].
+    * [cite_start]Los servicios se despliegan de forma independiente[cite: 5752].
+  * **Interfaces:** Cada servicio expone una API REST/gRPC bien definida para ser consumida por el API Gateway u otros servicios. Se suscriben y publican eventos en el Message Broker.
+
+* **Módulo de Comunicación Asíncrona**
+  * **Elementos Arquitectónicos:** Message Broker (ej. Azure Service Bus, RabbitMQ), Canales de eventos (Topics/Queues).
+  * **Responsabilidades:**
+    * [cite_start]Gestionar la cola de mensajes para desacoplar la comunicación entre microservicios[cite: 8879].
+    * Garantizar la entrega de eventos incluso si los servicios consumidores no están disponibles temporalmente.
+    * [cite_start]Soportar patrones como Publish/Subscribe para notificaciones[cite: 8796].
+  * **Interfaces:** Interfaz para publicar eventos (ej. `TareaCreada`, `PresupuestoAprobado`) y para suscribirse a dichos eventos.
+
+* **Módulo de Diseño de Sistemas Tolerantes a Fallos**
+  * **Elementos Arquitectónicos:** Orquestador de contenedores (ej. Kubernetes en Azure AKS), Múltiples instancias (réplicas) de cada microservicio, Health Check endpoints.
+  * **Responsabilidades:**
+    * [cite_start]Mantener la disponibilidad del sistema mediante la replicación de componentes críticos[cite: 8578].
+    * Detectar y reiniciar automáticamente instancias de servicios que han fallado.
+    * Distribuir la carga de trabajo entre las instancias disponibles.
+  * **Interfaces:** Endpoints `/health` en cada microservicio que el orquestador consume para verificar el estado del servicio.
+
+* **Módulo de Persistencia de Datos**
+  * **Elementos Arquitectónicos:** Bases de datos PostgreSQL independientes para cada microservicio (Patrón Database per Service).
+  * **Responsabilidades:**
+    * [cite_start]Cada base de datos es propiedad exclusiva de un único microservicio, que es el único que puede acceder a ella directamente[cite: 8094].
+    * Garantizar la integridad y consistencia de los datos dentro de su propio Bounded Context.
+  * **Interfaces:** Interfaces de Repositorio (ej. `ProjectRepository`) dentro de cada microservicio que abstraen el acceso a los datos.
+
+#### 4.3.1.6. Sketch Views (C4 & UML) and Record Design Decisions
+
+<img src="./img/chapter4/ContenedorDiagram.png" alt="Diagrama de Contenedores">
+
+
+<img src="./img/chapter4/ComponentDiagram.png" alt="Diagrama de Componentes">
+
+##### Análisis de los Diagramas
+
+Los siguientes diagramas visualizan la arquitectura de **ClearCost** aplicando el Modelo C4. Cada diagrama ofrece un nivel de abstracción distinto, permitiendo comunicar las decisiones de diseño a diferentes audiencias.
+
+**Análisis del Diagrama de Contenedores (C2)**
+
+Este diagrama es la columna vertebral de la arquitectura y valida visualmente las decisiones estratégicas tomadas para satisfacer los drivers arquitectónicos:
+
+* **Punto de Entrada Único y Seguro:** Se observa cómo todo el tráfico de los usuarios (desde la SPA) se canaliza a través de un único **API Gateway**. Esta táctica es fundamental para el driver de **Seguridad**, ya que centraliza la autenticación y la aplicación de políticas de seguridad antes de que cualquier petición alcance la lógica de negocio.
+* **Separación por Dominio (Alta Mantenibilidad):** La descomposición en microservicios (`Identity & Access Service`, `Finance Service`, `Project Service`, `Collaboration Service`) está claramente definida. Esto materializa nuestra meta de **Mantenibilidad**, ya que permite que los equipos puedan desarrollar, probar y desplegar cada dominio de forma independiente.
+* **Aislamiento de Datos y Resiliencia:** Cada microservicio posee su propia base de datos, como lo demuestra la relación uno a uno (ej. `Project Service` -> `Project DB`). Este patrón (`Database per Service`) es clave para lograr un bajo acoplamiento y alta **Disponibilidad**, ya que la falla en una base de datos solo impacta a su servicio correspondiente.
+* **Comunicación Asíncrona para la Disponibilidad:** El `Message Broker` actúa como un intermediario que desacopla los servicios. Por ejemplo, el `Project Service` puede publicar un evento como "TareaCompletada" sin necesidad de esperar a que el `Collaboration Service` lo procese para enviar una notificación. Esto mejora la **Disponibilidad** y el **Rendimiento** del sistema.
+
+**Análisis del Diagrama de Componentes (C3) - Project Service**
+
+Este diagrama ofrece una vista detallada para los desarrolladores que trabajarán dentro del **Project Service**, mostrando una arquitectura interna limpia y bien estructurada:
+
+* **Separación de Responsabilidades:** Se evidencia una clara división de responsabilidades siguiendo los principios de una arquitectura limpia:
+  * El **API Controller** gestiona exclusivamente las peticiones web (HTTP).
+  * La **Domain Logic** contiene las reglas de negocio, aislada de las preocupaciones de la infraestructura.
+  * El **Data Repository** encapsula la lógica de acceso a la base de datos, haciendo que el dominio sea agnóstico a la tecnología de persistencia.
+* **Patrón Adapter para Mantenibilidad:** Los componentes `S3 Adapter` y `Event Publisher` actúan como adaptadores. Aíslan la lógica de dominio de los detalles de implementación de sistemas externos (Amazon S3 y el Message Broker). Si en el futuro se decidiera cambiar el proveedor de almacenamiento o de mensajería, solo habría que modificar o reemplazar estos adaptadores, sin tocar el núcleo del negocio, lo que refuerza enormemente la **Mantenibilidad**.
+
+**Link de drive de los diagramas: https://drive.google.com/drive/folders/1UDiHLSKOWT2RsOc2JCLYziVjQBBG1DOW?usp=sharing**
+
+#### 4.3.1.7. Analysis of Current Design and Review Iteration Goal
+
+En esta última fase de la iteración, realizamos un análisis del diseño arquitectónico propuesto para **ClearCost** con el fin de verificar si las decisiones tomadas satisfacen los objetivos establecidos. La arquitectura de microservicios, junto con los patrones y tácticas seleccionadas, ha abordado directamente los drivers de **Seguridad**, **Disponibilidad** y **Mantenibilidad**. El siguiente tablero Kanban resume el estado de las principales tareas arquitectónicas que surgieron de nuestro backlog, demostrando que hemos cumplido con los objetivos de esta primera iteración de diseño.
+
+---
+
+##### Kanban Board
+
+<img src="./img/chapter4/Kanban.png" alt="Kanban Board">
+
+| POR HACER (To Do)                                                                                                                                          | EN CURSO (In Progress)                                                                                                                                                     | COMPLETADO (Done)                                                                                                                                                      |
+|:-----------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ️ **(ARQ-04) Refinar políticas de autorización:** Detallar los permisos específicos para roles de Coordinador y Especialista.                              | ️ **(ARQ-03) Implementar el patrón Circuit Breaker:** Añadir la dependencia (ej. Resilience4j) y configurar los umbrales de fallo en las llamadas entre servicios.         |  **(ARQ-01) Definir el estilo arquitectónico principal:** Se ha seleccionado y documentado la **Arquitectura de Microservicios** alineada con Bounded Contexts de DDD. |
+| ️ **(ARQ-07) Configurar pipeline de CI/CD por servicio:** Crear plantillas para despliegues independientes que automaticen pruebas y el paso a producción. | ️ **(ARQ-05) Configurar réplicas y Health Checks:** Preparar los archivos de despliegue (ej. Kubernetes manifests) para asegurar la redundancia de los servicios críticos. | **(ARQ-02) Diseñar la capa de seguridad con API Gateway:** Se ha definido el API Gateway como punto de entrada único para centralizar la validación de tokens JWT.     |
+| ️ **(ARQ-08) Implementar estrategia de observabilidad:** Definir las métricas clave y configurar el tracing distribuido entre los servicios.               |                                                                                                                                                                            | **(ARQ-06) Establecer la comunicación asíncrona:** Se ha definido el uso de un **Message Broker** para desacoplar los servicios y mejorar la resiliencia del sistema.  |
+
+---
+
+##### Análisis y Revisión del Objetivo de la Iteración
+
+* **Meta de Seguridad:** **(Completada)** La selección de un **API Gateway** y la definición de una estrategia de autenticación centralizada satisfacen el objetivo de proteger la plataforma. Las tareas restantes son de refinamiento y no alteran la decisión fundamental.
+* **Meta de Alta Disponibilidad:** **(Completada)** La elección de microservicios con réplicas y el uso de comunicación asíncrona a través de un **Message Broker** son las decisiones estructurales que cumplen con el objetivo. Las tareas en progreso y por hacer se enfocan en la implementación de estas tácticas.
+* **Meta de Mantenibilidad:** **(Completada)** La descomposición del sistema en microservicios, cada uno con su propia base de datos (como se visualiza en el diagrama C2), aborda directamente el driver de mantenibilidad. El diseño permite que los equipos trabajen en paralelo y que los cambios se realicen en menos de 4 horas, cumpliendo el escenario de calidad.
+
+<div style="page-break-before: always;"></div>
 
 # Conclusiones
 
-- El análisis detallado de las entrevistas permitió al equipo identificar y diferenciar oportunidades de mejora, así como nuevas funcionalidades para el proyecto. De igual manera, la investigación del mercado objetivo, complementada con el estudio de competidores directos e indirectos, facilitó el reconocimiento de debilidades y fortalezas en el enfoque general de **ClearCost**.
+- La arquitectura de microservicios, delimitada por bounded contexts (IAM, Organizations, Budget y Change Management) y documentada en C4, quedó alineada con los objetivos de negocio de ClearCost; esto reduce el acoplamiento, facilita el trabajo en paralelo del equipo y habilita una evolución funcional por incrementos sin reescrituras estructurales.
 
-- En el ámbito del trabajo colaborativo, se identificó como principal desafío la falta de organización y coordinación en el desarrollo de funcionalidades previamente definidas. Aun así, se logró cumplir en gran medida con los objetivos establecidos y mantener un progreso constante a lo largo del entregable.
+- La selección de patrones (Factory, Composite, Strategy, State, Repository, Specification, Observer/Domain Events y Saga) junto con las tácticas de disponibilidad, seguridad, observabilidad y resiliencia proporciona un marco técnico para cumplir atributos de calidad medibles (SLOs, trazabilidad financiera y auditoría), mitigando riesgos críticos desde el diseño.
 
-- Finalmente, el proyecto demuestra una alta **viabilidad técnica y de mercado**, ya que responde a necesidades reales del sector construcción al ofrecer un control financiero claro y transparente. Esta propuesta no solo aporta valor a las constructoras, sino que también genera confianza en los clientes, lo que aumenta las posibilidades de adopción y sostenibilidad en el tiempo.
+- El plan de integración con servicios externos (Auth0, SendGrid/FCM, S3, Google Calendar/Meet, Mercado Pago y GA4) y el enfoque de entrega incremental (MVP → R1 → R2), acompañado de documentación de decisiones y modelos UML, fortalecen la viabilidad del proyecto y aceleran el time-to-market de la landing page y de los primeros módulos productivos.
 
 <div style="page-break-before: always;"></div>
 
