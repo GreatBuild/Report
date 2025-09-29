@@ -4542,7 +4542,7 @@ Servicios autónomos por dominio de negocio, con datos propios y comunicación p
 - **Mantenibilidad**: módulos pequeños con límites claros; contratos API versionados.
 - **Observabilidad**: *tracing* y métricas por servicio para detectar anomalías y cumplir SLOs.
 
-> Nota: la adopción de patrones como **CQRS**, **Service Mesh** o **Sagas** puede ser progresiva. La primera entrega priorizará API Gateway, *database per service*, mensajería para eventos clave, *circuit breaker* y observabilidad básica; los patrones avanzados se incorporarán conforme crezca la carga y el alcance funcional.
+<div style="page-break-before: always;"></div>
 
 ### 4.1.3. Context Diagram
 
