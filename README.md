@@ -5235,6 +5235,16 @@ En esta última fase de la iteración, realizamos un análisis del diseño arqui
 
 <div style="page-break-before: always;"></div>
 
+# Capítulo V: Product Implementation, Validation & Deployment
+
+## 5.3 Microservices Implementation 
+
+### 5.2.1 Sprint 1 
+
+#### 5.2.1.1 Sprint Backlog 1 
+
+
+
 # Conclusiones
 
 - La arquitectura de microservicios, delimitada por bounded contexts (IAM, Organizations, Budget y Change Management) y documentada en C4, quedó alineada con los objetivos de negocio de ClearCost; esto reduce el acoplamiento, facilita el trabajo en paralelo del equipo y habilita una evolución funcional por incrementos sin reescrituras estructurales.
