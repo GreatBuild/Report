@@ -5243,7 +5243,58 @@ En esta última fase de la iteración, realizamos un análisis del diseño arqui
 
 #### 5.2.1.1 Sprint Backlog 1 
 
-
+<table style="width:100%; border-collapse: collapse;">
+    <tr>
+        <th style="padding: 8px; border: 1px solid #ddd; text-align: left;">Sprint #</th>
+        <th style="padding: 8px; border: 1px solid #ddd; text-align: left;">Sprint 1</th>
+    </tr>
+    <tr>
+        <th colspan="2" style="padding: 8px; border: 1px solid #ddd; text-align: left;">Sprint Planning Background</th>
+    </tr>
+    <tr>
+        <td style="padding: 8px; border: 1px solid #ddd; font-weight: bold;">Date</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">03-10-2025</td>
+    </tr>
+    <tr>
+        <td style="padding: 8px; border: 1px solid #ddd; font-weight: bold;">Time</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">5:00 pm - 10:00 pm</td>
+    </tr>
+    <tr>
+        <td style="padding: 8px; border: 1px solid #ddd; font-weight: bold;">Location</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Canal de Voz de Discord</td>
+    </tr>
+    <tr>
+        <td style="padding: 8px; border: 1px solid #ddd; font-weight: bold;">Prepared By</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Fernández Remón, Roy</td>
+    </tr>
+    <tr>
+        <td style="padding: 8px; border: 1px solid #ddd; font-weight: bold;">Attendees (to planning meeting)</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Diestra Zambrano, Adriana Maria<br>León Vivas, Fabrizio Amir<br>Fernandez Remon, Roy Linsh</td>
+    </tr>
+    <tr>
+        <td style="padding: 8px; border: 1px solid #ddd; font-weight: bold;">Sprint 0 Review Summary</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Debido a que es nuestro primer sprint de desarrollo, no existe un review summary del sprint.</td>
+    </tr>
+    <tr>
+        <td style="padding: 8px; border: 1px solid #ddd; font-weight: bold;">Sprint 0 Retrospective Summary</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Debido a que es nuestro primer sprint de desarrollo, no existen planes de mejora.</td>
+    </tr>
+    <tr>
+        <th colspan="2" style="padding: 8px; border: 1px solid #ddd; text-align: left;">Sprint Goal & User Stories</th>
+    </tr>
+    <tr>
+        <td style="padding: 8px; border: 1px solid #ddd; font-weight: bold;">Sprint 1 Goal</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Desarrollar y documentar controladores para la API Rest y preparar las vistas principales de la interfaz de usuario.</td>
+    </tr>
+    <tr>
+        <td style="padding: 8px; border: 1px solid #ddd; font-weight: bold;">Sprint 1 Velocity</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">8</td>
+    </tr>
+    <tr>
+        <td style="padding: 8px; border: 1px solid #ddd; font-weight: bold;">Sum of Story Points</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">40 puntos</td>
+    </tr>
+</table>
 
 # Conclusiones
 
