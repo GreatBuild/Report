@@ -5296,6 +5296,31 @@ En esta última fase de la iteración, realizamos un análisis del diseño arqui
     </tr>
 </table>
 
+
+| Sprint # | ID de Historia de Usuario | ID de Tarea | Título de Tarea | Descripción | Estimación (Horas) | Asignado A | Estado |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Landing Page (SWR)** |
+| 1 | SWR01-SWR18 | SWR-LP-01 | Implementar Componentes de Landing Page | Crear las estructuras y estilos para las 18 secciones de la Landing Page en Angular. | 12 | Diestra Zambrano, Adriana Maria | Hecho |
+| **Aplicación Web - Front-End (US)** |
+| 1 | US001-US011 | US-PROJ-01 | Módulo de Gestión de Proyectos | Crear, ver, editar y eliminar proyectos; asociar contrato y entidad contratante. | 10 | Fernandez Remon, Roy Linsh | Hecho |
+| 1 | US012-US021 | US-TEAM-01 | Módulo de Gestión de Equipo del Proyecto | Agregar, buscar, editar y eliminar miembros del equipo; asignar roles y especialidades. | 9 | León Vivas, Fabrizio Amir | Hecho |
+| 1 | US022-US031 | US-SCHED-01 | Módulo de Hitos del Cronograma | Crear, visualizar, editar, eliminar y ordenar los hitos del proyecto. | 10 | Diestra Zambrano, Adriana Maria | Hecho |
+| 1 | US032-US053 | US-TASK-01 | Módulo de Gestión de Tareas | Crear, asignar, editar, eliminar y entregar tareas; filtrar responsables y revisar entregables. | 12 | Fernandez Remon, Roy Linsh | Hecho |
+| 1 | US054-US068 | US-MEET-01 | Módulo de Gestión de Reuniones | Crear, visualizar, editar y cancelar reuniones; añadir y gestionar participantes. | 8 | León Vivas, Fabrizio Amir | Hecho |
+| 1 | US069-US075 | US-FILE-01 | Módulo del Expediente Técnico | Visualizar estructura, crear carpetas y gestionar referencias a archivos. | 7 | Diestra Zambrano, Adriana Maria | Hecho |
+| 1 | US076-US086 | US-CHANGE-01 | Módulo de Gestión de Cambios | Iniciar, visualizar, aprobar y rechazar solicitudes de cambio (Change Process). | 9 | Fernandez Remon, Roy Linsh | Hecho |
+| 1 | US087-US106 | US-ORG-01 | Módulo de Organizaciones y Miembros | Crear, editar y eliminar organizaciones; invitar y gestionar miembros. | 11 | León Vivas, Fabrizio Amir | Hecho |
+| 1 | US107-US116 | US-NOTIF-01 | Módulo de Notificaciones | Notificar sobre reuniones, tareas, cambios, invitaciones y facturas. | 8 | Diestra Zambrano, Adriana Maria | Hecho |
+| 1 | US117-US133 | US-AUTH-01 | Módulo de Autenticación y Perfil | Registro de usuarios, inicio/cierre de sesión y recuperación de contraseña. | 10 | Fernandez Remon, Roy Linsh | Hecho |
+| 1 | US134-US148 | US-SUB-01 | Módulo de Suscripciones y Pagos | Visualizar planes, contratar, cancelar y ver facturas. | 9 | León Vivas, Fabrizio Amir | Hecho |
+| **Aplicación Web - Back-End (TS)** |
+| 1 | TS01-TS07 | TS-ORG-API-01 | Endpoints de Organizaciones | API para crear, listar, actualizar, eliminar organizaciones y gestionar sus miembros. | 11 | Diestra Zambrano, Adriana Maria | Hecho |
+| 1 | TS08-TS14, TS57-TS58 | TS-PROJ-API-01 | Endpoints de Proyectos | API para el CRUD de proyectos y la gestión de su equipo. | 12 | Fernandez Remon, Roy Linsh | Hecho |
+| 1 | TS15-TS20 | TS-SCHED-API-01 | Endpoints de Cronograma e Hitos | API para la gestión del cronograma y sus hitos. | 10 | León Vivas, Fabrizio Amir | Hecho |
+| 1 | TS21-TS34, TS60-TS61 | TS-TASK-API-01 | Endpoints de Tareas y Cambios | API para el CRUD de tareas, entregables y solicitudes de cambio. | 12 | Diestra Zambrano, Adriana Maria | Hecho |
+| 1 | TS35-TS50 | TS-AUTH-API-01 | Endpoints de Autenticación y Seguridad | API para registro, login, tokens, y gestión de contraseñas. | 12 | Fernandez Remon, Roy Linsh | Hecho |
+| 1 | TS51-TS56 | TS-BILL-API-01 | Endpoints de Facturación y Suscripciones | API para gestionar planes, facturas y pagos. | 9 | León Vivas, Fabrizio Amir | Hecho |
+
 # Conclusiones
 
 - La arquitectura de microservicios, delimitada por bounded contexts (IAM, Organizations, Budget y Change Management) y documentada en C4, quedó alineada con los objetivos de negocio de ClearCost; esto reduce el acoplamiento, facilita el trabajo en paralelo del equipo y habilita una evolución funcional por incrementos sin reescrituras estructurales.
