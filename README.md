@@ -5227,6 +5227,15 @@ En esta última fase de la iteración, realizamos un análisis del diseño arqui
 
 ---
 
+#### 5.2 Software Configuration Management
+
+En esta sección el equipo establecerá las decisiones y convenciones que permitirán mantener la consistencia durante el ciclo de vida del proyecto ClearCost. Se incluyen secciones internas para Source Code Management, Development Environment Configuration y Deployment Configuration.
+
+#### 5.2.1 Software Development Environment Configuration
+
+
+
+
 ##### Análisis y Revisión del Objetivo de la Iteración
 
 * **Meta de Seguridad:** **(Completada)** La selección de un **API Gateway** y la definición de una estrategia de autenticación centralizada satisfacen el objetivo de proteger la plataforma. Las tareas restantes son de refinamiento y no alteran la decisión fundamental.
