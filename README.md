@@ -5321,6 +5321,63 @@ En esta última fase de la iteración, realizamos un análisis del diseño arqui
 | 1 | TS35-TS50 | TS-AUTH-API-01 | Endpoints de Autenticación y Seguridad | API para registro, login, tokens, y gestión de contraseñas. | 12 | Fernandez Remon, Roy Linsh | Hecho |
 | 1 | TS51-TS56 | TS-BILL-API-01 | Endpoints de Facturación y Suscripciones | API para gestionar planes, facturas y pagos. | 9 | León Vivas, Fabrizio Amir | Hecho |
 
+#### 5.2.1.2 Development Evidence for Sprint Review
+
+### Evidencia de Desarrollo Consolidada
+
+| Repositorio | Rama | ID del Commit | Mensaje del Commit | Cuerpo del Mensaje del Commit | Fecha del Commit |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| LandingPage | develop | c0280860da324d508c57f2ce0f20f0d07c5c7fc8 | chore: add base html structure | | 04/10/2025 |
+| LandingPage | develop | cdf3c43c2ae65a3b3d376533000745d943d11b36 | chore: add css style for the footer | | 04/10/2025 |
+| LandingPage | develop | 391ef8145bd877cdab1cdd3ddbe526f64d5e2cc3 | feat(swr14): add html code for the footer | | 04/10/2025 |
+| LandingPage | develop | ff602386552405addae234831b560ba6cfe5371d | feat(swr16): add css style for the testimonials section | | 04/10/2025 |
+| LandingPage | develop | 44b11ecef00abbbdc146c617af644f10cfbbcc6a | feat(swr16): add responsive style for the testimonials section | | 04/10/2025 |
+| LandingPage | develop | 83e52386354b64f4ad4ddbf5b7880c3cfdcc06c2 | feat(swr16): add html code and assets for the testimonials section | | 04/10/2025 |
+| LandingPage | develop | 394c46a3a439edbfdd06f511a88c2a4b18c7fc58 | feat(swr15): add assets for the header section | | 04/10/2025 |
+| LandingPage | develop | ede47fd561d8e5f126c9e5741cccb951e771dab8 | bugfix(all): change html and css for better spacing and display | | 04/10/2025 |
+| LandingPage | develop | adb91bf6aa8eaf662d84868128ee24fe32511538 | initial commit | | 04/10/2025 |
+| LandingPage | develop | 07e65efb639f4a8421f0bce7003750974d1796fb | chore: add project dependencies | | 04/10/2025 |
+| LandingPage | develop | 7f15f5c312dbc1be0a8bdba6e3ec6cbfd5e25e90 | chore: set up i18n configuration | | 05/10/2025 |
+| LandingPage | develop | 5a77ed6d369ede8fd52cbc192c401d5661170d13 | feat(swr01): add user type enum | | 05/10/2025 |
+| LandingPage | develop | 1eb8a4750ea95434dd7c7904673d86ccf386701e | feat(swr17): add email of galaxia wonder in terms and conditions | | 05/10/2025 |
+| LandingPage | develop | 418ecbdaf8acd65dc159fbe3b14a81a01cedaec9 | chore(tp): add prop gms title and logo in index | | 05/10/2025 |
+| FrontEnd | develop | 79d8c5f74704aec3976f109628db6f2a8da83a0d | chore: add angular material dependencies | | 05/10/2025 |
+| FrontEnd | develop | 580c809395a30f8fee6f7ca2637e4e7cea6953d3 | feat(ep16): add session service | | 05/10/2025 |
+| FrontEnd | develop | 75990e18728f01314844250a3d985eeff6dff3b5 | feat(environments): add environments authentication endpoint path | | 05/10/2025 |
+| FrontEnd | develop | a595956e4e5f145a6e7b21305c6f4b4f0f785662 | feat(ep15): add iam context model | | 05/10/2025 |
+| FrontEnd | develop | 38d34d6a7bcb138c981440d8c7d1e41be57d1176 | bugfix(ep09): fix typo on contractor value | | 05/10/2025 |
+| FrontEnd | develop | 034904fb63468f232bc959c7c4d6f6807d0dda61 | feat(ep07): add change order value object in changes context | | 06/10/2025 |
+| FrontEnd | develop | 7dbb2b8d15843b178c31c0c660b8dc2cd8bde671 | bugfix(ep09): fix organization creation form not registering commercial name | | 06/10/2025 |
+| FrontEnd | develop | aaf8ed374be5130168c51bbcbc52f41b8ee3d84c | bugfix(ep10): fix i18n in configuration organization form | | 06/10/2025 |
+| FrontEnd | develop | 12526f089636746193378e5b070e6727a1f97ae5 | feat: add project components | | 06/10/2025 |
+| FrontEnd | develop | 40d30ec9685d7982b62f4262b6a526cb456af79f | feat(ep01): show the project tab in the projects view | | 06/10/2025 |
+| BackEnd | develop | 910d9c123e2e15cfb2923609dccc5c836febb38f | feat(ep09): add OrganizationSource aggregate in organizations bounded context | | 06/10/2025 |
+| BackEnd | develop | 909fd669bb9f609e4ec4dd2f453ca9fee90503b1 | feat(ep15): add user type entity controller endpoints... | | 06/10/2025 |
+| FrontEnd | develop | 98688740e6b37567ef18c77fb0c83942a17bd42b | feat: add security guard for members | | 06/10/2025 |
+| FrontEnd | develop | 8a2d81e189e0b90d2fb513f0df9df9c92fcb49ef | fix: validation filter | | 06/10/2025 |
+| FrontEnd | develop | 247e6468a024e7830550f7a4af7ea7f40807df1c | feat(ep01): manage project information | | 07/10/2025 |
+| BackEnd | develop | f322303e33ea59c18d38f434ec211f780b130ff9 | refactor(ep09): organization is not using legal name, commercial name... | | 07/10/2025 |
+| FrontEnd | develop | 2151681d2d9a659e835d890d7b117e4f82cdf309 | feat: add final logic for members component | | 07/10/2025 |
+| BackEnd | develop | 751d01b3844b300ff75e1f6c5f5f020a6291d276 | feat(ep11): add organization member entity and command to create... | | 07/10/2025 |
+| BackEnd | develop | 4e2c81f6a34e7c4def7715bb74f7fefd9939274a | feat(ep15): add sign up feature | | 07/10/2025 |
+| BackEnd | develop | 69905df4512b24eb6d3a226840b4e11e20cb3177 | feat(ep10): add organization statuses auto seeding... | | 07/10/2025 |
+| FrontEnd | develop | 32d2d57659477cc7a0fded7e7394ca3ea34ce3a9 | feat: add members and invitations logic | | 07/10/2025 |
+| BackEnd | develop | 29edac61e7e9db190dac92f050af657ce7a2ba69 | feat(ep11): add invite person to organization feature | | 07/10/2025 |
+| BackEnd | develop | 645fdcbacfaf72622b1ceebad03b272fe9e05300 | feat(ep09): add fetch organizations by organization member person id | | 07/10/2025 |
+| FrontEnd | develop | 4f0185f7f925d5aa128fdb0eac0ad235eef7e357 | feat: change fake api for endpoint config at organization | | 07/10/2025 |
+| BackEnd | feature/ep01 | d7af32f2e3a7598f3cf31c7ae57988ac9eb21a16 | feat(ep01): add organization status auto seeding command | | 08/10/2025 |
+| FrontEnd | develop | 4bf878a98cc75ae58c78df3143c5e854ed13f3f7 | feat: add change management bounded context | | 08/10/2025 |
+| FrontEnd | develop | 0bc583781d00e157b4380a8d5ce5e22788d4ff56 | fix: milestones and tasks components | | 08/10/2025 |
+| FrontEnd | develop | 70af94eaa0513c0c03520c33d7ea6846086b346d | refactor: cleanse model by removing unnecesary value object classes... | | 08/10/2025 |
+| BackEnd | develop | 910d9c123e2e15cfb2923609dccc5c836febb38f | refactor: embedded profile details inside organization member entity... | | 08/10/2025 |
+| BackEnd | feature/ep01 | e646e422742533c505aaa4c57f058d5f0b3ec6e0 | Merge 'develop' branch into 'feature/ep01' | | 08/10/2025 |
+| BackEnd | feature/ep01 | e376e25231c4af6122fc375d6fe31db15cb583a2 | feat(ep01): add get project by id endpoint | | 08/10/2025 |
+| BackEnd | develop | cf48001772ad103e8d83e99d7c6755764137106e | chore: add angular material dependency | | 08/10/2025 |
+| BackEnd | feature/ep01 | 65be224113d26d9e7e18235911d5c6f5239c343c | feat(ep01): add visualization of projects milestones | | 08/10/2025 |
+| BackEnd | develop | eccc68be24590bc7e7a871a9e8de32f8066d9f50 | finally | | 08/10/2025 |
+
+
+
 # Conclusiones
 
 - La arquitectura de microservicios, delimitada por bounded contexts (IAM, Organizations, Budget y Change Management) y documentada en C4, quedó alineada con los objetivos de negocio de ClearCost; esto reduce el acoplamiento, facilita el trabajo en paralelo del equipo y habilita una evolución funcional por incrementos sin reescrituras estructurales.
