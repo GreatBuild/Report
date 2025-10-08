@@ -5235,6 +5235,292 @@ En esta última fase de la iteración, realizamos un análisis del diseño arqui
 
 <div style="page-break-before: always;"></div>
 
+# Capítulo V: Product Implementation, Validation & Deployment
+
+## 5.3 Microservices Implementation 
+
+### 5.2.1 Sprint 1 
+
+#### 5.2.1.1 Sprint Backlog 1 
+
+<table style="width:100%; border-collapse: collapse;">
+    <tr>
+        <th style="padding: 8px; border: 1px solid #ddd; text-align: left;">Sprint #</th>
+        <th style="padding: 8px; border: 1px solid #ddd; text-align: left;">Sprint 1</th>
+    </tr>
+    <tr>
+        <th colspan="2" style="padding: 8px; border: 1px solid #ddd; text-align: left;">Sprint Planning Background</th>
+    </tr>
+    <tr>
+        <td style="padding: 8px; border: 1px solid #ddd; font-weight: bold;">Date</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">03-10-2025</td>
+    </tr>
+    <tr>
+        <td style="padding: 8px; border: 1px solid #ddd; font-weight: bold;">Time</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">5:00 pm - 10:00 pm</td>
+    </tr>
+    <tr>
+        <td style="padding: 8px; border: 1px solid #ddd; font-weight: bold;">Location</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Canal de Voz de Discord</td>
+    </tr>
+    <tr>
+        <td style="padding: 8px; border: 1px solid #ddd; font-weight: bold;">Prepared By</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Fernández Remón, Roy</td>
+    </tr>
+    <tr>
+        <td style="padding: 8px; border: 1px solid #ddd; font-weight: bold;">Attendees (to planning meeting)</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Diestra Zambrano, Adriana Maria<br>León Vivas, Fabrizio Amir<br>Fernandez Remon, Roy Linsh</td>
+    </tr>
+    <tr>
+        <td style="padding: 8px; border: 1px solid #ddd; font-weight: bold;">Sprint 0 Review Summary</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Debido a que es nuestro primer sprint de desarrollo, no existe un review summary del sprint.</td>
+    </tr>
+    <tr>
+        <td style="padding: 8px; border: 1px solid #ddd; font-weight: bold;">Sprint 0 Retrospective Summary</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Debido a que es nuestro primer sprint de desarrollo, no existen planes de mejora.</td>
+    </tr>
+    <tr>
+        <th colspan="2" style="padding: 8px; border: 1px solid #ddd; text-align: left;">Sprint Goal & User Stories</th>
+    </tr>
+    <tr>
+        <td style="padding: 8px; border: 1px solid #ddd; font-weight: bold;">Sprint 1 Goal</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Desarrollar y documentar controladores para la API Rest y preparar las vistas principales de la interfaz de usuario.</td>
+    </tr>
+    <tr>
+        <td style="padding: 8px; border: 1px solid #ddd; font-weight: bold;">Sprint 1 Velocity</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">8</td>
+    </tr>
+    <tr>
+        <td style="padding: 8px; border: 1px solid #ddd; font-weight: bold;">Sum of Story Points</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">40 puntos</td>
+    </tr>
+</table>
+
+
+| Sprint # | ID de Historia de Usuario | ID de Tarea | Título de Tarea | Descripción | Estimación (Horas) | Asignado A | Estado |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Landing Page (SWR)** |
+| 1 | SWR01-SWR18 | SWR-LP-01 | Implementar Componentes de Landing Page | Crear las estructuras y estilos para las 18 secciones de la Landing Page en Angular. | 12 | Diestra Zambrano, Adriana Maria | Hecho |
+| **Aplicación Web - Front-End (US)** |
+| 1 | US001-US011 | US-PROJ-01 | Módulo de Gestión de Proyectos | Crear, ver, editar y eliminar proyectos; asociar contrato y entidad contratante. | 10 | Fernandez Remon, Roy Linsh | Hecho |
+| 1 | US012-US021 | US-TEAM-01 | Módulo de Gestión de Equipo del Proyecto | Agregar, buscar, editar y eliminar miembros del equipo; asignar roles y especialidades. | 9 | León Vivas, Fabrizio Amir | Hecho |
+| 1 | US022-US031 | US-SCHED-01 | Módulo de Hitos del Cronograma | Crear, visualizar, editar, eliminar y ordenar los hitos del proyecto. | 10 | Diestra Zambrano, Adriana Maria | Hecho |
+| 1 | US032-US053 | US-TASK-01 | Módulo de Gestión de Tareas | Crear, asignar, editar, eliminar y entregar tareas; filtrar responsables y revisar entregables. | 12 | Fernandez Remon, Roy Linsh | Hecho |
+| 1 | US054-US068 | US-MEET-01 | Módulo de Gestión de Reuniones | Crear, visualizar, editar y cancelar reuniones; añadir y gestionar participantes. | 8 | León Vivas, Fabrizio Amir | Hecho |
+| 1 | US069-US075 | US-FILE-01 | Módulo del Expediente Técnico | Visualizar estructura, crear carpetas y gestionar referencias a archivos. | 7 | Diestra Zambrano, Adriana Maria | Hecho |
+| 1 | US076-US086 | US-CHANGE-01 | Módulo de Gestión de Cambios | Iniciar, visualizar, aprobar y rechazar solicitudes de cambio (Change Process). | 9 | Fernandez Remon, Roy Linsh | Hecho |
+| 1 | US087-US106 | US-ORG-01 | Módulo de Organizaciones y Miembros | Crear, editar y eliminar organizaciones; invitar y gestionar miembros. | 11 | León Vivas, Fabrizio Amir | Hecho |
+| 1 | US107-US116 | US-NOTIF-01 | Módulo de Notificaciones | Notificar sobre reuniones, tareas, cambios, invitaciones y facturas. | 8 | Diestra Zambrano, Adriana Maria | Hecho |
+| 1 | US117-US133 | US-AUTH-01 | Módulo de Autenticación y Perfil | Registro de usuarios, inicio/cierre de sesión y recuperación de contraseña. | 10 | Fernandez Remon, Roy Linsh | Hecho |
+| 1 | US134-US148 | US-SUB-01 | Módulo de Suscripciones y Pagos | Visualizar planes, contratar, cancelar y ver facturas. | 9 | León Vivas, Fabrizio Amir | Hecho |
+| **Aplicación Web - Back-End (TS)** |
+| 1 | TS01-TS07 | TS-ORG-API-01 | Endpoints de Organizaciones | API para crear, listar, actualizar, eliminar organizaciones y gestionar sus miembros. | 11 | Diestra Zambrano, Adriana Maria | Hecho |
+| 1 | TS08-TS14, TS57-TS58 | TS-PROJ-API-01 | Endpoints de Proyectos | API para el CRUD de proyectos y la gestión de su equipo. | 12 | Fernandez Remon, Roy Linsh | Hecho |
+| 1 | TS15-TS20 | TS-SCHED-API-01 | Endpoints de Cronograma e Hitos | API para la gestión del cronograma y sus hitos. | 10 | León Vivas, Fabrizio Amir | Hecho |
+| 1 | TS21-TS34, TS60-TS61 | TS-TASK-API-01 | Endpoints de Tareas y Cambios | API para el CRUD de tareas, entregables y solicitudes de cambio. | 12 | Diestra Zambrano, Adriana Maria | Hecho |
+| 1 | TS35-TS50 | TS-AUTH-API-01 | Endpoints de Autenticación y Seguridad | API para registro, login, tokens, y gestión de contraseñas. | 12 | Fernandez Remon, Roy Linsh | Hecho |
+| 1 | TS51-TS56 | TS-BILL-API-01 | Endpoints de Facturación y Suscripciones | API para gestionar planes, facturas y pagos. | 9 | León Vivas, Fabrizio Amir | Hecho |
+
+#### 5.2.1.2 Development Evidence for Sprint Review
+
+### Evidencia de Desarrollo Consolidada
+
+| Repositorio | Rama | ID del Commit | Mensaje del Commit | Cuerpo del Mensaje del Commit | Fecha del Commit |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| LandingPage | develop | c0280860da324d508c57f2ce0f20f0d07c5c7fc8 | chore: add base html structure | | 04/10/2025 |
+| LandingPage | develop | cdf3c43c2ae65a3b3d376533000745d943d11b36 | chore: add css style for the footer | | 04/10/2025 |
+| LandingPage | develop | 391ef8145bd877cdab1cdd3ddbe526f64d5e2cc3 | feat(swr14): add html code for the footer | | 04/10/2025 |
+| LandingPage | develop | ff602386552405addae234831b560ba6cfe5371d | feat(swr16): add css style for the testimonials section | | 04/10/2025 |
+| LandingPage | develop | 44b11ecef00abbbdc146c617af644f10cfbbcc6a | feat(swr16): add responsive style for the testimonials section | | 04/10/2025 |
+| LandingPage | develop | 83e52386354b64f4ad4ddbf5b7880c3cfdcc06c2 | feat(swr16): add html code and assets for the testimonials section | | 04/10/2025 |
+| LandingPage | develop | 394c46a3a439edbfdd06f511a88c2a4b18c7fc58 | feat(swr15): add assets for the header section | | 04/10/2025 |
+| LandingPage | develop | ede47fd561d8e5f126c9e5741cccb951e771dab8 | bugfix(all): change html and css for better spacing and display | | 04/10/2025 |
+| LandingPage | develop | adb91bf6aa8eaf662d84868128ee24fe32511538 | initial commit | | 04/10/2025 |
+| LandingPage | develop | 07e65efb639f4a8421f0bce7003750974d1796fb | chore: add project dependencies | | 04/10/2025 |
+| LandingPage | develop | 7f15f5c312dbc1be0a8bdba6e3ec6cbfd5e25e90 | chore: set up i18n configuration | | 05/10/2025 |
+| LandingPage | develop | 5a77ed6d369ede8fd52cbc192c401d5661170d13 | feat(swr01): add user type enum | | 05/10/2025 |
+| LandingPage | develop | 1eb8a4750ea95434dd7c7904673d86ccf386701e | feat(swr17): add email of galaxia wonder in terms and conditions | | 05/10/2025 |
+| LandingPage | develop | 418ecbdaf8acd65dc159fbe3b14a81a01cedaec9 | chore(tp): add prop gms title and logo in index | | 05/10/2025 |
+| FrontEnd | develop | 79d8c5f74704aec3976f109628db6f2a8da83a0d | chore: add angular material dependencies | | 05/10/2025 |
+| FrontEnd | develop | 580c809395a30f8fee6f7ca2637e4e7cea6953d3 | feat(ep16): add session service | | 05/10/2025 |
+| FrontEnd | develop | 75990e18728f01314844250a3d985eeff6dff3b5 | feat(environments): add environments authentication endpoint path | | 05/10/2025 |
+| FrontEnd | develop | a595956e4e5f145a6e7b21305c6f4b4f0f785662 | feat(ep15): add iam context model | | 05/10/2025 |
+| FrontEnd | develop | 38d34d6a7bcb138c981440d8c7d1e41be57d1176 | bugfix(ep09): fix typo on contractor value | | 05/10/2025 |
+| FrontEnd | develop | 034904fb63468f232bc959c7c4d6f6807d0dda61 | feat(ep07): add change order value object in changes context | | 06/10/2025 |
+| FrontEnd | develop | 7dbb2b8d15843b178c31c0c660b8dc2cd8bde671 | bugfix(ep09): fix organization creation form not registering commercial name | | 06/10/2025 |
+| FrontEnd | develop | aaf8ed374be5130168c51bbcbc52f41b8ee3d84c | bugfix(ep10): fix i18n in configuration organization form | | 06/10/2025 |
+| FrontEnd | develop | 12526f089636746193378e5b070e6727a1f97ae5 | feat: add project components | | 06/10/2025 |
+| FrontEnd | develop | 40d30ec9685d7982b62f4262b6a526cb456af79f | feat(ep01): show the project tab in the projects view | | 06/10/2025 |
+| BackEnd | develop | 910d9c123e2e15cfb2923609dccc5c836febb38f | feat(ep09): add OrganizationSource aggregate in organizations bounded context | | 06/10/2025 |
+| BackEnd | develop | 909fd669bb9f609e4ec4dd2f453ca9fee90503b1 | feat(ep15): add user type entity controller endpoints... | | 06/10/2025 |
+| FrontEnd | develop | 98688740e6b37567ef18c77fb0c83942a17bd42b | feat: add security guard for members | | 06/10/2025 |
+| FrontEnd | develop | 8a2d81e189e0b90d2fb513f0df9df9c92fcb49ef | fix: validation filter | | 06/10/2025 |
+| FrontEnd | develop | 247e6468a024e7830550f7a4af7ea7f40807df1c | feat(ep01): manage project information | | 07/10/2025 |
+| BackEnd | develop | f322303e33ea59c18d38f434ec211f780b130ff9 | refactor(ep09): organization is not using legal name, commercial name... | | 07/10/2025 |
+| FrontEnd | develop | 2151681d2d9a659e835d890d7b117e4f82cdf309 | feat: add final logic for members component | | 07/10/2025 |
+| BackEnd | develop | 751d01b3844b300ff75e1f6c5f5f020a6291d276 | feat(ep11): add organization member entity and command to create... | | 07/10/2025 |
+| BackEnd | develop | 4e2c81f6a34e7c4def7715bb74f7fefd9939274a | feat(ep15): add sign up feature | | 07/10/2025 |
+| BackEnd | develop | 69905df4512b24eb6d3a226840b4e11e20cb3177 | feat(ep10): add organization statuses auto seeding... | | 07/10/2025 |
+| FrontEnd | develop | 32d2d57659477cc7a0fded7e7394ca3ea34ce3a9 | feat: add members and invitations logic | | 07/10/2025 |
+| BackEnd | develop | 29edac61e7e9db190dac92f050af657ce7a2ba69 | feat(ep11): add invite person to organization feature | | 07/10/2025 |
+| BackEnd | develop | 645fdcbacfaf72622b1ceebad03b272fe9e05300 | feat(ep09): add fetch organizations by organization member person id | | 07/10/2025 |
+| FrontEnd | develop | 4f0185f7f925d5aa128fdb0eac0ad235eef7e357 | feat: change fake api for endpoint config at organization | | 07/10/2025 |
+| BackEnd | feature/ep01 | d7af32f2e3a7598f3cf31c7ae57988ac9eb21a16 | feat(ep01): add organization status auto seeding command | | 08/10/2025 |
+| FrontEnd | develop | 4bf878a98cc75ae58c78df3143c5e854ed13f3f7 | feat: add change management bounded context | | 08/10/2025 |
+| FrontEnd | develop | 0bc583781d00e157b4380a8d5ce5e22788d4ff56 | fix: milestones and tasks components | | 08/10/2025 |
+| FrontEnd | develop | 70af94eaa0513c0c03520c33d7ea6846086b346d | refactor: cleanse model by removing unnecesary value object classes... | | 08/10/2025 |
+| BackEnd | develop | 910d9c123e2e15cfb2923609dccc5c836febb38f | refactor: embedded profile details inside organization member entity... | | 08/10/2025 |
+| BackEnd | feature/ep01 | e646e422742533c505aaa4c57f058d5f0b3ec6e0 | Merge 'develop' branch into 'feature/ep01' | | 08/10/2025 |
+| BackEnd | feature/ep01 | e376e25231c4af6122fc375d6fe31db15cb583a2 | feat(ep01): add get project by id endpoint | | 08/10/2025 |
+| BackEnd | develop | cf48001772ad103e8d83e99d7c6755764137106e | chore: add angular material dependency | | 08/10/2025 |
+| BackEnd | feature/ep01 | 65be224113d26d9e7e18235911d5c6f5239c343c | feat(ep01): add visualization of projects milestones | | 08/10/2025 |
+| BackEnd | develop | eccc68be24590bc7e7a871a9e8de32f8066d9f50 | finally | | 08/10/2025 |
+
+#### 5.2.1.3 Testing Suite Evidence for Sprint Review
+
+URL del repositorio: https://github.com/GreatBuild/Acceptance-Test
+
+| Repository      | Branch | Commit Id                                | Commit Message       | Commit Message Body | Committedon (Date) |
+|-----------------|--------|------------------------------------------|----------------------|---------------------|--------------------|
+| Acceptance-Test | main   | c259a2b179c8147a0c224581ff11dd7eadd83c16 | greatbuild01.feature | -                   | 08/10/2025         |
+| Acceptance-Test | main   | 3f4a57cb22e7ea8e1ef8cb9f29e80a5780fe5e7f | greatbuild02.feature | -                   | 08/10/2025         |
+| Acceptance-Test | main   | 63a43a8b6978a0046e5e2e738201c4fabece99a8 | greatbuild03.feature | -                   | 08/10/2025         |
+| Acceptance-Test | main   | f72e15b3ee9af00b54eb178d0145998f92811725 | greatbuild04.feature | -                   | 08/10/2025         |
+| Acceptance-Test | main   | 6f63e9812220cecaab41c2355d8968d4f519ec3c | greatbuild05.feature | -                   | 08/10/2025         |
+| Acceptance-Test | main   | 93490cbc1065765ec3ea1172c455d93480ec0628 | greatbuild06.feature | -                   | 08/10/2025         |
+| Acceptance-Test | main   | 234f944d10ed1a6a0769ebbbf4a4f1c2a1e79fb3 | greatbuild07.feature | -                   | 08/10/2025         |
+| Acceptance-Test | main   | 98aded9e68b43aa28a817f2ebef30529126f23d6 | greatbuild08.feature | -                   | 08/10/2025         |
+| Acceptance-Test | main   | 377af54b240f35dd83ce287f134e0c50407e16a9 | greatbuild09.feature | -                   | 08/10/2025         |
+| Acceptance-Test | main   | 5d74bbe0bea6c6d18d609cabdb2f53c6920d4d2c | greatbuild10.feature | -                   | 08/10/2025         |
+| Acceptance-Test | main   | ce44699af733364d70a651134814f9c1d9ec1956 | greatbuild11.feature | -                   | 08/10/2025         |
+| Acceptance-Test | main   | 31e1e480e2517a994a8eb715b804ba3bea9d2594 | greatbuild12.feature | -                   | 08/10/2025         |
+| Acceptance-Test | main   | 88f862b8db3b139a07bce35035aa6d20f158e509 | greatbuild13.feature | -                   | 08/10/2025         |
+| Acceptance-Test | main   | d7e321243a812ad27a78b684e157643bbe54f6dc | greatbuild14.feature | -                   | 08/10/2025         |
+
+#### 5.2.1.4 Execution Evidence for Sprint Review
+
+Ejecución Landing Page: Como evidencia de la ejecución del Landing Page se muestra la misma
+ejecutándose. 
+
+<img src="./img/chapter5/Landing1.png" alt="Landing1"> 
+
+<img src="./img/chapter5/Landing2.png" alt="Landing2"> 
+
+Ejecución del Front-end: Como evidencia de la execución del Front-end se muestra a la
+aplicación ejecutandose desplegada en el servicio de hosting. 
+
+<img src="./img/chapter5/FrontEnd1.png" alt="FrontEnd1"> 
+
+<img src="./img/chapter5/FrontEnd2.png" alt="FrontEnd2"> 
+
+Ejecución del Back-end: Como evidencia de que el Back-end ha sido implementado y
+desplegado de manera correcta, podemos hacer alguna consulta empleando Swagger.
+
+<img src="./img/chapter5/BackEnd.png" alt="BackEnd"> 
+
+#### 5.2.1.5 Microservices Documentation Evidence for Sprint Review 
+
+Para esta estapa de desarrollo del software, aun no se ha trasladado la arquitectura monolítica
+a una de microservicios, sin embargo, ya se cuenta con los endpoint correspondientes, los
+cuales luego serán distribuidos en sus respectivos microservicios, por no mencionar el posible
+aumento de los mismos: 
+
+##### 1. Servicio de Identidad y Acceso (IAM)
+
+Este es el candidato más claro y fundamental. Su única responsabilidad es gestionar todo lo relacionado con la identidad y seguridad del usuario, desacoplándolo por completo del resto de la lógica de negocio.
+
+* **Endpoints Agrupados:**
+    * `POST /auth/signup`
+    * `POST /auth/signin`
+    * `POST /auth/refresh-token`
+    * `POST /auth/logout`
+    * `POST /auth/forgot-password`
+    * `POST /auth/reset-password`
+    * `PUT /auth/change-password`
+    * `GET /users/profile`
+    * `PUT /users/profile`
+    * `PUT /users/profile/details`
+
+* **Justificación:** Este servicio tendría su propia base de datos para usuarios y credenciales. Otros microservicios (como el de Proyectos o el de Organizaciones) no accederían directamente a esta base de datos, sino que validarían los tokens de acceso emitidos por el servicio IAM, logrando una arquitectura más **segura y modular**.
+
+##### 2. Servicio de Organizaciones 
+
+Este servicio se encargaría exclusivamente del ciclo de vida de las organizaciones, sus miembros e invitaciones.
+
+* **Endpoints Agrupados:**
+    * `POST /organizations`
+    * `GET /organizations/{id}`
+    * `GET /organizations/by-person-id/{id}`
+    * `PATCH /organizations/{id}`
+    * `DELETE /organizations/{ruc}`
+    * `POST /organizations/invitations`
+    * `PATCH /invitations/{id}/accept`
+    * `PATCH /invitations/{id}/reject`
+    * `GET /{organizationId}/members`
+    * `DELETE /members/{memberId}`
+
+* **Justificación:** Representa un dominio de negocio **cohesivo y bien definido**. Podría evolucionar de forma independiente; por ejemplo, se podrían añadir roles más complejos dentro de una organización sin afectar al servicio de Proyectos, demostrando un **bajo acoplamiento**.
+
+##### 3. Servicio de Gestión de Proyectos 
+
+Este sería el microservicio central de la aplicación, enfocado en toda la lógica de planificación y ejecución de los proyectos.
+
+* **Endpoints Agrupados:**
+    * `POST /projects` y sus variantes (GET, DELETE).
+    * `POST /milestone` y sus variantes (GET, PATCH, DELETE).
+    * `POST /tasks` y sus variantes (GET, PATCH, DELETE).
+    * Todos los endpoints relacionados con la **Gestión de Cambios** (`Change Process`).
+
+* **Justificación:** Agrupa el **dominio principal** de la aplicación. Separarlo permite que el equipo de desarrollo enfocado en la funcionalidad "core" pueda escalar y desplegar nuevas características de planificación sin interferir con la autenticación o la gestión de organizaciones.
+
+##### 4. Servicio de Notificaciones 
+
+Este es un candidato ideal para un microservicio, ya que es una funcionalidad transversal que da servicio a otros dominios.
+
+* **Endpoints Agrupados:**
+    * `GET /notifications`
+    * `PATCH /notifications/{notificationId}`
+
+* **Justificación:** Este servicio sería responsable de gestionar y enviar notificaciones (por email, push, etc.). Cuando en el servicio de Proyectos se asigna una nueva tarea, este simplemente publicaría un evento o llamaría al Servicio de Notificaciones, que se encargaría del resto. Es un patrón muy común para **desacoplar responsabilidades transversales**.
+
+#### 5.2.1.6 Software Deployment Evidence for Sprint Review 
+
+Para este Sprint 1, se desplegó tanto la Landing Page, Aplicación Web, la base de datos y el API.
+
+Se desplegó en: 
+
+URL: 
+
+Para el despliegue de la Aplicación Web se empleó __________ como servicio de hosting.
+
+URL: 
+
+Se empleó _________ para el despliegue de la base de datos. 
+
+URL: 
+
+Se desplegó la API empleando ___________ 
+
+#### 5.2.1.7 Team Collaboration Insights during Sprint 
+
+Durante el primer sprint del proyecto GreatBuild, el equipo reutilizó un proyecto propio de un curso anterior y se centró en mejorar y actualizar la aplicación web y el servicio web utilizando Visual Studio Code y Git. Se estableció un flujo de
+trabajo que comenzó con la clonación del repositorio, seguido por la
+implementación de tareas específicas del backlog mediante el uso de branches para cada nueva
+característica. Cada cambio fue meticulosamente revisado y aprobado a través de pull
+requests, asegurando que tanto la aplicación web como el servicio web se desarrollaran de
+acuerdo con los objetivos del sprint.
+
+#### 5.2.1.8 Kanban Board 
+
+Para este punto implementamos un tablero Kanban utilizando Trello. Esta herramienta
+permitió al equipo organizar las tareas del Sprint Backlog, visualizar el progreso y facilitar la
+colaboración. Trello se adaptó a nuestras necesidades específicas, mejorando la eficiencia y la
+comunicación dentro del equipo.
+
+Link: https://trello.com/invite/b/68e640a67ecda9b11f2d1f8f/ATTI087c38d75d924eb62936395fe84b23486C1FFA11/greatbuild
+
+<img src="./img/chapter5/Kanban2.png" alt="Kanban2"> 
+
 # Conclusiones
 
 - La arquitectura de microservicios, delimitada por bounded contexts (IAM, Organizations, Budget y Change Management) y documentada en C4, quedó alineada con los objetivos de negocio de ClearCost; esto reduce el acoplamiento, facilita el trabajo en paralelo del equipo y habilita una evolución funcional por incrementos sin reescrituras estructurales.
