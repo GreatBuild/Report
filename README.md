@@ -5418,6 +5418,71 @@ desplegado de manera correcta, podemos hacer alguna consulta empleando Swagger.
 
 <img src="./img/chapter5/BackEnd.png" alt="BackEnd"> 
 
+#### 5.2.1.5 Microservices Documentation Evidence for Sprint Review 
+
+Para esta estapa de desarrollo del software, aun no se ha trasladado la arquitectura monolítica
+a una de microservicios, sin embargo, ya se cuenta con los endpoint correspondientes, los
+cuales luego serán distribuidos en sus respectivos microservicios, por no mencionar el posible
+aumento de los mismos: 
+
+##### 1. Servicio de Identidad y Acceso (IAM)
+
+Este es el candidato más claro y fundamental. Su única responsabilidad es gestionar todo lo relacionado con la identidad y seguridad del usuario, desacoplándolo por completo del resto de la lógica de negocio.
+
+* **Endpoints Agrupados:**
+    * `POST /auth/signup`
+    * `POST /auth/signin`
+    * `POST /auth/refresh-token`
+    * `POST /auth/logout`
+    * `POST /auth/forgot-password`
+    * `POST /auth/reset-password`
+    * `PUT /auth/change-password`
+    * `GET /users/profile`
+    * `PUT /users/profile`
+    * `PUT /users/profile/details`
+
+* **Justificación:** Este servicio tendría su propia base de datos para usuarios y credenciales. Otros microservicios (como el de Proyectos o el de Organizaciones) no accederían directamente a esta base de datos, sino que validarían los tokens de acceso emitidos por el servicio IAM, logrando una arquitectura más **segura y modular**.
+
+##### 2. Servicio de Organizaciones 
+
+Este servicio se encargaría exclusivamente del ciclo de vida de las organizaciones, sus miembros e invitaciones.
+
+* **Endpoints Agrupados:**
+    * `POST /organizations`
+    * `GET /organizations/{id}`
+    * `GET /organizations/by-person-id/{id}`
+    * `PATCH /organizations/{id}`
+    * `DELETE /organizations/{ruc}`
+    * `POST /organizations/invitations`
+    * `PATCH /invitations/{id}/accept`
+    * `PATCH /invitations/{id}/reject`
+    * `GET /{organizationId}/members`
+    * `DELETE /members/{memberId}`
+
+* **Justificación:** Representa un dominio de negocio **cohesivo y bien definido**. Podría evolucionar de forma independiente; por ejemplo, se podrían añadir roles más complejos dentro de una organización sin afectar al servicio de Proyectos, demostrando un **bajo acoplamiento**.
+
+##### 3. Servicio de Gestión de Proyectos 
+
+Este sería el microservicio central de la aplicación, enfocado en toda la lógica de planificación y ejecución de los proyectos.
+
+* **Endpoints Agrupados:**
+    * `POST /projects` y sus variantes (GET, DELETE).
+    * `POST /milestone` y sus variantes (GET, PATCH, DELETE).
+    * `POST /tasks` y sus variantes (GET, PATCH, DELETE).
+    * Todos los endpoints relacionados con la **Gestión de Cambios** (`Change Process`).
+
+* **Justificación:** Agrupa el **dominio principal** de la aplicación. Separarlo permite que el equipo de desarrollo enfocado en la funcionalidad "core" pueda escalar y desplegar nuevas características de planificación sin interferir con la autenticación o la gestión de organizaciones.
+
+##### 4. Servicio de Notificaciones 
+
+Este es un candidato ideal para un microservicio, ya que es una funcionalidad transversal que da servicio a otros dominios.
+
+* **Endpoints Agrupados:**
+    * `GET /notifications`
+    * `PATCH /notifications/{notificationId}`
+
+* **Justificación:** Este servicio sería responsable de gestionar y enviar notificaciones (por email, push, etc.). Cuando en el servicio de Proyectos se asigna una nueva tarea, este simplemente publicaría un evento o llamaría al Servicio de Notificaciones, que se encargaría del resto. Es un patrón muy común para **desacoplar responsabilidades transversales**.
+
 # Conclusiones
 
 - La arquitectura de microservicios, delimitada por bounded contexts (IAM, Organizations, Budget y Change Management) y documentada en C4, quedó alineada con los objetivos de negocio de ClearCost; esto reduce el acoplamiento, facilita el trabajo en paralelo del equipo y habilita una evolución funcional por incrementos sin reescrituras estructurales.
