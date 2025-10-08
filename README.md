@@ -5483,6 +5483,35 @@ Este es un candidato ideal para un microservicio, ya que es una funcionalidad tr
 
 * **Justificación:** Este servicio sería responsable de gestionar y enviar notificaciones (por email, push, etc.). Cuando en el servicio de Proyectos se asigna una nueva tarea, este simplemente publicaría un evento o llamaría al Servicio de Notificaciones, que se encargaría del resto. Es un patrón muy común para **desacoplar responsabilidades transversales**.
 
+#### 5.2.1.6 Software Deployment Evidence for Sprint Review 
+
+Para este Sprint 1, se desplegó tanto la Landing Page, Aplicación Web, la base de datos y el API.
+
+Se desplegó en: 
+
+URL: 
+
+Para el despliegue de la Aplicación Web se empleó __________ como servicio de hosting.
+
+URL: 
+
+Se empleó _________ para el despliegue de la base de datos. 
+
+URL: 
+
+Se desplegó la API empleando ___________ 
+
+#### 5.2.1.7 Team Collaboration Insights during Sprint 
+
+Durante el primer sprint del proyecto GreatBuild, el equipo reutilizó un proyecto propio de un curso anterior y se centró en mejorar y actualizar la aplicación web y el servicio web utilizando Visual Studio Code y Git. Se estableció un flujo de
+trabajo que comenzó con la clonación del repositorio, seguido por la
+implementación de tareas específicas del backlog mediante el uso de branches para cada nueva
+característica. Cada cambio fue meticulosamente revisado y aprobado a través de pull
+requests, asegurando que tanto la aplicación web como el servicio web se desarrollaran de
+acuerdo con los objetivos del sprint.
+
+#### 5.2.1.8 Kanban Board
+
 # Conclusiones
 
 - La arquitectura de microservicios, delimitada por bounded contexts (IAM, Organizations, Budget y Change Management) y documentada en C4, quedó alineada con los objetivos de negocio de ClearCost; esto reduce el acoplamiento, facilita el trabajo en paralelo del equipo y habilita una evolución funcional por incrementos sin reescrituras estructurales.
