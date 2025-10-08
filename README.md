@@ -5510,7 +5510,16 @@ característica. Cada cambio fue meticulosamente revisado y aprobado a través d
 requests, asegurando que tanto la aplicación web como el servicio web se desarrollaran de
 acuerdo con los objetivos del sprint.
 
-#### 5.2.1.8 Kanban Board
+#### 5.2.1.8 Kanban Board 
+
+Para este punto implementamos un tablero Kanban utilizando Trello. Esta herramienta
+permitió al equipo organizar las tareas del Sprint Backlog, visualizar el progreso y facilitar la
+colaboración. Trello se adaptó a nuestras necesidades específicas, mejorando la eficiencia y la
+comunicación dentro del equipo.
+
+Link: https://trello.com/invite/b/68e640a67ecda9b11f2d1f8f/ATTI087c38d75d924eb62936395fe84b23486C1FFA11/greatbuild
+
+<img src="./img/chapter5/Kanban2.png" alt="Kanban2"> 
 
 # Conclusiones
 
