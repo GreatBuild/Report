@@ -5402,7 +5402,21 @@ URL del repositorio: https://github.com/GreatBuild/Acceptance-Test
 Ejecución Landing Page: Como evidencia de la ejecución del Landing Page se muestra la misma
 ejecutándose. 
 
+<img src="./img/chapter5/Landing1.png" alt="Landing1"> 
 
+<img src="./img/chapter5/Landing2.png" alt="Landing2"> 
+
+Ejecución del Front-end: Como evidencia de la execución del Front-end se muestra a la
+aplicación ejecutandose desplegada en el servicio de hosting. 
+
+<img src="./img/chapter5/FrontEnd1.png" alt="FrontEnd1"> 
+
+<img src="./img/chapter5/FrontEnd2.png" alt="FrontEnd2"> 
+
+Ejecución del Back-end: Como evidencia de que el Back-end ha sido implementado y
+desplegado de manera correcta, podemos hacer alguna consulta empleando Swagger.
+
+<img src="./img/chapter5/BackEnd.png" alt="BackEnd"> 
 
 # Conclusiones
 
