@@ -5376,6 +5376,32 @@ En esta última fase de la iteración, realizamos un análisis del diseño arqui
 | BackEnd | feature/ep01 | 65be224113d26d9e7e18235911d5c6f5239c343c | feat(ep01): add visualization of projects milestones | | 08/10/2025 |
 | BackEnd | develop | eccc68be24590bc7e7a871a9e8de32f8066d9f50 | finally | | 08/10/2025 |
 
+#### 5.2.1.3 Testing Suite Evidence for Sprint Review
+
+URL del repositorio: https://github.com/GreatBuild/Acceptance-Test
+
+| Repository      | Branch | Commit Id                                | Commit Message       | Commit Message Body | Committedon (Date) |
+|-----------------|--------|------------------------------------------|----------------------|---------------------|--------------------|
+| Acceptance-Test | main   | c259a2b179c8147a0c224581ff11dd7eadd83c16 | greatbuild01.feature | -                   | 08/10/2025         |
+| Acceptance-Test | main   | 3f4a57cb22e7ea8e1ef8cb9f29e80a5780fe5e7f | greatbuild02.feature | -                   | 08/10/2025         |
+| Acceptance-Test | main   | 63a43a8b6978a0046e5e2e738201c4fabece99a8 | greatbuild03.feature | -                   | 08/10/2025         |
+| Acceptance-Test | main   | f72e15b3ee9af00b54eb178d0145998f92811725 | greatbuild04.feature | -                   | 08/10/2025         |
+| Acceptance-Test | main   | 6f63e9812220cecaab41c2355d8968d4f519ec3c | greatbuild05.feature | -                   | 08/10/2025         |
+| Acceptance-Test | main   | 93490cbc1065765ec3ea1172c455d93480ec0628 | greatbuild06.feature | -                   | 08/10/2025         |
+| Acceptance-Test | main   | 234f944d10ed1a6a0769ebbbf4a4f1c2a1e79fb3 | greatbuild07.feature | -                   | 08/10/2025         |
+| Acceptance-Test | main   | 98aded9e68b43aa28a817f2ebef30529126f23d6 | greatbuild08.feature | -                   | 08/10/2025         |
+| Acceptance-Test | main   | 377af54b240f35dd83ce287f134e0c50407e16a9 | greatbuild09.feature | -                   | 08/10/2025         |
+| Acceptance-Test | main   | 5d74bbe0bea6c6d18d609cabdb2f53c6920d4d2c | greatbuild10.feature | -                   | 08/10/2025         |
+| Acceptance-Test | main   | ce44699af733364d70a651134814f9c1d9ec1956 | greatbuild11.feature | -                   | 08/10/2025         |
+| Acceptance-Test | main   | 31e1e480e2517a994a8eb715b804ba3bea9d2594 | greatbuild12.feature | -                   | 08/10/2025         |
+| Acceptance-Test | main   | 88f862b8db3b139a07bce35035aa6d20f158e509 | greatbuild13.feature | -                   | 08/10/2025         |
+| Acceptance-Test | main   | d7e321243a812ad27a78b684e157643bbe54f6dc | greatbuild14.feature | -                   | 08/10/2025         |
+
+#### 5.2.1.4 Execution Evidence for Sprint Review
+
+Ejecución Landing Page: Como evidencia de la ejecución del Landing Page se muestra la misma
+ejecutándose. 
+
 
 
 # Conclusiones
