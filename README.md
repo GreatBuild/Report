@@ -155,8 +155,6 @@
   </tbody>
 </table>
 
-
-
 <div style="page-break-before: always;"></div>
 
 # Project Report Collaboration Insights
@@ -189,6 +187,12 @@ Se presenta una tabla que especifica qué miembro del equipo se corresponde con 
 Este entregable comprende la elaboración del informe desde el Capítulo I hasta el Capítulo III, desarrollado íntegramente a partir del proceso de investigación en equipo y del diseño del sistema.
 
 <img src="./img/insight_tb1.png">
+
+**TB2**
+
+Este entregable comprende la elaboración del capítulo IV del informe, desarrollado íntegramente a partir del proceso de investigación en equipo y del diseño del sistema.
+
+<img src="./img/insight_tb2.png">
 
 <div style="page-break-before: always;"></div>
 
@@ -256,12 +260,30 @@ Este entregable comprende la elaboración del informe desde el Capítulo I hasta
       - [4.3.1.5. Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces](#4315-instantiate-architectural-elements-allocate-responsibilities-and-define-interfaces)
       - [4.3.1.6. Sketch Views (C4 & UML) and Record Design Decisions](#4316-sketch-views-c4--uml-and-record-design-decisions)
       - [4.3.1.7. Analysis of Current Design and Review Iteration Goal (Kanban Board)](#4317-analysis-of-current-design-and-review-iteration-goal)
-
+- [Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation--deployment)
+  - [5.1 Testing Suites & General Patterns](#51-testing-suites--general-patterns)
+    - [5.1.1 Backend Application Core Testing Suite](#511-backend-application-core-testing-suite)
+    - [5.1.2 Pattern Based Backend Application(s)](#512-pattern-based-backend-applications)
+    - [5.1.3 Pattern Based Custom Software Library](#513-pattern-based-custom-software-library)
+    - [5.1.4 Framework Pattern Driven Refactoring Report](#514-framework-pattern-driven-refactoring-report)
+  - [5.2 Software Configuration Management](#52-software-configuration-management)
+    - [5.2.1 Software Development Environment Configuration](#521-software-development-environment-configuration)
+    - [5.2.2 Source Code Management](#522-source-code-management)
+    - [5.2.3 Source Code Style Guide & Conventions](#523-source-code-style-guide--conventions)
+    - [5.2.4 Software Deployment Configuration](#524-software-deployment-configuration)
+  - [5.3 Microservices Implementation](#53-microservices-implementation)
+    - [5.3.1 Sprint 1](#531-sprint-1)
+      - [5.3.1.1 Sprint Backlog 1](#5311-sprint-backlog-1)
+      - [5.3.1.2 Development Evidence for Sprint Review](#5312-development-evidence-for-sprint-review)
+      - [5.3.1.3 Testing Suite Evidence for Sprint Review](#5313-testing-suite-evidence-for-sprint-review)
+      - [5.3.1.4 Execution Evidence for Sprint Review](#5314-execution-evidence-for-sprint-review)
+      - [5.3.1.5 Microservices Documentation Evidence for Sprint Review](#5315-microservices-documentation-evidence-for-sprint-review)
+      - [5.3.1.6 Software Deployment Evidence for Sprint Review](#5316-software-deployment-evidence-for-sprint-review)
+      - [5.3.1.7 Team Collaboration Insights during Sprint](#5317-team-collaboration-insights-during-sprint)
+      - [5.3.1.8 Kanban Board](#5318-kanban-board)
 - [Conclusiones](#conclusiones)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
-
-
 
 <div style="page-break-before: always;"></div>
 
@@ -287,16 +309,23 @@ Este entregable comprende la elaboración del informe desde el Capítulo I hasta
                     <li><strong>Fabrizio:</strong> Repasé los artefactos necesarios para el capítulo II y III para realizar un correcto dimensionamiento de la solución de software.</li>
                     <li><strong>Roy:</strong> Se realizó las entrevistas con su respectivo análisis y los requerimientos funcionales y no funcionales para obtener la información necesaria para seguir con el desarrollo de el proyecto y el software  </li>
                 </ul>
-                <strong>TB2:</strong> Como equipo, la iteración TB2 nos permitió actualizar y aplicar conocimiento de forma tangible al convertir requerimientos en artefactos consistentes —C4, UML, patrones y tácticas— e integrar desde el diseño las dependencias externas prioritarias; esto elevó la mantenibilidad y la trazabilidad de ClearCost y dejó lista la base para la implementación de la landing y los primeros incrementos funcionales.<br>
+                <strong>TB2:</strong><br>
                 <ul>
                     <li><strong>Adriana:</strong> Actualicé mis conocimientos aplicando conceptos de arquitectura de software, trabajando en los drivers arquitectónicos, el propósito de diseño, la funcionalidad principal (user stories), los escenarios de atributos de calidad, las restricciones y las preocupaciones arquitectónicas. Esto me permitió fortalecer mi capacidad para traducir requisitos en decisiones arquitectónicas justificadas, especificar atributos de calidad medibles, diseñar bajo limitaciones reales y gestionar riesgos, consolidando así criterios técnicos y prácticos que aportan directamente a mi desarrollo profesional y a la solidez del proyecto. </li>
                     <li><strong>Fabrizio:</strong> Aplicó Attribute-Driven Design (ADD) para traducir drivers de negocio y atributos de calidad en decisiones arquitectónicas concretas, y consolidó las vistas C4 del sistema junto con el diagrama de estados de la tarea (DRAFT → IN PROCESS → UNDER REVIEW → APPROVED/REJECTED → IN PROCESS). Seleccionó y justificó patrones adecuados al dominio —Factory, Strategy, Observer/Domain Events, Repository y Saga/Process Manager— ubicándolos por bounded context (IAM, Organizations, Budget y Change Management), y redactó tácticas de disponibilidad, resiliencia, seguridad y observabilidad, fortaleciendo la coherencia técnica del diseño.</li>
                     <li><strong>Roy:</strong> La aplicación del método Attribute-Driven Design (ADD) y el Modelo C4 fue fundamental para nuestro desarrollo. A través de este proceso,se logró traducir los requerimientos de negocio y los atributos de calidad abstractos de ClearCost como la Mantenibilidad y la Seguridad en decisiones arquitectónicas concretas y justificables, como la adopción de Microservicios y el uso de un API Gateway. Esta experiencia práctica permitió actualizar y afianzar el conocimiento teórico, aplicándolo directamente para construir una base arquitectónica sólida y bien documentada.  </li>
                 </ul>
+                <strong>TP:</strong> <br>
+                <ul>
+                    <li><strong>Adriana:</strong> Fortaleci mis conocimientos en el uso de convenciones para commits y nombramiento de carpetas, integre gran parte de las evidencias del reporte. Adquirí nuevo conocimiento sobre patrones de diseño y buenas practicas.</li>
+                    <li><strong>Fabrizio:</strong> Reforce mis conocimientos sobre clean architecture, incluyendo el uso correcto de patrones de software para escalar y mantener operativa la solución de software. Establucí pruebas unitarias e integrales para validar el funcionamiento de los endpoints. He aprendido más sobre la arquitectura de microservicios desarrollando el planteamiento y diseño del modelo C4.</li>
+                    <li><strong>Roy:</strong> Fue el encargado de desplegar los repositorios en en diferentes plataformas, lo cual me permitio ampliar mi gama de plataformas para este proposito. Complementé con tácticas de rendimiento (índices, caché, monitoreo), gestión de código y convenciones en Git/GitHub.</li>
+                </ul>
             </td>
             <td>
                 <strong>TB1:</strong> El entregable más que laborioso fue interesante ya que nos permitio usar conocimientos previos para el desarrollo de la solución de software.<br>
                 <strong>TB2:</strong> Como equipo, la iteración TB2 nos permitió actualizar y aplicar conocimiento de forma tangible al convertir requerimientos en artefactos consistentes —C4, UML, patrones y tácticas— e integrar desde el diseño las dependencias externas prioritarias; esto elevó la mantenibilidad y la trazabilidad de ClearCost y dejó lista la base para la implementación de la landing y los primeros incrementos funcionales.<br>
+                <strong>TP:</strong> Como equipo, reforzamos y actualizamos constantemente los conceptos técnicos necesarios para el desarrollo de nuestro proyecto, explorando nuevas herramientas, lenguajes y patrones arquitectónicos aplicados a soluciones basadas en microservicios y cloud computing. Este proceso de aprendizaje colaborativo nos permitió integrar buenas prácticas de diseño, testing y despliegue, asegurando una aplicación coherente con los estándares actuales de la industria del software. Asimismo, fortalecimos nuestras competencias profesionales al combinar teoría y práctica en un entorno ágil y orientado a resultados.<br>
             </td>
         </tr>
         <tr>
@@ -316,10 +345,17 @@ Este entregable comprende la elaboración del informe desde el Capítulo I hasta
                     <li><strong>Fabrizio:</strong> Consolidó un proceso de decisiones arquitectónicas justificadas mediante la documentación de trade-offs, reforzó prácticas de arquitectura evolutiva con límites claros por bounded context y pruebas de contrato para APIs, e incorporó seguridad temprana (enfoque shift-left) en el ciclo de diseño. Este trabajo evidenció que el rol arquitectónico exige actualización continua para comunicar con precisión los riesgos y diseñar soluciones robustas.</li>
                     <li><strong>Roy:</strong> El diseño de la arquitectura para ClearCost demostró que la aplicación de metodologías formales, como Attribute-Driven Design (ADD) y el Modelo C4, es un ejercicio de aprendizaje constante. No fue suficiente con entender la teoría; el verdadero desafío consistió en traducir los drivers de negocio y los atributos de calidad en un modelo visual coherente y justificable. Este proceso me obligó a investigar y aplicar patrones y tácticas arquitectónicas específicas para resolver los problemas del proyecto, evidenciando que el rol del arquitecto exige una actualización continua de conocimientos para diseñar soluciones robustas y comunicar eficazmente decisiones complejas. </li>
                 </ul>
+                <strong>TP:</strong><br>
+                <ul>
+                    <li><strong>Adriana:</strong> Durante el desarrollo del proyecto, comprendí la importancia de mantenerme actualizado en nuevas tecnologías, frameworks y metodologías de arquitectura de software. Este proceso me permitió reconocer que el aprendizaje continuo no solo mejora la calidad de las soluciones que diseño, sino que también fortalece mi capacidad de adaptarme a los cambios del entorno tecnológico.  </li>
+                    <li><strong>Fabrizio:</strong> El trabajo en equipo evidenció que la ingeniería de software requiere una constante búsqueda de conocimiento. Investigar sobre patrones arquitectónicos, prácticas DevOps y despliegue en la nube me permitió ampliar mi perspectiva y confirmar que el aprendizaje permanente es esencial para abordar con eficacia los retos de proyectos empresariales complejos.</li>
+                    <li><strong>Roy:</strong> A lo largo del curso, identifiqué que las herramientas, lenguajes y arquitecturas evolucionan constantemente, por lo que mantener una actitud de aprendizaje continuo es clave para garantizar soluciones innovadoras y sostenibles. Este enfoque me motiva a seguir capacitándome y experimentando con nuevas tecnologías aplicables al desarrollo profesional.</li>
+                </ul>
             </td>
             <td>
                 <strong>TB1:</strong> Como equipo, coincidimos en que las entrevistas constituyeron un elemento clave para comprender con mayor profundidad el modelo de negocio. Asimismo, el trabajo se desarrolló en un marco de coordinación y apoyo mutuo.<br>
                 <strong>TB2:</strong> El equipo confirmó que el aprendizaje permanente es parte del flujo de trabajo: cada decisión —visual, funcional o arquitectónica— quedó respaldada por investigación, métricas y documentación, reduciendo incertidumbre y retrabajo. La integración de buenas prácticas y medición temprana consolidó una cultura de mejora continua que guía los siguientes entregables de ClearCost.<br>
+                <strong>TP:</strong> Como equipo, reconocimos que el aprendizaje permanente es un componente esencial para nuestro crecimiento profesional y para el desarrollo exitoso de proyectos en soluciones de software. A lo largo del curso, enfrentamos desafíos que nos impulsaron a investigar nuevas herramientas, patrones arquitectónicos y metodologías ágiles, fortaleciendo nuestras competencias técnicas y colaborativas. Esta experiencia nos permitió comprender que la actualización constante del conocimiento es indispensable para adaptarnos a las exigencias del sector tecnológico y ofrecer soluciones innovadoras y sostenibles.<br>
             </td>
         </tr>
     </tobdy>
@@ -5491,9 +5527,9 @@ Enlace para acceder a la landing page: [https://clearcost.netlify.app/](https://
 
 ## 5.3 Microservices Implementation 
 
-### 5.2.1 Sprint 1 
+### 5.3.1 Sprint 1 
 
-#### 5.2.1.1 Sprint Backlog 1 
+#### 5.3.1.1 Sprint Backlog 1 
 
 <table style="width:100%; border-collapse: collapse;">
     <tr>
@@ -5573,9 +5609,9 @@ Enlace para acceder a la landing page: [https://clearcost.netlify.app/](https://
 | 1 | TS35-TS50 | TS-AUTH-API-01 | Endpoints de Autenticación y Seguridad | API para registro, login, tokens, y gestión de contraseñas. | 12 | Fernandez Remon, Roy Linsh | Hecho |
 | 1 | TS51-TS56 | TS-BILL-API-01 | Endpoints de Facturación y Suscripciones | API para gestionar planes, facturas y pagos. | 9 | León Vivas, Fabrizio Amir | Hecho |
 
-#### 5.2.1.2 Development Evidence for Sprint Review
+#### 5.3.1.2 Development Evidence for Sprint Review
 
-### Evidencia de Desarrollo Consolidada
+##### Evidencia de Desarrollo Consolidada
 
 | Repositorio | Rama | ID del Commit | Mensaje del Commit | Cuerpo del Mensaje del Commit | Fecha del Commit |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -5628,7 +5664,7 @@ Enlace para acceder a la landing page: [https://clearcost.netlify.app/](https://
 | BackEnd | feature/ep01 | 65be224113d26d9e7e18235911d5c6f5239c343c | feat(ep01): add visualization of projects milestones | | 08/10/2025 |
 | BackEnd | develop | eccc68be24590bc7e7a871a9e8de32f8066d9f50 | finally | | 08/10/2025 |
 
-#### 5.2.1.3 Testing Suite Evidence for Sprint Review
+#### 5.3.1.3 Testing Suite Evidence for Sprint Review
 
 URL del repositorio: https://github.com/GreatBuild/Acceptance-Test
 
@@ -5649,7 +5685,7 @@ URL del repositorio: https://github.com/GreatBuild/Acceptance-Test
 | Acceptance-Test | main   | 88f862b8db3b139a07bce35035aa6d20f158e509 | greatbuild13.feature | -                   | 08/10/2025         |
 | Acceptance-Test | main   | d7e321243a812ad27a78b684e157643bbe54f6dc | greatbuild14.feature | -                   | 08/10/2025         |
 
-#### 5.2.1.4 Execution Evidence for Sprint Review
+#### 5.3.1.4 Execution Evidence for Sprint Review
 
 Ejecución Landing Page: Como evidencia de la ejecución del Landing Page se muestra la misma
 ejecutándose. 
@@ -5670,7 +5706,7 @@ desplegado de manera correcta, podemos hacer alguna consulta empleando Swagger.
 
 <img src="./img/chapter5/BackEnd.png" alt="BackEnd"> 
 
-#### 5.2.1.5 Microservices Documentation Evidence for Sprint Review 
+#### 5.3.1.5 Microservices Documentation Evidence for Sprint Review 
 
 Para esta estapa de desarrollo del software, aun no se ha trasladado la arquitectura monolítica a una de microservicios, sin embargo, ya se cuenta con los endpoint correspondientes y su descomposición, los cuales luego serán distribuidos en sus respectivos microservicios, por no mencionar el posible aumento de los mismos: 
 
@@ -5738,7 +5774,7 @@ Este es un candidato ideal para un microservicio, ya que es una funcionalidad tr
 <img src="./img/chapter5/microservice-evidence2.png" alt="Microservice"> 
 
 
-#### 5.2.1.6 Software Deployment Evidence for Sprint Review 
+#### 5.3.1.6 Software Deployment Evidence for Sprint Review 
 
 Para este Sprint 1, se desplegó tanto la Landing Page, Aplicación Web, la base de datos y el API.
 
@@ -5746,12 +5782,12 @@ Se desplegó en Netlify:
 
 URL: Enlace para acceder a la landing page: [https://clearcost.netlify.app/](https://clearcost.netlify.app/)
 
-#### 5.2.1.7 Team Collaboration Insights during Sprint 
+#### 5.3.1.7 Team Collaboration Insights during Sprint 
 
 Durante el primer sprint del proyecto GreatBuild, el equipo reutilizó un proyecto propio de un curso anterior y se centró en mejorar y actualizar la aplicación web y el servicio web utilizando Visual Studio Code y Git. Se estableció un flujo de trabajo que comenzó con la clonación del repositorio, seguido por la implementación de tareas específicas del backlog mediante el uso de branches para cada nueva característica. Cada cambio fue meticulosamente revisado y aprobado a través de pull
 requests, asegurando que tanto la aplicación web como el servicio web se desarrollaran de acuerdo con los objetivos del sprint.
 
-#### 5.2.1.8 Kanban Board 
+#### 5.3.1.8 Kanban Board 
 
 Para este punto implementamos un tablero Kanban utilizando Trello. Esta herramienta
 permitió al equipo organizar las tareas del Sprint Backlog, visualizar el progreso y facilitar la colaboración. Trello se adaptó a nuestras necesidades específicas, mejorando la eficiencia y la
