@@ -13,7 +13,7 @@
         <li style="padding: 5px 0;">Fernandez Remon, Roy Linsh (20221b778)</li>
         <li style="padding: 5px 0;">León Vivas, Fabrizio Amir (20211b994)</li>
     </ul>
-    <h4 style="margin: 10px 0; border-bottom: none;">Setiembre de 2025</h4>
+    <h4 style="margin: 10px 0; border-bottom: none;">Octubre de 2025</h4>
 </div>
 
 
@@ -115,10 +115,45 @@
     <p style="display:block;margin:2px 0;text-indent:20px;">4.3.1.7 Analysis of Current Design and Review Iteration Goal (Kanban Board)</p>
   </td>
 </tr>
+<tr>
+  <td>3.0</td>
+  <td>08/10/2025</td>
+  <td>
+    <ul>
+      <li>Diestra Zambrano, Adriana Maria</li>
+      <li>Fernandez Remon, Roy Linsh</li>
+      <li>León Vivas, Fabrizio Amir</li>
+    </ul>
+  </td>
+  <td>
+    <strong>Actualización de secciones:</strong><br>
+    <p style="display:block;margin:2px 0;text-indent:0px;font-weight:bold;">
+      Capítulo V: Product Implementation, Validation & Deployment
+    </p>
+    <p style="display:block;margin:2px 0;text-indent:0px;">5.1 Testing Suites &amp; General Patterns</p>
+    <p style="display:block;margin:2px 0;text-indent:10px;">5.1.1 Backend Application Core Testing Suite</p>
+    <p style="display:block;margin:2px 0;text-indent:10px;">5.1.2 Pattern Based Backend Application(s)</p>
+    <p style="display:block;margin:2px 0;text-indent:10px;">5.1.3 Pattern Based Custom Software Library</p>
+    <p style="display:block;margin:2px 0;text-indent:10px;">5.1.4 Framework Pattern Driven Refactoring Report</p>
+    <p style="display:block;margin:2px 0;text-indent:0px;">5.2 Software Configuration Management</p>
+    <p style="display:block;margin:2px 0;text-indent:0px;">5.2.1 Software Development Environment Configuration</p>
+    <p style="display:block;margin:2px 0;text-indent:0px;">5.2.2 Source Code Management</p>
+    <p style="display:block;margin:2px 0;text-indent:0px;">5.2.3 Source Code Style Guide &amp; Conventions</p>
+    <p style="display:block;margin:2px 0;text-indent:0px;">5.2.4 Software Deployment Configuration</p>
+    <p style="display:block;margin:2px 0;text-indent:0px;">5.3 Microservice Implementation</p>
+    <p style="display:block;margin:2px 0;text-indent:10px;">5.3.1 Sprint 1</p>
+    <p style="display:block;margin:2px 0;text-indent:20px;">5.3.1.1 Sprint Backlog 1</p>
+    <p style="display:block;margin:2px 0;text-indent:20px;">5.3.1.2 Development Evidence for Sprint Review</p>
+    <p style="display:block;margin:2px 0;text-indent:20px;">5.3.1.3 Testing Suite Evidence for Sprint Review</p>
+    <p style="display:block;margin:2px 0;text-indent:20px;">5.3.1.4 Execution Evidence for Sprint Review</p>
+    <p style="display:block;margin:2px 0;text-indent:20px;">5.3.1.5 Microservices Documentation Evidence for Sprint Review</p>
+    <p style="display:block;margin:2px 0;text-indent:20px;">5.3.1.6 Software Deployment Evidence for Sprint Review</p>
+    <p style="display:block;margin:2px 0;text-indent:20px;">5.3.1.7 Team Collaboration Insights during Sprint</p>
+    <p style="display:block;margin:2px 0;text-indent:20px;">5.3.1.8 Kanban Board</p>
+  </td>
+</tr>
   </tbody>
 </table>
-
-
 
 <div style="page-break-before: always;"></div>
 
@@ -152,6 +187,12 @@ Se presenta una tabla que especifica qué miembro del equipo se corresponde con 
 Este entregable comprende la elaboración del informe desde el Capítulo I hasta el Capítulo III, desarrollado íntegramente a partir del proceso de investigación en equipo y del diseño del sistema.
 
 <img src="./img/insight_tb1.png">
+
+**TB2**
+
+Este entregable comprende la elaboración del capítulo IV del informe, desarrollado íntegramente a partir del proceso de investigación en equipo y del diseño del sistema.
+
+<img src="./img/insight_tb2.png">
 
 <div style="page-break-before: always;"></div>
 
@@ -219,12 +260,30 @@ Este entregable comprende la elaboración del informe desde el Capítulo I hasta
       - [4.3.1.5. Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces](#4315-instantiate-architectural-elements-allocate-responsibilities-and-define-interfaces)
       - [4.3.1.6. Sketch Views (C4 & UML) and Record Design Decisions](#4316-sketch-views-c4--uml-and-record-design-decisions)
       - [4.3.1.7. Analysis of Current Design and Review Iteration Goal (Kanban Board)](#4317-analysis-of-current-design-and-review-iteration-goal)
-
+- [Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation--deployment)
+  - [5.1 Testing Suites & General Patterns](#51-testing-suites--general-patterns)
+    - [5.1.1 Backend Application Core Testing Suite](#511-backend-application-core-testing-suite)
+    - [5.1.2 Pattern Based Backend Application(s)](#512-pattern-based-backend-applications)
+    - [5.1.3 Pattern Based Custom Software Library](#513-pattern-based-custom-software-library)
+    - [5.1.4 Framework Pattern Driven Refactoring Report](#514-framework-pattern-driven-refactoring-report)
+  - [5.2 Software Configuration Management](#52-software-configuration-management)
+    - [5.2.1 Software Development Environment Configuration](#521-software-development-environment-configuration)
+    - [5.2.2 Source Code Management](#522-source-code-management)
+    - [5.2.3 Source Code Style Guide & Conventions](#523-source-code-style-guide--conventions)
+    - [5.2.4 Software Deployment Configuration](#524-software-deployment-configuration)
+  - [5.3 Microservices Implementation](#53-microservices-implementation)
+    - [5.3.1 Sprint 1](#531-sprint-1)
+      - [5.3.1.1 Sprint Backlog 1](#5311-sprint-backlog-1)
+      - [5.3.1.2 Development Evidence for Sprint Review](#5312-development-evidence-for-sprint-review)
+      - [5.3.1.3 Testing Suite Evidence for Sprint Review](#5313-testing-suite-evidence-for-sprint-review)
+      - [5.3.1.4 Execution Evidence for Sprint Review](#5314-execution-evidence-for-sprint-review)
+      - [5.3.1.5 Microservices Documentation Evidence for Sprint Review](#5315-microservices-documentation-evidence-for-sprint-review)
+      - [5.3.1.6 Software Deployment Evidence for Sprint Review](#5316-software-deployment-evidence-for-sprint-review)
+      - [5.3.1.7 Team Collaboration Insights during Sprint](#5317-team-collaboration-insights-during-sprint)
+      - [5.3.1.8 Kanban Board](#5318-kanban-board)
 - [Conclusiones](#conclusiones)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
-
-
 
 <div style="page-break-before: always;"></div>
 
@@ -250,16 +309,23 @@ Este entregable comprende la elaboración del informe desde el Capítulo I hasta
                     <li><strong>Fabrizio:</strong> Repasé los artefactos necesarios para el capítulo II y III para realizar un correcto dimensionamiento de la solución de software.</li>
                     <li><strong>Roy:</strong> Se realizó las entrevistas con su respectivo análisis y los requerimientos funcionales y no funcionales para obtener la información necesaria para seguir con el desarrollo de el proyecto y el software  </li>
                 </ul>
-                <strong>TB2:</strong> Como equipo, la iteración TB2 nos permitió actualizar y aplicar conocimiento de forma tangible al convertir requerimientos en artefactos consistentes —C4, UML, patrones y tácticas— e integrar desde el diseño las dependencias externas prioritarias; esto elevó la mantenibilidad y la trazabilidad de ClearCost y dejó lista la base para la implementación de la landing y los primeros incrementos funcionales.<br>
+                <strong>TB2:</strong><br>
                 <ul>
                     <li><strong>Adriana:</strong> Actualicé mis conocimientos aplicando conceptos de arquitectura de software, trabajando en los drivers arquitectónicos, el propósito de diseño, la funcionalidad principal (user stories), los escenarios de atributos de calidad, las restricciones y las preocupaciones arquitectónicas. Esto me permitió fortalecer mi capacidad para traducir requisitos en decisiones arquitectónicas justificadas, especificar atributos de calidad medibles, diseñar bajo limitaciones reales y gestionar riesgos, consolidando así criterios técnicos y prácticos que aportan directamente a mi desarrollo profesional y a la solidez del proyecto. </li>
                     <li><strong>Fabrizio:</strong> Aplicó Attribute-Driven Design (ADD) para traducir drivers de negocio y atributos de calidad en decisiones arquitectónicas concretas, y consolidó las vistas C4 del sistema junto con el diagrama de estados de la tarea (DRAFT → IN PROCESS → UNDER REVIEW → APPROVED/REJECTED → IN PROCESS). Seleccionó y justificó patrones adecuados al dominio —Factory, Strategy, Observer/Domain Events, Repository y Saga/Process Manager— ubicándolos por bounded context (IAM, Organizations, Budget y Change Management), y redactó tácticas de disponibilidad, resiliencia, seguridad y observabilidad, fortaleciendo la coherencia técnica del diseño.</li>
                     <li><strong>Roy:</strong> La aplicación del método Attribute-Driven Design (ADD) y el Modelo C4 fue fundamental para nuestro desarrollo. A través de este proceso,se logró traducir los requerimientos de negocio y los atributos de calidad abstractos de ClearCost como la Mantenibilidad y la Seguridad en decisiones arquitectónicas concretas y justificables, como la adopción de Microservicios y el uso de un API Gateway. Esta experiencia práctica permitió actualizar y afianzar el conocimiento teórico, aplicándolo directamente para construir una base arquitectónica sólida y bien documentada.  </li>
                 </ul>
+                <strong>TP:</strong> <br>
+                <ul>
+                    <li><strong>Adriana:</strong> Fortaleci mis conocimientos en el uso de convenciones para commits y nombramiento de carpetas, integre gran parte de las evidencias del reporte. Adquirí nuevo conocimiento sobre patrones de diseño y buenas practicas.</li>
+                    <li><strong>Fabrizio:</strong> Reforce mis conocimientos sobre clean architecture, incluyendo el uso correcto de patrones de software para escalar y mantener operativa la solución de software. Establucí pruebas unitarias e integrales para validar el funcionamiento de los endpoints. He aprendido más sobre la arquitectura de microservicios desarrollando el planteamiento y diseño del modelo C4.</li>
+                    <li><strong>Roy:</strong> Fue el encargado de desplegar los repositorios en en diferentes plataformas, lo cual me permitio ampliar mi gama de plataformas para este proposito. Complementé con tácticas de rendimiento (índices, caché, monitoreo), gestión de código y convenciones en Git/GitHub.</li>
+                </ul>
             </td>
             <td>
                 <strong>TB1:</strong> El entregable más que laborioso fue interesante ya que nos permitio usar conocimientos previos para el desarrollo de la solución de software.<br>
                 <strong>TB2:</strong> Como equipo, la iteración TB2 nos permitió actualizar y aplicar conocimiento de forma tangible al convertir requerimientos en artefactos consistentes —C4, UML, patrones y tácticas— e integrar desde el diseño las dependencias externas prioritarias; esto elevó la mantenibilidad y la trazabilidad de ClearCost y dejó lista la base para la implementación de la landing y los primeros incrementos funcionales.<br>
+                <strong>TP:</strong> Como equipo, reforzamos y actualizamos constantemente los conceptos técnicos necesarios para el desarrollo de nuestro proyecto, explorando nuevas herramientas, lenguajes y patrones arquitectónicos aplicados a soluciones basadas en microservicios y cloud computing. Este proceso de aprendizaje colaborativo nos permitió integrar buenas prácticas de diseño, testing y despliegue, asegurando una aplicación coherente con los estándares actuales de la industria del software. Asimismo, fortalecimos nuestras competencias profesionales al combinar teoría y práctica en un entorno ágil y orientado a resultados.<br>
             </td>
         </tr>
         <tr>
@@ -279,10 +345,17 @@ Este entregable comprende la elaboración del informe desde el Capítulo I hasta
                     <li><strong>Fabrizio:</strong> Consolidó un proceso de decisiones arquitectónicas justificadas mediante la documentación de trade-offs, reforzó prácticas de arquitectura evolutiva con límites claros por bounded context y pruebas de contrato para APIs, e incorporó seguridad temprana (enfoque shift-left) en el ciclo de diseño. Este trabajo evidenció que el rol arquitectónico exige actualización continua para comunicar con precisión los riesgos y diseñar soluciones robustas.</li>
                     <li><strong>Roy:</strong> El diseño de la arquitectura para ClearCost demostró que la aplicación de metodologías formales, como Attribute-Driven Design (ADD) y el Modelo C4, es un ejercicio de aprendizaje constante. No fue suficiente con entender la teoría; el verdadero desafío consistió en traducir los drivers de negocio y los atributos de calidad en un modelo visual coherente y justificable. Este proceso me obligó a investigar y aplicar patrones y tácticas arquitectónicas específicas para resolver los problemas del proyecto, evidenciando que el rol del arquitecto exige una actualización continua de conocimientos para diseñar soluciones robustas y comunicar eficazmente decisiones complejas. </li>
                 </ul>
+                <strong>TP:</strong><br>
+                <ul>
+                    <li><strong>Adriana:</strong> Durante el desarrollo del proyecto, comprendí la importancia de mantenerme actualizado en nuevas tecnologías, frameworks y metodologías de arquitectura de software. Este proceso me permitió reconocer que el aprendizaje continuo no solo mejora la calidad de las soluciones que diseño, sino que también fortalece mi capacidad de adaptarme a los cambios del entorno tecnológico.  </li>
+                    <li><strong>Fabrizio:</strong> El trabajo en equipo evidenció que la ingeniería de software requiere una constante búsqueda de conocimiento. Investigar sobre patrones arquitectónicos, prácticas DevOps y despliegue en la nube me permitió ampliar mi perspectiva y confirmar que el aprendizaje permanente es esencial para abordar con eficacia los retos de proyectos empresariales complejos.</li>
+                    <li><strong>Roy:</strong> A lo largo del curso, identifiqué que las herramientas, lenguajes y arquitecturas evolucionan constantemente, por lo que mantener una actitud de aprendizaje continuo es clave para garantizar soluciones innovadoras y sostenibles. Este enfoque me motiva a seguir capacitándome y experimentando con nuevas tecnologías aplicables al desarrollo profesional.</li>
+                </ul>
             </td>
             <td>
                 <strong>TB1:</strong> Como equipo, coincidimos en que las entrevistas constituyeron un elemento clave para comprender con mayor profundidad el modelo de negocio. Asimismo, el trabajo se desarrolló en un marco de coordinación y apoyo mutuo.<br>
                 <strong>TB2:</strong> El equipo confirmó que el aprendizaje permanente es parte del flujo de trabajo: cada decisión —visual, funcional o arquitectónica— quedó respaldada por investigación, métricas y documentación, reduciendo incertidumbre y retrabajo. La integración de buenas prácticas y medición temprana consolidó una cultura de mejora continua que guía los siguientes entregables de ClearCost.<br>
+                <strong>TP:</strong> Como equipo, reconocimos que el aprendizaje permanente es un componente esencial para nuestro crecimiento profesional y para el desarrollo exitoso de proyectos en soluciones de software. A lo largo del curso, enfrentamos desafíos que nos impulsaron a investigar nuevas herramientas, patrones arquitectónicos y metodologías ágiles, fortaleciendo nuestras competencias técnicas y colaborativas. Esta experiencia nos permitió comprender que la actualización constante del conocimiento es indispensable para adaptarnos a las exigencias del sector tecnológico y ofrecer soluciones innovadoras y sostenibles.<br>
             </td>
         </tr>
     </tobdy>
@@ -5225,32 +5298,238 @@ En esta última fase de la iteración, realizamos un análisis del diseño arqui
 | ️ **(ARQ-07) Configurar pipeline de CI/CD por servicio:** Crear plantillas para despliegues independientes que automaticen pruebas y el paso a producción. | ️ **(ARQ-05) Configurar réplicas y Health Checks:** Preparar los archivos de despliegue (ej. Kubernetes manifests) para asegurar la redundancia de los servicios críticos. | **(ARQ-02) Diseñar la capa de seguridad con API Gateway:** Se ha definido el API Gateway como punto de entrada único para centralizar la validación de tokens JWT.     |
 | ️ **(ARQ-08) Implementar estrategia de observabilidad:** Definir las métricas clave y configurar el tracing distribuido entre los servicios.               |                                                                                                                                                                            | **(ARQ-06) Establecer la comunicación asíncrona:** Se ha definido el uso de un **Message Broker** para desacoplar los servicios y mejorar la resiliencia del sistema.  |
 
----
+<div style="page-break-after: always;"></div>
 
-#### 5.2 Software Configuration Management
+# Capítulo V: Product Implementation, Validation & Deployment
+
+## 5.1 Testing Suites & General Patterns
+
+### 5.1.1 Backend Application Core Testing Suite
+
+Se implementó una suite integral de pruebas automatizadas orientada al núcleo del backend, con el propósito de validar la estabilidad y confiabilidad del sistema. Esta suite abarca pruebas unitarias, de integración y contractuales, alineadas con los principios de Clean Architecture.
+
+Las pruebas unitarias se centraron en verificar el comportamiento de las entidades y servicios del dominio de forma aislada, evitando dependencias externas. Para ello, se empleó el framework Mockito, que permitió simular componentes y dependencias, asegurando que cada unidad lógica funcione correctamente sin requerir acceso a la base de datos u otros servicios.
+
+Las pruebas de integración evaluaron la interacción entre las capas application, domain e infrastructure, garantizando la correcta persistencia de los datos y la coherencia en la comunicación entre los diferentes módulos mediante los repositories.
+
+Por último, las pruebas contractuales se utilizaron para validar la compatibilidad y los contratos de comunicación entre los distintos microservicios, reduciendo el riesgo de errores en la integración distribuida. En conjunto, esta suite de pruebas permitió mantener una alta cohesión interna y minimizar el acoplamiento, asegurando la robustez del backend antes del despliegue.
+
+<img style="text-align: center;" src="./img/chapter5/iam-structure.png" alt="SnakeCaseWithPluralizedTablePhysicalNamingStrategy">
+
+**Pruebas Unitarias**
+
+Las pruebas unitarias se enfocaron en validar las reglas de negocio relacionadas con el proceso de inicio de sesión del contratista, asegurando que la autenticación se ejecute correctamente bajo diferentes condiciones. Estas pruebas se realizaron de forma aislada, sin levantar el contexto completo de Spring Boot, lo que permitió una ejecución más rápida y controlada.
+
+De esta manera, se pudo verificar que el sistema autenticara únicamente a contratistas con credenciales válidas y manejara adecuadamente los casos de error, como contraseñas incorrectas o usuarios inexistentes.
+
+A continuación, se presentan las evidencias del proceso de prueba correspondiente al módulo de autenticación de contratistas.
+
+**Pruebas de Integración**
+
+Las pruebas de integración se orientaron a verificar la correcta interacción entre las capas application, domain e infrastructure del microservicio Organizations, garantizando que los flujos de datos y las operaciones de persistencia se ejecuten conforme a las reglas de negocio definidas. Estas pruebas también contemplaron la comunicación con el microservicio IAM, responsable de la asignación de identificadores únicos a los miembros y organizaciones registradas.
+
+A pesar de que el servicio se encuentra en fase de ajuste, la ejecución de estas pruebas resultó fundamental para validar la coherencia entre los componentes, identificar posibles inconsistencias en la integración y asegurar una base sólida para las siguientes iteraciones de desarrollo. A continuación, se presentan las evidencias correspondientes al proceso de prueba.
+
+### 5.1.2 Pattern Based Backend Application(s)
+
+**Singleton Pattern**
+
+Tras analizar los posibles usos del patrón Singleton, el cual garantiza que exista únicamente una instancia de un objeto de su tipo, se determinó que su aplicación en el IAM-Service era la más adecuada. En este caso, basta con una sola instancia para gestionar la validación de tokens JWT, los permisos y los roles de usuario. Si bien se reconocen las limitaciones que puede presentar este patrón, se optó por su implementación debido a la necesidad de optimizar el consumo de recursos y mejorar la eficiencia operativa del sistema.
+
+El patrón Singleton ofrece múltiples ventajas y utilidades, entre ellas la posibilidad de mantener una seguridad unificada en toda la plataforma, permitiendo aplicar políticas globales y auditorías de manera más consistente, sin necesidad de replicar la lógica de validación en diferentes componentes del ecosistema.
+
+<img style="text-align: center;" src="./img/chapter5/autentication-img.png" alt="SnakeCaseWithPluralizedTablePhysicalNamingStrategy">
+
+**Factory method**
+
+En ClearCost, el microservicio Projects incorpora una funcionalidad que permite la creación de hitos, dentro de los cuales se desarrollan diversas actividades, tales como reuniones y tareas. Se decidió emplear el patrón Factory Method debido a su capacidad para crear objetos de producto sin especificar sus clases concretas. Este enfoque resulta especialmente útil, ya que permite la creación indistinta de cualquier tipo de ítem —sea una tarea o una reunión— siempre que cumpla con los criterios de validez establecidos.
+
+Además, su implementación aporta beneficios en términos de escalabilidad, mantenibilidad y flexibilidad, lo que facilita la evolución del sistema y la incorporación de nuevos tipos de actividades en el futuro sin afectar la estructura existente.
+
+<img style="text-align: center;" src="./img/chapter5/hitos-img.png" alt="SnakeCaseWithPluralizedTablePhysicalNamingStrategy">
+
+**Patrón Builder**
+
+El uso del patrón Builder fue considerado para la creación de instancias del Proyecto, dada la cantidad de opciones de configuración que este requiere. Este patrón permite construir objetos complejos paso a paso, otorgando mayor claridad al proceso de inicialización y evitando constructores con múltiples parámetros. Asimismo, su aplicación posibilita la creación de diferentes variaciones de proyectos utilizando el mismo proceso de construcción, lo que contribuye a mantener un código más legible, modular y fácilmente extensible.
+
+<img style="text-align: center;" src="./img/chapter5/projects-img.png" alt="SnakeCaseWithPluralizedTablePhysicalNamingStrategy">
+
+### 5.1.3 Pattern Based Custom Software Library
+
+Se desarrolló una librería de software compartida que centraliza y abstrae componentes reutilizables entre los diferentes microservicios de ClearCost, bajo un enfoque de diseño orientado a patrones. Esta librería tiene como objetivo reducir la duplicación de código, mantener la coherencia entre módulos y facilitar la integración de nuevos servicios dentro del ecosistema.
+
+El primer módulo reutilizable corresponde al paquete shared, heredado de la arquitectura monolítica modular inicial, que contiene entidades simples, la implementación del patrón Unit of Work para la gestión transaccional y los DTOs (Data Transfer Objects) que permiten la transferencia eficiente de información entre capas. Esta abstracción contribuye a la escalabilidad del sistema y promueve la independencia de cada microservicio, en concordancia con los principios de Clean Architecture, priorizando la modularidad y la facilidad de prueba.
+
+Dentro de esta librería, se incorporó además el patrón Strategy, aplicado al manejo de los nombres físicos en JPA (Java Persistence API), permitiendo definir estrategias dinámicas para el mapeo de entidades y mejorar la consistencia de la capa de persistencia en toda la plataforma.
+
+<img style="text-align: center;" src="./img/chapter5/img1.png" alt="SnakeCaseWithPluralizedTablePhysicalNamingStrategy">
+
+Genera en formato snake_case y plurizados, lo que mejora la legibilidad, coherencia y mantenibilidad de la solución para quien lo desarrolle.
+
+### 5.1.4 Framework Pattern Driven Refactoring Report
+
+En el diseño de ClearCost, se aplicó de manera práctica el principio CQRS, implementando clases especializadas para los Commands, Queries y sus respectivos Handlers, con el objetivo de mantener una separación clara entre las operaciones que modifican el estado del sistema y aquellas que solo realizan lecturas.
+
+Commands: Se desarrollaron clases de comando que encapsulan toda la información necesaria para ejecutar acciones específicas dentro del sistema. Ejemplos de ello son CreateOrganizationCommand, encargado de crear una nueva organización y registrar su información básica; SeedProjectStatusCommand, que inicializa los estados predeterminados de un proyecto para su correcta trazabilidad; y RespondToChangeCommand, utilizado para registrar la respuesta del contratista o cliente frente a una solicitud de modificación en el expediente técnico. Estos comandos aseguran que las operaciones de escritura se ejecuten de forma controlada y coherente con las reglas del dominio.
+
+Queries: Para las operaciones de lectura, se diseñaron clases de consulta dedicadas a obtener información sin alterar el estado del sistema. Entre ellas destacan GetAllInvitationsByOrganizationIdQuery, que recupera todas las invitaciones asociadas a una organización; GetPersonByIdQuery, responsable de obtener los datos de un usuario específico; y UpdateMilestoneCommand, orientado a consultar y actualizar la información de un hito dentro de un proyecto. Estas consultas permiten una respuesta precisa y eficiente, optimizando la comunicación entre capas y reduciendo la sobrecarga de procesamiento.
+
+Handlers: Cada comando y consulta cuenta con su propio Handler, encargado de ejecutar la lógica de negocio correspondiente. Estos manejadores actúan como intermediarios entre el dominio y la capa de aplicación, asegurando que las reglas se cumplan y que los cambios en el sistema sean consistentes. Por ejemplo, los handlers controlan la creación de proyectos, la validación de permisos antes de modificar un hito y la sincronización de cambios entre microservicios. Gracias a esta implementación, se garantiza que ningún componente externo modifique directamente el estado del sistema, fortaleciendo la coherencia, mantenibilidad y trazabilidad de la solución de software ClearCost.
+
+## 5.2 Software Configuration Management
 
 En esta sección el equipo establecerá las decisiones y convenciones que permitirán mantener la consistencia durante el ciclo de vida del proyecto ClearCost. Se incluyen secciones internas para Source Code Management, Development Environment Configuration y Deployment Configuration.
 
-#### 5.2.1 Software Development Environment Configuration
+### 5.2.1 Software Development Environment Configuration
 
+**Product UX/UI Design**
 
+- **Miro:** Es una pizarra digital colaborativa en línea, ampliamente conocida por su variedad de templates y funcionalidades innovadoras.
+- **Figma:** Es una herramienta para la creación de prototipos web y mobile.
+- **Trello:** Es una solución de software para equipos de desarollo que organizan proyectos.
+- **Visual Paradigm:** Es una herramienta online que soporta el modelo C4, para visualizar la arquitectura de software de la solución.
 
+**Software Development**
 
-##### Análisis y Revisión del Objetivo de la Iteración
+Se especifican el uso de las tecnologias para el desarrollo de la solución de software.
+
+- **Github:** Es como una biblioteca que almacena proyectos de software en diversos lenguajes de programación, utilizando el control de versiones Git.
+
+- **HTML:** Lenguaje estándar que define la estructura de una pagina web.
+
+- **CSS:** Utilizado para dar estructura visual al lenguaje de hipertexto.
+
+- **Angular:** Es un framework para aplicaciones web desarrollado en TypeScript, es open source, reactiva y que es usada para crear y mantener web apps.
+
+- **TypeScript:** Es un lenguaje de programación de código abierto desarrollado y mantenido por Microsoft.
+
+**Software Deployment**
+
+Tiene la utilidad de redirigir el contenido del software para producción. Además, le hace varias pruebas para verificar errores.
+
+- **Github Pages:** Es un servicio de alojamiento de sitio estático que toma archivos HTML, CSS y JavaScript directamente desde un repositorio en GitHub.
+
+#### Análisis y Revisión del Objetivo de la Iteración
 
 * **Meta de Seguridad:** **(Completada)** La selección de un **API Gateway** y la definición de una estrategia de autenticación centralizada satisfacen el objetivo de proteger la plataforma. Las tareas restantes son de refinamiento y no alteran la decisión fundamental.
 * **Meta de Alta Disponibilidad:** **(Completada)** La elección de microservicios con réplicas y el uso de comunicación asíncrona a través de un **Message Broker** son las decisiones estructurales que cumplen con el objetivo. Las tareas en progreso y por hacer se enfocan en la implementación de estas tácticas.
 * **Meta de Mantenibilidad:** **(Completada)** La descomposición del sistema en microservicios, cada uno con su propia base de datos (como se visualiza en el diagrama C2), aborda directamente el driver de mantenibilidad. El diseño permite que los equipos trabajen en paralelo y que los cambios se realicen en menos de 4 horas, cumpliendo el escenario de calidad.
 
+### 5.2.2. Source Code Management
+
+En GreatBuild, la gestión del código fuente de las soluciones se realiza a través de Git como sistema de control de versiones y GitHub, como repositorio de alojamiento descentralizado.
+
+El control de versiones es un pilar fundamental en el desarrollo de software moderno, ya que permite gestionar los cambios realizados en el código fuente de manera estructurada, segura y colaborativa. Su principal propósito es mantener un historial completo de todas las modificaciones efectuadas a lo largo del ciclo de vida del proyecto, lo que facilita revertir errores, comparar versiones y comprender la evolución del sistema. Existen varias opciones, pero la más utilizada es Github como plataforma para gestionar las versiones y Git como el controlador.
+
+<img style="text-align: center;" src="./img/chapter5/gitflow-branches.png" alt="SnakeCaseWithPluralizedTablePhysicalNamingStrategy">
+
+Como se observa, nosotros implementamos GitFlow, una metodología de ramificación que define un flujo de trabajo estructurado para el uso de Git, orientado a mantener orden, estabilidad y colaboración en proyectos de software.
+
+GitFlow se basa en dos ramas principales: main, que contiene las versiones estables y listas para producción, y develop, donde se integran las nuevas funcionalidades antes de su liberación. A partir de ellas se derivan ramas temporales según la necesidad del proyecto:
+
+- Feature branches: se crean desde develop para desarrollar nuevas funcionalidades o mejoras específicas, por ejemplo feature/login-module.
+
+- Release branches: permiten preparar una nueva versión del software, realizando pruebas y correcciones finales antes de fusionarla con main.
+
+- Hotfix branches: se crean desde main para corregir errores críticos detectados en producción sin interrumpir el desarrollo en curso.
+
+**Conventional Commits**
+
+Conventional Commits es una convención para redactar mensajes de commit en Git de forma estandarizada y legible, con el propósito de mejorar la trazabilidad del proyecto y automatizar procesos dentro del ciclo de desarrollo (como generación de changelogs, versionado semántico o despliegues continuos).
+
+- Formato: <pre> ```<tipo>(<alcance opcional>): <descripción corta> ``` </pre>
+
+Los tipos más comunes son:
+
+- feat: nueva funcionalidad o feature.
+
+- fix: corrección de errores.
+
+- docs: cambios en documentación.
+
+- style: ajustes que no afectan la lógica (formato, espacios, comas, etc.).
+
+- refactor: mejoras internas sin modificar el comportamiento.
+
+- test: adición o corrección de pruebas.
+
+- chore: tareas de mantenimiento o configuración.
+
+### 5.2.3. Source Code Style Guide & Conventions
+
+**CONVENCIONES GENERALES**
+Para todos los lenguajes de programación y marcado mencionados:
+- Se aplicará el uso de nomenclaturas en inglés.
+- Se nombraran variables, constantes, elementos y clases de forma explícita.
+- Se usará saltos de linea vacíos para separar unidades lógicas diferentes del código.
+- Se promoverá la reutilización de código.
+
+**CONVECIONES ESPECÍFICAS**
+
+A continuación, se describen las convenciones principales a aplicar por lenguaje:
+
+**HTML & CSS:** Se aplicaran las recomendaciones del HTML Style Guide and Coding Conventions y el Google HTML/CSS Style Guide, que indican:
+- Escribir etiquetas y atributos en minúsculas.
+- Utilizar indentación de 2 espacios.
+- Utilizar clases con nombres descriptivos y en `kebab-case`.
+- Evitar el uso de estilos en línea.
+- Separar el contenido (HTML) de la presentación (CSS).
+
+**JavaScript & TypeScript:** Se adoptarán las recomendaciones del Google JavaScript Style Guide y el Google TypeScript Style Guide.
+- Usar `camelCase` para variables y funciones.
+- Usar `PascalCase` para clases y componentes.
+- Definir constantes en `UPPER_SNAKE_CASE`.
+- Evitar el uso de `var`, preferir `let` y `const`.
+- Usar funciones flecha (`=>`) siempre que sea posible.
+- Documentar funciones y clases con comentarios JSDoc.
+- Diseñar y codificar orientados al desacoplamiento.
+- Aplicar tipado estricto (para typescript).
+
+**Java:** Seguir el Google Java Style Guide.
+- Usar `camelCase` para métodos y variables.
+- Usar `PascalCase` para clases e interfaces.
+- Agrupar paquetes de forma coherente y ordenada (`com.empresa.proyecto.modulo`).
+- Usar anotaciones correctamente (`@Override`, `@Autowired`, etc.).
+- Seguir prácticas de desarrollo recomendadas por **Spring Boot** como la inyección de dependencias, uso de DTOs, controladores REST, etc.
+
 <div style="page-break-before: always;"></div>
 
-# Capítulo V: Product Implementation, Validation & Deployment
+### 5.2.4. Software Deployment Configuration
+
+**LANDING PAGE DEPLOYMENT**
+
+Para la implementación de la landing page del proyecto, se decidió utilizar Netlify. Para ello, se siguio el siguiente proceso:
+
+1. Seleccionar la opción de importar un proyecto existente.
+
+<img src="./img/chapter5/step1.png">
+
+2. Seleccionamos mediante GitHub
+
+<img src="./img/chapter5/step2.png">
+
+3. Seleccionamos la opción de organización
+
+<img src="./img/chapter5/step3.png">
+
+4. Seleccionamos el repositorio de la landing page
+
+<img src="./img/chapter5/step4.png">
+
+5. Configuramos el sitename (url) del web page, la rama y el comando de build y guardamos los cambios.
+
+<img src="./img/chapter5/step5.png">
+
+Enlace para acceder a la landing page: [https://clearcost.netlify.app/](https://clearcost.netlify.app/)
+
+
+<div style="page-break-before: always;"></div>
 
 ## 5.3 Microservices Implementation 
 
-### 5.2.1 Sprint 1 
+### 5.3.1 Sprint 1 
 
-#### 5.2.1.1 Sprint Backlog 1 
+#### 5.3.1.1 Sprint Backlog 1 
 
 <table style="width:100%; border-collapse: collapse;">
     <tr>
@@ -5330,9 +5609,9 @@ En esta sección el equipo establecerá las decisiones y convenciones que permit
 | 1 | TS35-TS50 | TS-AUTH-API-01 | Endpoints de Autenticación y Seguridad | API para registro, login, tokens, y gestión de contraseñas. | 12 | Fernandez Remon, Roy Linsh | Hecho |
 | 1 | TS51-TS56 | TS-BILL-API-01 | Endpoints de Facturación y Suscripciones | API para gestionar planes, facturas y pagos. | 9 | León Vivas, Fabrizio Amir | Hecho |
 
-#### 5.2.1.2 Development Evidence for Sprint Review
+#### 5.3.1.2 Development Evidence for Sprint Review
 
-### Evidencia de Desarrollo Consolidada
+##### Evidencia de Desarrollo Consolidada
 
 | Repositorio | Rama | ID del Commit | Mensaje del Commit | Cuerpo del Mensaje del Commit | Fecha del Commit |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -5385,7 +5664,7 @@ En esta sección el equipo establecerá las decisiones y convenciones que permit
 | BackEnd | feature/ep01 | 65be224113d26d9e7e18235911d5c6f5239c343c | feat(ep01): add visualization of projects milestones | | 08/10/2025 |
 | BackEnd | develop | eccc68be24590bc7e7a871a9e8de32f8066d9f50 | finally | | 08/10/2025 |
 
-#### 5.2.1.3 Testing Suite Evidence for Sprint Review
+#### 5.3.1.3 Testing Suite Evidence for Sprint Review
 
 URL del repositorio: https://github.com/GreatBuild/Acceptance-Test
 
@@ -5406,7 +5685,7 @@ URL del repositorio: https://github.com/GreatBuild/Acceptance-Test
 | Acceptance-Test | main   | 88f862b8db3b139a07bce35035aa6d20f158e509 | greatbuild13.feature | -                   | 08/10/2025         |
 | Acceptance-Test | main   | d7e321243a812ad27a78b684e157643bbe54f6dc | greatbuild14.feature | -                   | 08/10/2025         |
 
-#### 5.2.1.4 Execution Evidence for Sprint Review
+#### 5.3.1.4 Execution Evidence for Sprint Review
 
 Ejecución Landing Page: Como evidencia de la ejecución del Landing Page se muestra la misma
 ejecutándose. 
@@ -5427,12 +5706,12 @@ desplegado de manera correcta, podemos hacer alguna consulta empleando Swagger.
 
 <img src="./img/chapter5/BackEnd.png" alt="BackEnd"> 
 
-#### 5.2.1.5 Microservices Documentation Evidence for Sprint Review 
+#### 5.3.1.5 Microservices Documentation Evidence for Sprint Review 
 
-Para esta estapa de desarrollo del software, aun no se ha trasladado la arquitectura monolítica
-a una de microservicios, sin embargo, ya se cuenta con los endpoint correspondientes, los
-cuales luego serán distribuidos en sus respectivos microservicios, por no mencionar el posible
-aumento de los mismos: 
+Para esta estapa de desarrollo del software, aun no se ha trasladado la arquitectura monolítica a una de microservicios, sin embargo, ya se cuenta con los endpoint correspondientes y su descomposición, los cuales luego serán distribuidos en sus respectivos microservicios, por no mencionar el posible aumento de los mismos: 
+
+<img src="./img/chapter5/microservice-evidence.png" alt="Microservice"> 
+
 
 ##### 1. Servicio de Identidad y Acceso (IAM)
 
@@ -5492,38 +5771,26 @@ Este es un candidato ideal para un microservicio, ya que es una funcionalidad tr
 
 * **Justificación:** Este servicio sería responsable de gestionar y enviar notificaciones (por email, push, etc.). Cuando en el servicio de Proyectos se asigna una nueva tarea, este simplemente publicaría un evento o llamaría al Servicio de Notificaciones, que se encargaría del resto. Es un patrón muy común para **desacoplar responsabilidades transversales**.
 
-#### 5.2.1.6 Software Deployment Evidence for Sprint Review 
+<img src="./img/chapter5/microservice-evidence2.png" alt="Microservice"> 
+
+
+#### 5.3.1.6 Software Deployment Evidence for Sprint Review 
 
 Para este Sprint 1, se desplegó tanto la Landing Page, Aplicación Web, la base de datos y el API.
 
-Se desplegó en: 
+Se desplegó en Netlify: 
 
-URL: 
+URL: Enlace para acceder a la landing page: [https://clearcost.netlify.app/](https://clearcost.netlify.app/)
 
-Para el despliegue de la Aplicación Web se empleó __________ como servicio de hosting.
+#### 5.3.1.7 Team Collaboration Insights during Sprint 
 
-URL: 
+Durante el primer sprint del proyecto GreatBuild, el equipo reutilizó un proyecto propio de un curso anterior y se centró en mejorar y actualizar la aplicación web y el servicio web utilizando Visual Studio Code y Git. Se estableció un flujo de trabajo que comenzó con la clonación del repositorio, seguido por la implementación de tareas específicas del backlog mediante el uso de branches para cada nueva característica. Cada cambio fue meticulosamente revisado y aprobado a través de pull
+requests, asegurando que tanto la aplicación web como el servicio web se desarrollaran de acuerdo con los objetivos del sprint.
 
-Se empleó _________ para el despliegue de la base de datos. 
-
-URL: 
-
-Se desplegó la API empleando ___________ 
-
-#### 5.2.1.7 Team Collaboration Insights during Sprint 
-
-Durante el primer sprint del proyecto GreatBuild, el equipo reutilizó un proyecto propio de un curso anterior y se centró en mejorar y actualizar la aplicación web y el servicio web utilizando Visual Studio Code y Git. Se estableció un flujo de
-trabajo que comenzó con la clonación del repositorio, seguido por la
-implementación de tareas específicas del backlog mediante el uso de branches para cada nueva
-característica. Cada cambio fue meticulosamente revisado y aprobado a través de pull
-requests, asegurando que tanto la aplicación web como el servicio web se desarrollaran de
-acuerdo con los objetivos del sprint.
-
-#### 5.2.1.8 Kanban Board 
+#### 5.3.1.8 Kanban Board 
 
 Para este punto implementamos un tablero Kanban utilizando Trello. Esta herramienta
-permitió al equipo organizar las tareas del Sprint Backlog, visualizar el progreso y facilitar la
-colaboración. Trello se adaptó a nuestras necesidades específicas, mejorando la eficiencia y la
+permitió al equipo organizar las tareas del Sprint Backlog, visualizar el progreso y facilitar la colaboración. Trello se adaptó a nuestras necesidades específicas, mejorando la eficiencia y la
 comunicación dentro del equipo.
 
 Link: https://trello.com/invite/b/68e640a67ecda9b11f2d1f8f/ATTI087c38d75d924eb62936395fe84b23486C1FFA11/greatbuild
