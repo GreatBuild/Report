@@ -13,7 +13,7 @@
         <li style="padding: 5px 0;">Fernandez Remon, Roy Linsh (20221b778)</li>
         <li style="padding: 5px 0;">León Vivas, Fabrizio Amir (20211b994)</li>
     </ul>
-    <h4 style="margin: 10px 0; border-bottom: none;">Setiembre de 2025</h4>
+    <h4 style="margin: 10px 0; border-bottom: none;">Octubre de 2025</h4>
 </div>
 
 
@@ -113,6 +113,43 @@
     <p style="display:block;margin:2px 0;text-indent:20px;">4.3.1.5 Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces</p>
     <p style="display:block;margin:2px 0;text-indent:20px;">4.3.1.6 Sketch Views (C4 &amp; UML) and Record Design Decisions</p>
     <p style="display:block;margin:2px 0;text-indent:20px;">4.3.1.7 Analysis of Current Design and Review Iteration Goal (Kanban Board)</p>
+  </td>
+</tr>
+<tr>
+  <td>3.0</td>
+  <td>08/10/2025</td>
+  <td>
+    <ul>
+      <li>Diestra Zambrano, Adriana Maria</li>
+      <li>Fernandez Remon, Roy Linsh</li>
+      <li>León Vivas, Fabrizio Amir</li>
+    </ul>
+  </td>
+  <td>
+    <strong>Actualización de secciones:</strong><br>
+    <p style="display:block;margin:2px 0;text-indent:0px;font-weight:bold;">
+      Capítulo V: Product Implementation, Validation & Deployment
+    </p>
+    <p style="display:block;margin:2px 0;text-indent:0px;">5.1 Testing Suites &amp; General Patterns</p>
+    <p style="display:block;margin:2px 0;text-indent:10px;">5.1.1 Backend Application Core Testing Suite</p>
+    <p style="display:block;margin:2px 0;text-indent:10px;">5.1.2 Pattern Based Backend Application(s)</p>
+    <p style="display:block;margin:2px 0;text-indent:10px;">5.1.3 Pattern Based Custom Software Library</p>
+    <p style="display:block;margin:2px 0;text-indent:10px;">5.1.4 Framework Pattern Driven Refactoring Report</p>
+    <p style="display:block;margin:2px 0;text-indent:0px;">5.2 Software Configuration Management</p>
+    <p style="display:block;margin:2px 0;text-indent:0px;">5.2.1 Software Development Environment Configuration</p>
+    <p style="display:block;margin:2px 0;text-indent:0px;">5.2.2 Source Code Management</p>
+    <p style="display:block;margin:2px 0;text-indent:0px;">5.2.3 Source Code Style Guide &amp; Conventions</p>
+    <p style="display:block;margin:2px 0;text-indent:0px;">5.2.4 Software Deployment Configuration</p>
+    <p style="display:block;margin:2px 0;text-indent:0px;">5.3 Microservice Implementation</p>
+    <p style="display:block;margin:2px 0;text-indent:10px;">5.3.1 Sprint 1</p>
+    <p style="display:block;margin:2px 0;text-indent:20px;">5.3.1.1 Sprint Backlog 1</p>
+    <p style="display:block;margin:2px 0;text-indent:20px;">5.3.1.2 Development Evidence for Sprint Review</p>
+    <p style="display:block;margin:2px 0;text-indent:20px;">5.3.1.3 Testing Suite Evidence for Sprint Review</p>
+    <p style="display:block;margin:2px 0;text-indent:20px;">5.3.1.4 Execution Evidence for Sprint Review</p>
+    <p style="display:block;margin:2px 0;text-indent:20px;">5.3.1.5 Microservices Documentation Evidence for Sprint Review</p>
+    <p style="display:block;margin:2px 0;text-indent:20px;">5.3.1.6 Software Deployment Evidence for Sprint Review</p>
+    <p style="display:block;margin:2px 0;text-indent:20px;">5.3.1.7 Team Collaboration Insights during Sprint</p>
+    <p style="display:block;margin:2px 0;text-indent:20px;">5.3.1.8 Kanban Board</p>
   </td>
 </tr>
   </tbody>
@@ -5708,16 +5745,6 @@ Para este Sprint 1, se desplegó tanto la Landing Page, Aplicación Web, la base
 Se desplegó en Netlify: 
 
 URL: Enlace para acceder a la landing page: [https://clearcost.netlify.app/](https://clearcost.netlify.app/)
-
-Para el despliegue de la Aplicación Web se empleó __________ como servicio de hosting.
-
-URL: 
-
-Se empleó _________ para el despliegue de la base de datos. 
-
-URL: 
-
-Se desplegó la API empleando ___________ 
 
 #### 5.2.1.7 Team Collaboration Insights during Sprint 
 
