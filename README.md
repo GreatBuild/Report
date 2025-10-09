@@ -5411,11 +5411,15 @@ Se especifican el uso de las tecnologias para el desarrollo de la solución de s
 
 - **TypeScript:** Es un lenguaje de programación de código abierto desarrollado y mantenido por Microsoft.
 
+- **SQL:**  lenguaje de programación estándar para gestionar y manipular bases de datos relacionales. 
+
 **Software Deployment**
 
 Tiene la utilidad de redirigir el contenido del software para producción. Además, le hace varias pruebas para verificar errores.
 
 - **Github Pages:** Es un servicio de alojamiento de sitio estático que toma archivos HTML, CSS y JavaScript directamente desde un repositorio en GitHub.
+
+- **Netlify:** Plataforma de computación en la nube que simplifica la creación, implementación y escalado de sitios web y aplicaciones web modernas.
 
 #### Análisis y Revisión del Objetivo de la Iteración
 
