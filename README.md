@@ -188,12 +188,6 @@ Este entregable comprende la elaboración del informe desde el Capítulo I hasta
 
 <img src="./img/insight_tb1.png">
 
-**TB2**
-
-Este entregable comprende la elaboración del capítulo IV del informe, desarrollado íntegramente a partir del proceso de investigación en equipo y del diseño del sistema.
-
-<img src="./img/insight_tb2.png">
-
 <div style="page-break-before: always;"></div>
 
 **TB2**
