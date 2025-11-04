@@ -13,7 +13,7 @@
         <li style="padding: 5px 0;">Fernandez Remon, Roy Linsh (20221b778)</li>
         <li style="padding: 5px 0;">León Vivas, Fabrizio Amir (20211b994)</li>
     </ul>
-    <h4 style="margin: 10px 0; border-bottom: none;">Octubre de 2025</h4>
+    <h4 style="margin: 10px 0; border-bottom: none;">Noviembre de 2025</h4>
 </div>
 
 
