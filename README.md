@@ -5351,11 +5351,11 @@ Este diagrama es la columna vertebral de la arquitectura y valida visualmente la
 * **Aislamiento de Datos y Resiliencia:** Cada microservicio posee su propia base de datos, como lo demuestra la relación uno a uno (ej. `Project Service` -> `Project DB`). Este patrón (`Database per Service`) es clave para lograr un bajo acoplamiento y alta **Disponibilidad**, ya que la falla en una base de datos solo impacta a su servicio correspondiente.
 * **Comunicación Asíncrona para la Disponibilidad:** El `Message Broker` actúa como un intermediario que desacopla los servicios. Por ejemplo, el `Project Service` puede publicar un evento como "TareaCompletada" sin necesidad de esperar a que el `Collaboration Service` lo procese para enviar una notificación. Esto mejora la **Disponibilidad** y el **Rendimiento** del sistema.
 
-**Análisis del Diagrama de Componentes (C3) - Project Service**
+**Análisis de los Diagramas de Componentes (C3)**
 
-Este diagrama ofrece una vista detallada para los desarrolladores que trabajarán dentro del **Project Service**, mostrando una arquitectura interna limpia y bien estructurada:
+Estos diagramas ofrecen una vista detallada para los desarrolladores, mostrando una arquitectura interna limpia y bien estructurada:
 
-* **Separación de Responsabilidades:** Se evidencia una clara división de responsabilidades siguiendo los principios de una arquitectura limpia:
+* **Separación de Responsabilidades:** Se evidencian claras divisiones de responsabilidades siguiendo los principios de una arquitectura limpia:
   * El **API Controller** gestiona exclusivamente las peticiones web (HTTP).
   * La **Domain Logic** contiene las reglas de negocio, aislada de las preocupaciones de la infraestructura.
   * El **Data Repository** encapsula la lógica de acceso a la base de datos, haciendo que el dominio sea agnóstico a la tecnología de persistencia.
