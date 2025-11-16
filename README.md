@@ -5326,6 +5326,10 @@ En esta fase del diseño, se instancian los elementos arquitectónicos basados e
 
 <img src="./img/chapter4/ComponentInvitation.svg" alt="Diagrama de Invitation C3"> 
 
+**Organization Context** 
+
+<img src="./img/chapter4/ComponentOrganization.svg" alt="Diagrama de Organization C3"> 
+
 ##### Análisis de los Diagramas
 
 Los siguientes diagramas visualizan la arquitectura de **ClearCost** aplicando el Modelo C4. Cada diagrama ofrece un nivel de abstracción distinto, permitiendo comunicar las decisiones de diseño a diferentes audiencias.
