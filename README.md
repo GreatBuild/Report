@@ -5308,6 +5308,9 @@ En esta fase del diseño, se instancian los elementos arquitectónicos basados e
 
 <img src="./img/chapter4/Diagram_Component.svg" alt="Diagrama de Contenedores C2">
 
+##### Diagrama de Componentes :
+
+**Change Context**
 
 <img src="./img/chapter4/ComponentDiagram.png" alt="Diagrama de Componentes">
 
