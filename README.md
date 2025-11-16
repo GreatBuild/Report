@@ -5304,7 +5304,9 @@ En esta fase del diseño, se instancian los elementos arquitectónicos basados e
 
 #### 4.3.1.6. Sketch Views (C4 & UML) and Record Design Decisions
 
-<img src="./img/chapter4/ContenedorDiagram.png" alt="Diagrama de Contenedores">
+##### Diagrama de Contenedores:
+
+<img src="./img/chapter4/Diagram_Component.svg" alt="Diagrama de Contenedores C2">
 
 
 <img src="./img/chapter4/ComponentDiagram.png" alt="Diagrama de Componentes">
