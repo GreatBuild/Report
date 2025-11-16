@@ -5312,7 +5312,7 @@ En esta fase del diseño, se instancian los elementos arquitectónicos basados e
 
 **Change Context**
 
-<img src="./img/chapter4/ComponentDiagram.png" alt="Diagrama de Componentes">
+<img src="./img/chapter4/ComponentChange.svg" alt="Diagrama de Changes C3">
 
 ##### Análisis de los Diagramas
 
